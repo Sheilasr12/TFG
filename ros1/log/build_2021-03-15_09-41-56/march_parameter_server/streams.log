@@ -1,0 +1,90 @@
+[0.026s] Invoking command in '/home/sheila/march/ros1/build/march_parameter_server': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/bridge/march_parameter_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_parameter_server
+[0.153s] -- The C compiler identification is GNU 9.3.0
+[0.283s] -- The CXX compiler identification is GNU 9.3.0
+[0.299s] -- Check for working C compiler: /usr/bin/cc
+[0.439s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.442s] -- Detecting C compiler ABI info
+[0.563s] -- Detecting C compiler ABI info - done
+[0.597s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.752s] -- Detecting CXX compiler ABI info
+[0.887s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Detecting CXX compile features
+[0.927s] -- Detecting CXX compile features - done
+[0.932s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_parameter_server/devel
+[0.932s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.933s] -- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.978s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.978s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.979s] -- Using Debian Python package layout
+[1.046s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.046s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.284s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.284s] -- Call enable_testing()
+[1.289s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_parameter_server/test_results
+[1.946s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.947s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.947s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.996s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.000s] -- Found Threads: TRUE  
+[2.014s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.140s] -- catkin 0.8.9
+[2.140s] -- BUILD_SHARED_LIBS is on
+[2.482s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.925s] -- Installing devel-space wrapper /home/sheila/march/ros1/src/bridge/march_parameter_server/scripts/march_parameter_server_node to /home/sheila/march/ros1/build/march_parameter_server/devel/lib/march_parameter_server
+[3.941s] -- Configuring done
+[3.980s] -- Generating done
+[3.991s] -- Build files have been written to: /home/sheila/march/ros1/build/march_parameter_server
+[4.008s] Invoked command in '/home/sheila/march/ros1/build/march_parameter_server' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/bridge/march_parameter_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_parameter_server
+[4.009s] Invoking command in '/home/sheila/march/ros1/build/march_parameter_server': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_parameter_server -- -j4 -l4
+[4.089s] Invoked command in '/home/sheila/march/ros1/build/march_parameter_server' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_parameter_server -- -j4 -l4
+[4.180s] Invoking command in '/home/sheila/march/ros1/build/march_parameter_server': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_parameter_server --target tests -- -j4 -l4
+[4.275s] [35m[1mScanning dependencies of target tests[0m
+[4.292s] Built target tests
+[4.314s] Invoked command in '/home/sheila/march/ros1/build/march_parameter_server' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_parameter_server --target tests -- -j4 -l4
+[4.392s] Invoking command in '/home/sheila/march/ros1/build/march_parameter_server': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_parameter_server
+[4.409s] -- Install configuration: ""
+[4.410s] + cd /home/sheila/march/ros1/src/bridge/march_parameter_server
+[4.410s] + mkdir -p /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages
+[4.415s] + /usr/bin/env PYTHONPATH=/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/build/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/sheila/march/ros1/build/march_parameter_server /usr/bin/python3 /home/sheila/march/ros1/src/bridge/march_parameter_server/setup.py egg_info --egg-base /home/sheila/march/ros1/build/march_parameter_server build --build-base /home/sheila/march/ros1/build/march_parameter_server install --root=/ --install-layout=deb --prefix=/home/sheila/march/ros1/install/march_parameter_server --install-scripts=/home/sheila/march/ros1/install/march_parameter_server/bin
+[4.894s] running egg_info
+[4.894s] creating /home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info
+[4.895s] writing /home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/PKG-INFO
+[4.896s] writing dependency_links to /home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/dependency_links.txt
+[4.896s] writing top-level names to /home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/top_level.txt
+[4.901s] writing manifest file '/home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/SOURCES.txt'
+[4.972s] reading manifest file '/home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/SOURCES.txt'
+[4.974s] writing manifest file '/home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info/SOURCES.txt'
+[4.974s] running build
+[4.974s] running build_py
+[4.975s] creating /home/sheila/march/ros1/build/march_parameter_server/lib/march_parameter_server
+[4.975s] copying src/march_parameter_server/__init__.py -> /home/sheila/march/ros1/build/march_parameter_server/lib/march_parameter_server
+[4.976s] copying src/march_parameter_server/parameter_server_node.py -> /home/sheila/march/ros1/build/march_parameter_server/lib/march_parameter_server
+[4.977s] running build_scripts
+[4.977s] creating /home/sheila/march/ros1/build/march_parameter_server/scripts-3.8
+[4.978s] copying and adjusting scripts/march_parameter_server_node -> /home/sheila/march/ros1/build/march_parameter_server/scripts-3.8
+[4.978s] changing mode of /home/sheila/march/ros1/build/march_parameter_server/scripts-3.8/march_parameter_server_node from 664 to 775
+[4.978s] running install
+[4.981s] running install_lib
+[4.982s] creating /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server
+[4.983s] copying /home/sheila/march/ros1/build/march_parameter_server/lib/march_parameter_server/__init__.py -> /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server
+[4.983s] copying /home/sheila/march/ros1/build/march_parameter_server/lib/march_parameter_server/parameter_server_node.py -> /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server
+[4.985s] byte-compiling /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server/__init__.py to __init__.cpython-38.pyc
+[4.988s] byte-compiling /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server/parameter_server_node.py to parameter_server_node.cpython-38.pyc
+[4.989s] running install_egg_info
+[4.993s] Copying /home/sheila/march/ros1/build/march_parameter_server/march_parameter_server.egg-info to /home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages/march_parameter_server-0.0.0.egg-info
+[4.993s] Skipping SOURCES.txt
+[4.994s] running install_scripts
+[5.029s] creating /home/sheila/march/ros1/install/march_parameter_server/bin
+[5.030s] copying /home/sheila/march/ros1/build/march_parameter_server/scripts-3.8/march_parameter_server_node -> /home/sheila/march/ros1/install/march_parameter_server/bin
+[5.030s] changing mode of /home/sheila/march/ros1/install/march_parameter_server/bin/march_parameter_server_node to 775
+[5.077s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig/march_parameter_server.pc
+[5.078s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/cmake/march_parameter_serverConfig.cmake
+[5.078s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/cmake/march_parameter_serverConfig-version.cmake
+[5.079s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/package.xml
+[5.079s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/lib/march_parameter_server/march_parameter_server_node
+[5.080s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/launch
+[5.080s] -- Installing: /home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/launch/march_parameter_server.launch
+[5.087s] Invoked command in '/home/sheila/march/ros1/build/march_parameter_server' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_parameter_server

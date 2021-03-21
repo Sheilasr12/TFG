@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_launch/devel
+-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic
+-- This workspace overlays: /home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_launch/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_launch
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_launch/lib/pkgconfig/march_launch.pc
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/cmake/march_launchConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/cmake/march_launchConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/launch
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/launch/serial_connection.launch
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march_simulation.launch
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march_headless.launch
+-- Installing: /home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march.launch

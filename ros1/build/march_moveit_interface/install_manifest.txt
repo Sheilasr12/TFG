@@ -1,0 +1,6 @@
+/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig/march_moveit_interface.pc
+/home/sheila/march/ros1/install/march_moveit_interface/share/march_moveit_interface/cmake/march_moveit_interfaceConfig.cmake
+/home/sheila/march/ros1/install/march_moveit_interface/share/march_moveit_interface/cmake/march_moveit_interfaceConfig-version.cmake
+/home/sheila/march/ros1/install/march_moveit_interface/share/march_moveit_interface/package.xml
+/home/sheila/march/ros1/install/march_moveit_interface/lib/march_moveit_interface/march_moveit_interface
+/home/sheila/march/ros1/install/march_moveit_interface/share/march_moveit_interface/launch/moveit_interface.launch

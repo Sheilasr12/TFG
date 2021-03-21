@@ -1,0 +1,8 @@
+Invoking command in '/home/sheila/march/ros1/build/march_bridge_parameters': /usr/bin/cmake /home/sheila/march/ros1/src/bridge/march_bridge_parameters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_bridge_parameters
+Invoked command in '/home/sheila/march/ros1/build/march_bridge_parameters' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/bridge/march_bridge_parameters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_bridge_parameters
+Invoking command in '/home/sheila/march/ros1/build/march_bridge_parameters': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_bridge_parameters -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_bridge_parameters' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_bridge_parameters -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_bridge_parameters': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_bridge_parameters --target tests -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_bridge_parameters' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_bridge_parameters --target tests -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_bridge_parameters': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_bridge_parameters
+Invoked command in '/home/sheila/march/ros1/build/march_bridge_parameters' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_bridge_parameters

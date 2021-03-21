@@ -1,0 +1,8 @@
+Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/joint_trajectory_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/joint_trajectory_controller
+Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/joint_trajectory_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/joint_trajectory_controller
+Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller --target tests -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller --target tests -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --install /home/sheila/march/ros1/build/joint_trajectory_controller
+Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/joint_trajectory_controller

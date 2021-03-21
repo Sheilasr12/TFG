@@ -1,0 +1,17 @@
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/config/full_monitor.perspective
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/launch/monitor.launch.py
+/home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/package_run_dependencies/march_monitor
+/home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/parent_prefix_path/march_monitor
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/ament_prefix_path.sh
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/ament_prefix_path.dsv
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/path.sh
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/path.dsv
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.bash
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.sh
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.zsh
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.dsv
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/package.dsv
+/home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/packages/march_monitor
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/cmake/march_monitorConfig.cmake
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/cmake/march_monitorConfig-version.cmake
+/home/sheila/march/ros2/install/march_monitor/share/march_monitor/package.xml

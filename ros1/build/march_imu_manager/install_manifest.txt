@@ -1,0 +1,14 @@
+/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig/march_imu_manager.pc
+/home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/cmake/march_imu_managerConfig.cmake
+/home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/cmake/march_imu_managerConfig-version.cmake
+/home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/package.xml
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so.4
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so.4.6.0
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so.4
+/home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so.4.6.0
+/home/sheila/march/ros1/install/march_imu_manager/include/march_imu_manager/march_imu_manager/mtw.h
+/home/sheila/march/ros1/install/march_imu_manager/include/march_imu_manager/march_imu_manager/wireless_master.h
+/home/sheila/march/ros1/install/march_imu_manager/lib/libmarch_imu_manager.so
+/home/sheila/march/ros1/install/march_imu_manager/lib/march_imu_manager/march_imu_manager_node

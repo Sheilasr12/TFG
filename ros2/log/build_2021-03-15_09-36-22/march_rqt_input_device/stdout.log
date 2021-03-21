@@ -1,0 +1,87 @@
+running egg_info
+creating ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info
+writing ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/PKG-INFO
+writing dependency_links to ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/dependency_links.txt
+writing entry points to ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/entry_points.txt
+writing requirements to ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/requires.txt
+writing top-level names to ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/top_level.txt
+writing manifest file '../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/SOURCES.txt'
+reading manifest file '../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/SOURCES.txt'
+writing manifest file '../../../build/march_rqt_input_device/march_rqt_input_device.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sheila/march/ros2/build/march_rqt_input_device/build
+creating /home/sheila/march/ros2/build/march_rqt_input_device/build/lib
+creating /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+copying march_rqt_input_device/__init__.py -> /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+copying march_rqt_input_device/image_button.py -> /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+copying march_rqt_input_device/input_device_plugin.py -> /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+copying march_rqt_input_device/input_device_controller.py -> /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+copying march_rqt_input_device/input_device_view.py -> /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device
+running install
+running install_lib
+creating /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+copying /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device/__init__.py -> /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+copying /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device/image_button.py -> /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+copying /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device/input_device_plugin.py -> /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+copying /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device/input_device_controller.py -> /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+copying /home/sheila/march/ros2/build/march_rqt_input_device/build/lib/march_rqt_input_device/input_device_view.py -> /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device
+byte-compiling /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device/image_button.py to image_button.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device/input_device_plugin.py to input_device_plugin.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device/input_device_controller.py to input_device_controller.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device/input_device_view.py to input_device_view.cpython-38.pyc
+running install_data
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/ament_index
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/ament_index/resource_index
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/ament_index/resource_index/packages
+copying resource/march_rqt_input_device -> /home/sheila/march/ros2/install/march_rqt_input_device/share/ament_index/resource_index/packages
+copying package.xml -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/launch
+copying launch/input_device.launch.py -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/launch
+copying plugin.xml -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device
+copying resource/input_device.ui -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource
+creating /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/stop.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_left_straight_start.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_single_step_small.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_right_single_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_rough_terrain_second_middle_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/pause.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/march-walking.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_sofa_sit.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_rough_terrain_high_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_ramp_door_slope_down.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_single_step_medium.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_walk.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/error.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/continue.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_left_single_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_right_straight_end.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_ramp_door_slope_up.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_right_straight_start.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_side_step_right.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_stairs_down.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_walk_small.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_walk_large.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_stairs_up.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_sit.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_side_step_left.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/home_stand.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_ramp_door_last_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_stairs_down_single_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/home_sit.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_rough_terrain_first_middle_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/rocker_switch_up.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_rough_terrain_third_middle_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/rocker_switch_down.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_tilted_path_left_straight_end.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_stand.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_sofa_stand.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+copying resource/img/gait_stairs_up_single_step.png -> /home/sheila/march/ros2/install/march_rqt_input_device/share/march_rqt_input_device/resource/img
+running install_egg_info
+Copying ../../../build/march_rqt_input_device/march_rqt_input_device.egg-info to /home/sheila/march/ros2/install/march_rqt_input_device/lib/python3.8/site-packages/march_rqt_input_device-0.0.0-py3.8.egg-info
+running install_scripts
+Installing input_device script to /home/sheila/march/ros2/install/march_rqt_input_device/lib/march_rqt_input_device
+writing list of installed files to '/home/sheila/march/ros2/build/march_rqt_input_device/install.log'

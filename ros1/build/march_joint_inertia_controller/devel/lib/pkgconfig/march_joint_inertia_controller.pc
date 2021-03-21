@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_joint_inertia_controller/devel
+
+Name: march_joint_inertia_controller
+Description: Description of march_joint_inertia_controller
+Version: 0.0.0
+Cflags: -I/home/sheila/march/ros1/src/control/march_joint_inertia_controller/include
+Libs: -L${prefix}/lib -lmarch_joint_inertia_controller
+Requires: actionlib actionlib_msgs control_msgs controller_interface march_shared_msgs pluginlib roscpp std_msgs

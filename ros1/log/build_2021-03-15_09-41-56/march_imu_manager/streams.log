@@ -1,0 +1,82 @@
+[0.041s] Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/drivers/march_imu_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_imu_manager
+[0.378s] -- The C compiler identification is GNU 9.3.0
+[0.715s] -- The CXX compiler identification is GNU 9.3.0
+[0.743s] -- Check for working C compiler: /usr/bin/cc
+[1.095s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.097s] -- Detecting C compiler ABI info
+[1.487s] -- Detecting C compiler ABI info - done
+[1.545s] -- Detecting C compile features
+[1.547s] -- Detecting C compile features - done
+[1.563s] -- Check for working CXX compiler: /usr/bin/c++
+[2.003s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.006s] -- Detecting CXX compiler ABI info
+[2.407s] -- Detecting CXX compiler ABI info - done
+[2.479s] -- Detecting CXX compile features
+[2.481s] -- Detecting CXX compile features - done
+[2.486s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_imu_manager/devel
+[2.487s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[2.487s] -- This workspace overlays: /opt/ros/noetic
+[2.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.542s] -- Using Debian Python package layout
+[2.659s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.659s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.932s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.933s] -- Call enable_testing()
+[2.936s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_imu_manager/test_results
+[3.527s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.527s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.528s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.584s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[3.588s] -- Found Threads: TRUE  
+[3.602s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.715s] -- catkin 0.8.9
+[3.715s] -- BUILD_SHARED_LIBS is on
+[4.609s] -- Configuring done
+[4.672s] -- Generating done
+[4.681s] -- Build files have been written to: /home/sheila/march/ros1/build/march_imu_manager
+[4.699s] Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/drivers/march_imu_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_imu_manager
+[4.701s] Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager -- -j4 -l4
+[4.775s] [35m[1mScanning dependencies of target march_imu_manager[0m
+[4.848s] [ 20%] [32mBuilding CXX object CMakeFiles/march_imu_manager.dir/src/mtw.cpp.o[0m
+[9.013s] [ 40%] [32mBuilding CXX object CMakeFiles/march_imu_manager.dir/src/wireless_master.cpp.o[0m
+[14.434s] [ 60%] [32m[1mLinking CXX shared library devel/lib/libmarch_imu_manager.so[0m
+[14.747s] [ 60%] Built target march_imu_manager
+[14.764s] [35m[1mScanning dependencies of target march_imu_manager_node[0m
+[14.811s] [ 80%] [32mBuilding CXX object CMakeFiles/march_imu_manager_node.dir/src/main.cpp.o[0m
+[19.115s] [100%] [32m[1mLinking CXX executable devel/lib/march_imu_manager/march_imu_manager_node[0m
+[19.408s] [100%] Built target march_imu_manager_node
+[19.428s] Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager -- -j4 -l4
+[19.511s] Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager --target tests -- -j4 -l4
+[19.605s] [35m[1mScanning dependencies of target gtest[0m
+[19.637s] [ 14%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[26.042s] [ 28%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
+[26.299s] [ 28%] Built target gtest
+[26.346s] [ 71%] Built target march_imu_manager
+[26.363s] [35m[1mScanning dependencies of target wireless_master_test[0m
+[26.419s] [ 85%] [32mBuilding CXX object CMakeFiles/wireless_master_test.dir/test/wireless_master_test.cpp.o[0m
+[31.541s] [100%] [32m[1mLinking CXX executable devel/lib/march_imu_manager/wireless_master_test[0m
+[31.877s] [100%] Built target wireless_master_test
+[31.893s] [35m[1mScanning dependencies of target tests[0m
+[31.909s] [100%] Built target tests
+[31.933s] Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager --target tests -- -j4 -l4
+[32.029s] Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_imu_manager
+[32.048s] -- Install configuration: ""
+[32.048s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig/march_imu_manager.pc
+[32.048s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/cmake/march_imu_managerConfig.cmake
+[32.048s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/cmake/march_imu_managerConfig-version.cmake
+[32.048s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/share/march_imu_manager/package.xml
+[32.050s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so
+[32.050s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so.4
+[32.050s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxsensdeviceapi.so.4.6.0
+[32.054s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so.4
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libxstypes.so.4.6.0
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/include/march_imu_manager/march_imu_manager
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/include/march_imu_manager/march_imu_manager/mtw.h
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/include/march_imu_manager/march_imu_manager/wireless_master.h
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/libmarch_imu_manager.so
+[32.060s] -- Set runtime path of "/home/sheila/march/ros1/install/march_imu_manager/lib/libmarch_imu_manager.so" to ""
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_imu_manager/lib/march_imu_manager/march_imu_manager_node
+[32.060s] -- Set runtime path of "/home/sheila/march/ros1/install/march_imu_manager/lib/march_imu_manager/march_imu_manager_node" to ""
+[32.065s] Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_imu_manager

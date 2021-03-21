@@ -1,0 +1,17 @@
+setup.py
+scripts/march_rqt_gait_generator
+src/march_rqt_gait_generator/__init__.py
+src/march_rqt_gait_generator/gait_generator_controller.py
+src/march_rqt_gait_generator/gait_generator_plugin.py
+src/march_rqt_gait_generator/gait_generator_view.py
+src/march_rqt_gait_generator/inverse_kinematics_pop_up.py
+src/march_rqt_gait_generator/joint_plot.py
+src/march_rqt_gait_generator/joint_setting_spin_box_delegate.py
+src/march_rqt_gait_generator/joint_table_controller.py
+src/march_rqt_gait_generator/side_subgait_controller.py
+src/march_rqt_gait_generator/side_subgait_view.py
+src/march_rqt_gait_generator/time_slider_thread.py
+src/march_rqt_gait_generator/model/__init__.py
+src/march_rqt_gait_generator/model/modifiable_joint_trajectory.py
+src/march_rqt_gait_generator/model/modifiable_setpoint.py
+src/march_rqt_gait_generator/model/modifiable_subgait.py

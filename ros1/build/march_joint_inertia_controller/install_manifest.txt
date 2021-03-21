@@ -1,0 +1,9 @@
+/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig/march_joint_inertia_controller.pc
+/home/sheila/march/ros1/install/march_joint_inertia_controller/share/march_joint_inertia_controller/cmake/march_joint_inertia_controllerConfig.cmake
+/home/sheila/march/ros1/install/march_joint_inertia_controller/share/march_joint_inertia_controller/cmake/march_joint_inertia_controllerConfig-version.cmake
+/home/sheila/march/ros1/install/march_joint_inertia_controller/share/march_joint_inertia_controller/package.xml
+/home/sheila/march/ros1/install/march_joint_inertia_controller/include/march_joint_inertia_controller/inertia_estimator.h
+/home/sheila/march/ros1/install/march_joint_inertia_controller/include/march_joint_inertia_controller/joint_inertia_controller.h
+/home/sheila/march/ros1/install/march_joint_inertia_controller/include/march_joint_inertia_controller/joint_trajectory_inertia_controller.h
+/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/libmarch_joint_inertia_controller.so
+/home/sheila/march/ros1/install/march_joint_inertia_controller/share/march_joint_inertia_controller/controller_plugins.xml

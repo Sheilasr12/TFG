@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from march_shared_msgs/srv/SetParamFloat.srv
+// generated code does not contain a copyright notice
+
+
+module march_shared_msgs {
+  module srv {
+    struct SetParamFloat_Request {
+      string name;
+
+      double value;
+    };
+    struct SetParamFloat_Response {
+      boolean success;
+    };
+  };
+};

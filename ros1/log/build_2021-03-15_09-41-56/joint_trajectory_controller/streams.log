@@ -1,0 +1,79 @@
+[0.031s] Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/joint_trajectory_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/joint_trajectory_controller
+[0.164s] -- The C compiler identification is GNU 9.3.0
+[0.284s] -- The CXX compiler identification is GNU 9.3.0
+[0.297s] -- Check for working C compiler: /usr/bin/cc
+[0.411s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.413s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.576s] -- Detecting C compile features
+[0.578s] -- Detecting C compile features - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.739s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.914s] -- Detecting CXX compile features
+[0.916s] -- Detecting CXX compile features - done
+[0.921s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/joint_trajectory_controller/devel
+[0.922s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.923s] -- This workspace overlays: /opt/ros/noetic
+[0.968s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.969s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.969s] -- Using Debian Python package layout
+[1.015s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.015s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.350s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.350s] -- Call enable_testing()
+[1.353s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/joint_trajectory_controller/test_results
+[1.898s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.898s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.898s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.944s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.949s] -- Found Threads: TRUE  
+[1.964s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.080s] -- catkin 0.8.9
+[2.080s] -- BUILD_SHARED_LIBS is on
+[2.425s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.855s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[3.177s] -- Configuring done
+[3.237s] -- Generating done
+[3.246s] -- Build files have been written to: /home/sheila/march/ros1/build/joint_trajectory_controller
+[3.261s] Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/joint_trajectory_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/joint_trajectory_controller
+[3.263s] Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller -- -j4 -l4
+[3.456s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[3.581s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[38.158s] [100%] [32m[1mLinking CXX shared library devel/lib/libjoint_trajectory_controller.so[0m
+[38.835s] [100%] Built target joint_trajectory_controller
+[38.856s] Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller -- -j4 -l4
+[38.966s] Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller --target tests -- -j4 -l4
+[39.062s] [35m[1mScanning dependencies of target tests[0m
+[39.078s] Built target tests
+[39.098s] Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/joint_trajectory_controller --target tests -- -j4 -l4
+[39.195s] Invoking command in '/home/sheila/march/ros1/build/joint_trajectory_controller': /usr/bin/cmake --install /home/sheila/march/ros1/build/joint_trajectory_controller
+[39.214s] -- Install configuration: ""
+[39.214s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc
+[39.215s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[39.216s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[39.217s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[39.217s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller
+[39.218s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory_builder.h
+[39.218s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_segment.h
+[39.219s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory_interface
+[39.219s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory_interface/pos_vel_acc_state.h
+[39.220s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory_interface/trajectory_interface.h
+[39.220s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory_interface/quintic_spline_segment.h
+[39.221s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller_impl.h
+[39.221s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_msg_utils.h
+[39.221s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/stop_trajectory_builder.h
+[39.222s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.h
+[39.222s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/hold_trajectory_builder.h
+[39.223s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/hardware_interface_adapter.h
+[39.223s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.h
+[39.223s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/joint_trajectory_controller/init_joint_trajectory.h
+[39.224s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/trajectory_interface//trajectory_interface
+[39.224s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/trajectory_interface//trajectory_interface/pos_vel_acc_state.h
+[39.225s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/trajectory_interface//trajectory_interface/trajectory_interface.h
+[39.225s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/include/trajectory_interface//trajectory_interface/quintic_spline_segment.h
+[39.226s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[39.236s] -- Set runtime path of "/home/sheila/march/ros1/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[39.237s] -- Installing: /home/sheila/march/ros1/install/joint_trajectory_controller/share/joint_trajectory_controller/ros_control_plugins.xml
+[39.244s] Invoked command in '/home/sheila/march/ros1/build/joint_trajectory_controller' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/joint_trajectory_controller

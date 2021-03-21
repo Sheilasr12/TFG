@@ -1,0 +1,70 @@
+-- The CXX compiler identification is GNU 9.3.0
+-- The C compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_acado_mpc/devel
+-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic
+-- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_acado_mpc/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_acado_mpc
+[35m[1mScanning dependencies of target march_acado_mpc[0m
+[  5%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/Bounds.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/Indexlist.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/MessageHandling.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/QProblem.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/QProblemB.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/SubjectTo.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/Utils.cpp.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/march_acado_mpc.dir/_deps/acado-solver-src/mpc_export/acado_auxiliary_functions.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/march_acado_mpc.dir/_deps/acado-solver-src/mpc_export/acado_integrator.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-solver-src/mpc_export/acado_qpoases_interface.cpp.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/march_acado_mpc.dir/_deps/acado-solver-src/mpc_export/acado_solver.c.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/src/joint_trajectory_mpc.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/src/model_predictive_controller.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/src/mpc_references.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/CyclingManager.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/march_acado_mpc.dir/_deps/acado-src/external_packages/qpoases/SRC/Constraints.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libmarch_acado_mpc.so[0m
+[100%] Built target march_acado_mpc
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig/march_acado_mpc.pc
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/cmake/march_acado_mpcConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/cmake/march_acado_mpcConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/joint_trajectory_mpc.hpp
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/model_predictive_controller.hpp
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/mpc_references.h
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/lib/libmarch_acado_mpc.so
+-- Set runtime path of "/home/sheila/march/ros1/install/march_acado_mpc/lib/libmarch_acado_mpc.so" to ""
+-- Installing: /home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/controller_plugins.xml

@@ -1,0 +1,3 @@
+[console_scripts]
+march_gait_selection = march_gait_selection.gait_selection_node:main
+

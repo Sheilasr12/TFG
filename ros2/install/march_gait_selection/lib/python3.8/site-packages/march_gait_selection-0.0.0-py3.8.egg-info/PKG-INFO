@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: march-gait-selection
+Version: 0.0.0
+Summary: Package that is responsible for receiving input from the input device, determining whether a request is valid and executing the gait
+Home-page: UNKNOWN
+Maintainer: Project March
+Maintainer-email: software@projectmarch.nl
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

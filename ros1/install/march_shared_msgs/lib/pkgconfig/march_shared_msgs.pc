@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_shared_msgs
+
+Name: march_shared_msgs
+Description: Description of march_shared_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: control_msgs geometry_msgs message_runtime std_msgs trajectory_msgs sensor_msgs

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from march_shared_msgs/srv/SetParamInt.srv
+// generated code does not contain a copyright notice
+
+
+module march_shared_msgs {
+  module srv {
+    struct SetParamInt_Request {
+      string name;
+
+      int32 value;
+    };
+    struct SetParamInt_Response {
+      boolean success;
+    };
+  };
+};

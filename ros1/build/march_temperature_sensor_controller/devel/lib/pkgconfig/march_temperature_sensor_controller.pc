@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_temperature_sensor_controller/devel
+
+Name: march_temperature_sensor_controller
+Description: Description of march_temperature_sensor_controller
+Version: 0.0.0
+Cflags: -I/home/sheila/march/ros1/src/hardware/drivers/march_temperature_sensor_controller/include
+Libs: -L${prefix}/lib -lmarch_temperature_sensor_controller
+Requires: controller_interface hardware_interface march_hardware_interface pluginlib realtime_tools roscpp sensor_msgs

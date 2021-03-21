@@ -1,0 +1,127 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_shared_classes/devel
+-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_shared_classes/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_shared_classes
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
++ cd /home/sheila/march/ros1/src/shared/march_shared_classes
++ mkdir -p /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/build/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/sheila/march/ros1/build/march_shared_classes /usr/bin/python3 /home/sheila/march/ros1/src/shared/march_shared_classes/setup.py egg_info --egg-base /home/sheila/march/ros1/build/march_shared_classes build --build-base /home/sheila/march/ros1/build/march_shared_classes install --root=/ --install-layout=deb --prefix=/home/sheila/march/ros1/install/march_shared_classes --install-scripts=/home/sheila/march/ros1/install/march_shared_classes/bin
+running egg_info
+creating /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info
+writing /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/PKG-INFO
+writing dependency_links to /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/dependency_links.txt
+writing top-level names to /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/top_level.txt
+writing manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+reading manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+writing manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes
+copying src/march_shared_classes/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes
+creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/subgait_graph.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/limits.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/joint_trajectory.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/subgait.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/gait.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+copying src/march_shared_classes/gait/setpoint.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+copying src/march_shared_classes/exceptions/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+copying src/march_shared_classes/exceptions/general_exceptions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+copying src/march_shared_classes/exceptions/gait_exceptions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+copying src/march_shared_classes/foot_classes/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+copying src/march_shared_classes/foot_classes/feet_state.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+copying src/march_shared_classes/foot_classes/foot.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+copying src/march_shared_classes/utilities/utility_functions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+copying src/march_shared_classes/utilities/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+copying src/march_shared_classes/utilities/vector_3d.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+copying src/march_shared_classes/utilities/side.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+running install
+running install_lib
+creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes
+creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/feet_state.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/foot.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/general_exceptions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/gait_exceptions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/utility_functions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/vector_3d.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/side.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/subgait_graph.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/limits.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/joint_trajectory.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/subgait.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/gait.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/setpoint.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/feet_state.py to feet_state.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/foot.py to foot.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/general_exceptions.py to general_exceptions.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/gait_exceptions.py to gait_exceptions.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/utility_functions.py to utility_functions.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/vector_3d.py to vector_3d.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/side.py to side.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/subgait_graph.py to subgait_graph.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/limits.py to limits.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/joint_trajectory.py to joint_trajectory.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/subgait.py to subgait.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/gait.py to gait.cpython-38.pyc
+byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/setpoint.py to setpoint.cpython-38.pyc
+running install_egg_info
+Copying /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info to /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes-0.0.0.egg-info
+Skipping SOURCES.txt
+running install_scripts
+-- Installing: /home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig/march_shared_classes.pc
+-- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/package.xml

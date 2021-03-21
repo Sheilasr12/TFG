@@ -1,0 +1,4 @@
+/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig/march_shared_classes.pc
+/home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig.cmake
+/home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig-version.cmake
+/home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/package.xml

@@ -1,0 +1,6 @@
+/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig/march_parameter_server.pc
+/home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/cmake/march_parameter_serverConfig.cmake
+/home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/cmake/march_parameter_serverConfig-version.cmake
+/home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/package.xml
+/home/sheila/march/ros1/install/march_parameter_server/lib/march_parameter_server/march_parameter_server_node
+/home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/launch/march_parameter_server.launch

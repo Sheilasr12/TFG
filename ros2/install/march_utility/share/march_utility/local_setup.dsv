@@ -1,0 +1,4 @@
+source;share/march_utility/environment/ament_prefix_path.sh
+source;share/march_utility/environment/library_path.sh
+source;share/march_utility/environment/path.sh
+source;share/march_utility/environment/pythonpath.sh

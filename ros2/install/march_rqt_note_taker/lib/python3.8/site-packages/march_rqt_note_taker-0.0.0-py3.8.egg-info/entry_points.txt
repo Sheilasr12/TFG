@@ -1,0 +1,3 @@
+[console_scripts]
+note_taker = march_rqt_note_taker.notes_plugin:main
+

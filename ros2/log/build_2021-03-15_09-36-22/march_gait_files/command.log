@@ -1,0 +1,6 @@
+Invoking command in '/home/sheila/march/ros2/build/march_gait_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/gaits/march_gait_files -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_gait_files
+Invoked command in '/home/sheila/march/ros2/build/march_gait_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/gaits/march_gait_files -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_gait_files
+Invoking command in '/home/sheila/march/ros2/build/march_gait_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_gait_files -- -j4 -l4
+Invoked command in '/home/sheila/march/ros2/build/march_gait_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_gait_files -- -j4 -l4
+Invoking command in '/home/sheila/march/ros2/build/march_gait_files': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_gait_files
+Invoked command in '/home/sheila/march/ros2/build/march_gait_files' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_gait_files

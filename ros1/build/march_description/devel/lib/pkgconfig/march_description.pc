@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_description/devel
+
+Name: march_description
+Description: Description of march_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

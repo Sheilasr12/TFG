@@ -1,0 +1,153 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found march_shared_msgs: 0.0.0 (/home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake)
+-- Found march_description: 0.0.0 (/home/sheila/march/ros2/install/march_description/share/march_description/cmake)
+-- Found ament_cmake_pytest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros2/build/march_utility
+[35m[1mScanning dependencies of target march_utility[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/march_utility.dir/src/node_utils.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libmarch_utility.a[0m
+[100%] Built target march_utility
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/pythonpath.sh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/pythonpath.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/__init__.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/__init__.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/feet_state.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/foot.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/__init__.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/general_exceptions.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/gait_exceptions.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/duration.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/utility_functions.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/__init__.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/vector_3d.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/node_utils.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/side.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/subgait_graph.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/__init__.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/limits.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/joint_trajectory.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/subgait.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/gait.py
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/setpoint.py
+Listing '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/__init__.py'...
+Listing '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/__init__.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/gait_exceptions.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/exceptions/general_exceptions.py'...
+Listing '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/__init__.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/feet_state.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/foot_classes/foot.py'...
+Listing '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/__init__.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/gait.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/joint_trajectory.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/limits.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/setpoint.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/subgait.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/gait/subgait_graph.py'...
+Listing '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/__init__.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/duration.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/node_utils.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/side.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/utility_functions.py'...
+Compiling '/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages/march_utility/utilities/vector_3d.py'...
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_close
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_close/MV_walk_rightclose_v2_seven_joints.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_close/MV_walk_rightclose_v1.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_close/MIV_final.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_close/MV_walk_rightclose_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_swing
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_swing/MV_walk_rightswing_v1.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_swing/MV_walk_rightswing_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_swing/MIV_final.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close/MV_walk_leftclose_v1.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close/MV_walk_leftclose_inverse_kinematics_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close/MV_walk_leftclose_v2_wrong_joint_name.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close/MIV_final.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_close/MV_walk_leftclose_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_swing
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_swing/MV_walk_leftswing_v1.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_swing/MV_walk_leftswing_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/left_swing/MIV_final.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_open
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_open/MV_walk_rightopen_v2.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_open/MV_walk_rightopen_v1.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/right_open/MIV_final.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/walk/walk.gait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/ik_test
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/ik_test/ik_test.gait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/ik_test/swing
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/ik_test/swing/forward_swing.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/ik_test/swing/backward_swing.subgait
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/test/resources/default.yaml
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/library_path.sh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/library_path.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/include//march_utility
+-- Installing: /home/sheila/march/ros2/install/march_utility/include//march_utility/node_utils.hpp
+-- Installing: /home/sheila/march/ros2/install/march_utility/lib/libmarch_utility.a
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/ament_index/resource_index/package_run_dependencies/march_utility
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/ament_index/resource_index/parent_prefix_path/march_utility
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/ament_prefix_path.sh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/ament_prefix_path.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/path.sh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/environment/path.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/local_setup.bash
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/local_setup.sh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/local_setup.zsh
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/local_setup.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/package.dsv
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/ament_index/resource_index/packages/march_utility
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/cmake/march_utilityExport.cmake
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/cmake/march_utilityExport-noconfig.cmake
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/cmake/march_utilityConfig.cmake
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/cmake/march_utilityConfig-version.cmake
+-- Installing: /home/sheila/march/ros2/install/march_utility/share/march_utility/package.xml

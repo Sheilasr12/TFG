@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/sheila/march/ros1/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh"
+. "/home/sheila/march/ros1/install/march_description/share/march_description/package.sh"
+. "/home/sheila/march/ros1/install/march_hardware/share/march_hardware/package.sh"
+. "/home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/package.sh"
+. "/home/sheila/march/ros1/install/march_data_collector/share/march_data_collector/package.sh"
+. "/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/package.sh"
+. "/home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/package.sh"
+. "/home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/package.sh"
+. "/home/sheila/march/ros1/install/march_moveit/share/march_moveit/package.sh"
+. "/home/sheila/march/ros1/install/march_parameter_server/share/march_parameter_server/package.sh"
+. "/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/package.sh"
+. "/home/sheila/march/ros1/install/march_simulation/share/march_simulation/package.sh"

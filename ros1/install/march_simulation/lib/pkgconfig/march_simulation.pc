@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_simulation
+
+Name: march_simulation
+Description: Description of march_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

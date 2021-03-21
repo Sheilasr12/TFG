@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_hardware
+
+Name: march_hardware
+Description: Description of march_hardware
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmarch_hardware
+Requires: roscpp soem urdf

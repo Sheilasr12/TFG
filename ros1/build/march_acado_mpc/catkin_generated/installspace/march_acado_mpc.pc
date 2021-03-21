@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_acado_mpc
+
+Name: march_acado_mpc
+Description: Description of march_acado_mpc
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmarch_acado_mpc
+Requires: control_msgs controller_interface march_shared_msgs pluginlib roscpp std_msgs

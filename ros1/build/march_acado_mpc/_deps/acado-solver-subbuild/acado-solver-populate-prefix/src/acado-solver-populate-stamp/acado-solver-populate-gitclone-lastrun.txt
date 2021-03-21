@@ -1,0 +1,3 @@
+repository='https://gitlab.com/project-march/libraries/acado-solver.git'
+module=''
+tag='origin'

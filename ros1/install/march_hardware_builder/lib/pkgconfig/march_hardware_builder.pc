@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_hardware_builder
+
+Name: march_hardware_builder
+Description: Description of march_hardware_builder
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmarch_hardware_builder
+Requires: march_hardware roscpp roslib urdf

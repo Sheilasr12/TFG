@@ -1,0 +1,16 @@
+/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig/march_hardware_interface.pc
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/cmake/march_hardware_interfaceConfig.cmake
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/cmake/march_hardware_interfaceConfig-version.cmake
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/package.xml
+/home/sheila/march/ros1/install/march_hardware_interface/include/march_hardware_interface/march_pdb_state_interface.h
+/home/sheila/march/ros1/install/march_hardware_interface/include/march_hardware_interface/power_net_type.h
+/home/sheila/march/ros1/install/march_hardware_interface/include/march_hardware_interface/power_net_on_off_command.h
+/home/sheila/march/ros1/install/march_hardware_interface/include/march_hardware_interface/march_temperature_sensor_interface.h
+/home/sheila/march/ros1/install/march_hardware_interface/include/march_hardware_interface/march_hardware_interface.h
+/home/sheila/march/ros1/install/march_hardware_interface/lib/march_hardware_interface/march_hardware_interface_node
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/config/test_joint_rotational/controllers.yaml
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/config/march4/controllers.yaml
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/config/test_joint_linear/controllers.yaml
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/config/march3/controllers.yaml
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/config/march3/joint_limits.yaml
+/home/sheila/march/ros1/install/march_hardware_interface/share/march_hardware_interface/launch/hardware.launch

@@ -1,0 +1,135 @@
+[0.029s] Invoking command in '/home/sheila/march/ros1/build/march_shared_classes': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/shared/march_shared_classes -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_shared_classes
+[0.149s] -- The C compiler identification is GNU 9.3.0
+[0.268s] -- The CXX compiler identification is GNU 9.3.0
+[0.281s] -- Check for working C compiler: /usr/bin/cc
+[0.397s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.400s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.548s] -- Detecting C compile features
+[0.550s] -- Detecting C compile features - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.693s] -- Detecting CXX compiler ABI info
+[0.831s] -- Detecting CXX compiler ABI info - done
+[0.865s] -- Detecting CXX compile features
+[0.866s] -- Detecting CXX compile features - done
+[0.871s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_shared_classes/devel
+[0.872s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[0.873s] -- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[0.917s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.918s] -- Using Debian Python package layout
+[0.978s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.978s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.215s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.216s] -- Call enable_testing()
+[1.219s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_shared_classes/test_results
+[1.739s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.740s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.740s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.790s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.794s] -- Found Threads: TRUE  
+[1.809s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.932s] -- catkin 0.8.9
+[1.932s] -- BUILD_SHARED_LIBS is on
+[2.305s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.651s] -- Configuring done
+[3.692s] -- Generating done
+[3.700s] -- Build files have been written to: /home/sheila/march/ros1/build/march_shared_classes
+[3.715s] Invoked command in '/home/sheila/march/ros1/build/march_shared_classes' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/shared/march_shared_classes -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_shared_classes
+[3.717s] Invoking command in '/home/sheila/march/ros1/build/march_shared_classes': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_classes -- -j4 -l4
+[3.795s] Invoked command in '/home/sheila/march/ros1/build/march_shared_classes' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_classes -- -j4 -l4
+[3.879s] Invoking command in '/home/sheila/march/ros1/build/march_shared_classes': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_classes --target tests -- -j4 -l4
+[3.975s] [35m[1mScanning dependencies of target tests[0m
+[3.992s] Built target tests
+[4.012s] Invoked command in '/home/sheila/march/ros1/build/march_shared_classes' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_classes --target tests -- -j4 -l4
+[4.100s] Invoking command in '/home/sheila/march/ros1/build/march_shared_classes': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_shared_classes
+[4.117s] -- Install configuration: ""
+[4.119s] + cd /home/sheila/march/ros1/src/shared/march_shared_classes
+[4.119s] + mkdir -p /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages
+[4.120s] + /usr/bin/env PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/build/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/sheila/march/ros1/build/march_shared_classes /usr/bin/python3 /home/sheila/march/ros1/src/shared/march_shared_classes/setup.py egg_info --egg-base /home/sheila/march/ros1/build/march_shared_classes build --build-base /home/sheila/march/ros1/build/march_shared_classes install --root=/ --install-layout=deb --prefix=/home/sheila/march/ros1/install/march_shared_classes --install-scripts=/home/sheila/march/ros1/install/march_shared_classes/bin
+[4.634s] running egg_info
+[4.636s] creating /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info
+[4.637s] writing /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/PKG-INFO
+[4.637s] writing dependency_links to /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/dependency_links.txt
+[4.638s] writing top-level names to /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/top_level.txt
+[4.643s] writing manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+[4.714s] reading manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+[4.716s] writing manifest file '/home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info/SOURCES.txt'
+[4.717s] running build
+[4.717s] running build_py
+[4.718s] creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes
+[4.718s] copying src/march_shared_classes/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes
+[4.719s] creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.720s] copying src/march_shared_classes/gait/subgait_graph.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.720s] copying src/march_shared_classes/gait/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.721s] copying src/march_shared_classes/gait/limits.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.721s] copying src/march_shared_classes/gait/joint_trajectory.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.722s] copying src/march_shared_classes/gait/subgait.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.723s] copying src/march_shared_classes/gait/gait.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.723s] copying src/march_shared_classes/gait/setpoint.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait
+[4.724s] creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+[4.725s] copying src/march_shared_classes/exceptions/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+[4.725s] copying src/march_shared_classes/exceptions/general_exceptions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+[4.726s] copying src/march_shared_classes/exceptions/gait_exceptions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions
+[4.727s] creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+[4.727s] copying src/march_shared_classes/foot_classes/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+[4.729s] copying src/march_shared_classes/foot_classes/feet_state.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+[4.729s] copying src/march_shared_classes/foot_classes/foot.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes
+[4.730s] creating /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+[4.731s] copying src/march_shared_classes/utilities/utility_functions.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+[4.731s] copying src/march_shared_classes/utilities/__init__.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+[4.732s] copying src/march_shared_classes/utilities/vector_3d.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+[4.733s] copying src/march_shared_classes/utilities/side.py -> /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities
+[4.734s] running install
+[4.737s] running install_lib
+[4.739s] creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes
+[4.739s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes
+[4.740s] creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+[4.741s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+[4.741s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/feet_state.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+[4.742s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/foot_classes/foot.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes
+[4.743s] creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+[4.743s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+[4.744s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/general_exceptions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+[4.744s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/exceptions/gait_exceptions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions
+[4.745s] creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+[4.746s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/utility_functions.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+[4.746s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+[4.747s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/vector_3d.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+[4.748s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/utilities/side.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities
+[4.748s] creating /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.749s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/subgait_graph.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.749s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/__init__.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.750s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/limits.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.751s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/joint_trajectory.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.751s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/subgait.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.752s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/gait.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.752s] copying /home/sheila/march/ros1/build/march_shared_classes/lib/march_shared_classes/gait/setpoint.py -> /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait
+[4.754s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/__init__.py to __init__.cpython-38.pyc
+[4.757s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/__init__.py to __init__.cpython-38.pyc
+[4.757s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/feet_state.py to feet_state.cpython-38.pyc
+[4.759s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/foot_classes/foot.py to foot.cpython-38.pyc
+[4.762s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/__init__.py to __init__.cpython-38.pyc
+[4.763s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/general_exceptions.py to general_exceptions.cpython-38.pyc
+[4.764s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/exceptions/gait_exceptions.py to gait_exceptions.cpython-38.pyc
+[4.766s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/utility_functions.py to utility_functions.cpython-38.pyc
+[4.768s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/__init__.py to __init__.cpython-38.pyc
+[4.769s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/vector_3d.py to vector_3d.cpython-38.pyc
+[4.770s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/utilities/side.py to side.cpython-38.pyc
+[4.771s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/subgait_graph.py to subgait_graph.cpython-38.pyc
+[4.773s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/__init__.py to __init__.cpython-38.pyc
+[4.773s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/limits.py to limits.cpython-38.pyc
+[4.774s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/joint_trajectory.py to joint_trajectory.cpython-38.pyc
+[4.776s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/subgait.py to subgait.cpython-38.pyc
+[4.782s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/gait.py to gait.cpython-38.pyc
+[4.783s] byte-compiling /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes/gait/setpoint.py to setpoint.cpython-38.pyc
+[4.785s] running install_egg_info
+[4.788s] Copying /home/sheila/march/ros1/build/march_shared_classes/march_shared_classes.egg-info to /home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages/march_shared_classes-0.0.0.egg-info
+[4.788s] Skipping SOURCES.txt
+[4.789s] running install_scripts
+[4.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig/march_shared_classes.pc
+[4.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig.cmake
+[4.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/cmake/march_shared_classesConfig-version.cmake
+[4.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_classes/share/march_shared_classes/package.xml
+[4.883s] Invoked command in '/home/sheila/march/ros1/build/march_shared_classes' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_shared_classes

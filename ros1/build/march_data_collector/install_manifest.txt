@@ -1,0 +1,6 @@
+/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig/march_data_collector.pc
+/home/sheila/march/ros1/install/march_data_collector/share/march_data_collector/cmake/march_data_collectorConfig.cmake
+/home/sheila/march/ros1/install/march_data_collector/share/march_data_collector/cmake/march_data_collectorConfig-version.cmake
+/home/sheila/march/ros1/install/march_data_collector/share/march_data_collector/package.xml
+/home/sheila/march/ros1/install/march_data_collector/lib/march_data_collector/march_data_collector
+/home/sheila/march/ros1/install/march_data_collector/share/march_data_collector/launch/march_data_collector.launch

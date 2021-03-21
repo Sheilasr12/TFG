@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found diagnostic_msgs: 2.0.3 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found rclcpp_lifecycle: 2.3.0 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found ament_cmake_pytest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros2/build/diagnostic_updater
+[35m[1mScanning dependencies of target example[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target gtest[0m
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 62%] Built target gtest
+[35m[1mScanning dependencies of target diagnostic_updater_test[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable example[0m
+[ 87%] Built target example
+[100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[100%] Built target diagnostic_updater_test
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_updater.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/__init__.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_update_functions.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/example.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_publisher.py
+Listing '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/__init__.py'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_publisher.py'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_update_functions.py'...
+Compiling '/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/example.py'...
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/diagnostic_updater/example.py
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/lib/diagnostic_updater/example
+-- Set runtime path of "/home/sheila/march/ros2/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include/diagnostic_updater
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+-- Installing: /home/sheila/march/ros2/install/diagnostic_updater/share/diagnostic_updater/package.xml

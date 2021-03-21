@@ -1,0 +1,104 @@
+[0.024s] Invoking command in '/home/sheila/march/ros1/build/march_gain_scheduling': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/control/march_gain_scheduling -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_gain_scheduling
+[0.156s] -- The C compiler identification is GNU 9.3.0
+[0.286s] -- The CXX compiler identification is GNU 9.3.0
+[0.300s] -- Check for working C compiler: /usr/bin/cc
+[0.424s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.427s] -- Detecting C compiler ABI info
+[0.554s] -- Detecting C compiler ABI info - done
+[0.587s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++
+[0.745s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.748s] -- Detecting CXX compiler ABI info
+[0.894s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Detecting CXX compile features
+[0.932s] -- Detecting CXX compile features - done
+[0.937s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_gain_scheduling/devel
+[0.939s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.940s] -- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.989s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.990s] -- Using Debian Python package layout
+[1.062s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.063s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.335s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.336s] -- Call enable_testing()
+[1.339s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_gain_scheduling/test_results
+[1.900s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.901s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.902s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.954s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.960s] -- Found Threads: TRUE  
+[1.976s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.099s] -- catkin 0.8.9
+[2.100s] -- BUILD_SHARED_LIBS is on
+[2.466s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.931s] -- Installing devel-space wrapper /home/sheila/march/ros1/src/control/march_gain_scheduling/scripts/march_gain_scheduling_node to /home/sheila/march/ros1/build/march_gain_scheduling/devel/lib/march_gain_scheduling
+[3.939s] -- Configuring done
+[3.984s] -- Generating done
+[3.994s] -- Build files have been written to: /home/sheila/march/ros1/build/march_gain_scheduling
+[4.011s] Invoked command in '/home/sheila/march/ros1/build/march_gain_scheduling' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/control/march_gain_scheduling -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_gain_scheduling
+[4.013s] Invoking command in '/home/sheila/march/ros1/build/march_gain_scheduling': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gain_scheduling -- -j4 -l4
+[4.088s] Invoked command in '/home/sheila/march/ros1/build/march_gain_scheduling' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gain_scheduling -- -j4 -l4
+[4.181s] Invoking command in '/home/sheila/march/ros1/build/march_gain_scheduling': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gain_scheduling --target tests -- -j4 -l4
+[4.273s] [35m[1mScanning dependencies of target tests[0m
+[4.290s] Built target tests
+[4.310s] Invoked command in '/home/sheila/march/ros1/build/march_gain_scheduling' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gain_scheduling --target tests -- -j4 -l4
+[4.405s] Invoking command in '/home/sheila/march/ros1/build/march_gain_scheduling': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_gain_scheduling
+[4.422s] -- Install configuration: ""
+[4.424s] + cd /home/sheila/march/ros1/src/control/march_gain_scheduling
+[4.424s] + mkdir -p /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages
+[4.429s] + /usr/bin/env PYTHONPATH=/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/build/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/sheila/march/ros1/build/march_gain_scheduling /usr/bin/python3 /home/sheila/march/ros1/src/control/march_gain_scheduling/setup.py egg_info --egg-base /home/sheila/march/ros1/build/march_gain_scheduling build --build-base /home/sheila/march/ros1/build/march_gain_scheduling install --root=/ --install-layout=deb --prefix=/home/sheila/march/ros1/install/march_gain_scheduling --install-scripts=/home/sheila/march/ros1/install/march_gain_scheduling/bin
+[4.931s] running egg_info
+[4.932s] creating /home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info
+[4.933s] writing /home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/PKG-INFO
+[4.933s] writing dependency_links to /home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/dependency_links.txt
+[4.933s] writing top-level names to /home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/top_level.txt
+[4.937s] writing manifest file '/home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/SOURCES.txt'
+[5.007s] reading manifest file '/home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/SOURCES.txt'
+[5.009s] writing manifest file '/home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info/SOURCES.txt'
+[5.009s] running build
+[5.010s] running build_py
+[5.010s] creating /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.010s] copying src/march_gain_scheduling/__init__.py -> /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.010s] copying src/march_gain_scheduling/dynamic_pid_reconfigurer.py -> /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.011s] copying src/march_gain_scheduling/gain_scheduling_node.py -> /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.011s] copying src/march_gain_scheduling/one_step_linear_interpolation.py -> /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.011s] copying src/march_gain_scheduling/interpolation_errors.py -> /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling
+[5.011s] running build_scripts
+[5.011s] creating /home/sheila/march/ros1/build/march_gain_scheduling/scripts-3.8
+[5.012s] copying and adjusting scripts/march_gain_scheduling_node -> /home/sheila/march/ros1/build/march_gain_scheduling/scripts-3.8
+[5.012s] changing mode of /home/sheila/march/ros1/build/march_gain_scheduling/scripts-3.8/march_gain_scheduling_node from 664 to 775
+[5.012s] running install
+[5.014s] running install_lib
+[5.015s] creating /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.015s] copying /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling/__init__.py -> /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.016s] copying /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling/dynamic_pid_reconfigurer.py -> /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.016s] copying /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling/gain_scheduling_node.py -> /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.016s] copying /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling/one_step_linear_interpolation.py -> /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.016s] copying /home/sheila/march/ros1/build/march_gain_scheduling/lib/march_gain_scheduling/interpolation_errors.py -> /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling
+[5.017s] byte-compiling /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling/__init__.py to __init__.cpython-38.pyc
+[5.019s] byte-compiling /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling/dynamic_pid_reconfigurer.py to dynamic_pid_reconfigurer.cpython-38.pyc
+[5.021s] byte-compiling /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling/gain_scheduling_node.py to gain_scheduling_node.cpython-38.pyc
+[5.022s] byte-compiling /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling/one_step_linear_interpolation.py to one_step_linear_interpolation.cpython-38.pyc
+[5.023s] byte-compiling /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling/interpolation_errors.py to interpolation_errors.cpython-38.pyc
+[5.023s] running install_egg_info
+[5.026s] Copying /home/sheila/march/ros1/build/march_gain_scheduling/march_gain_scheduling.egg-info to /home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages/march_gain_scheduling-0.0.0.egg-info
+[5.026s] Skipping SOURCES.txt
+[5.027s] running install_scripts
+[5.059s] creating /home/sheila/march/ros1/install/march_gain_scheduling/bin
+[5.059s] copying /home/sheila/march/ros1/build/march_gain_scheduling/scripts-3.8/march_gain_scheduling_node -> /home/sheila/march/ros1/install/march_gain_scheduling/bin
+[5.059s] changing mode of /home/sheila/march/ros1/install/march_gain_scheduling/bin/march_gain_scheduling_node to 775
+[5.108s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig/march_gain_scheduling.pc
+[5.109s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/cmake/march_gain_schedulingConfig.cmake
+[5.110s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/cmake/march_gain_schedulingConfig-version.cmake
+[5.110s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/package.xml
+[5.111s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/lib/march_gain_scheduling/march_gain_scheduling_node
+[5.112s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config
+[5.112s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/test_joint_linear.yaml
+[5.113s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/test_joint_rotational.yaml
+[5.113s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/sjaan_gait.yaml
+[5.114s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/groundgait.yaml
+[5.115s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/launch
+[5.115s] -- Installing: /home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/launch/march_gain_scheduling.launch
+[5.122s] Invoked command in '/home/sheila/march/ros1/build/march_gain_scheduling' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_gain_scheduling

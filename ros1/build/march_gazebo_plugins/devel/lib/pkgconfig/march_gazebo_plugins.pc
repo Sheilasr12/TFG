@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_gazebo_plugins/devel
+
+Name: march_gazebo_plugins
+Description: Description of march_gazebo_plugins
+Version: 0.0.0
+Cflags: -I/home/sheila/march/ros1/src/simulation/march_gazebo_plugins/include
+Libs: -L${prefix}/lib -lmarch_gazebo_plugins -lcontact
+Requires: march_shared_msgs roscpp

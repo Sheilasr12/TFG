@@ -1,0 +1,69 @@
+[0.891s] Invoking command in '/home/sheila/march/ros2/src/shared/march_robot_information': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_robot_information build --build-base /home/sheila/march/ros2/build/march_robot_information/build install --prefix /home/sheila/march/ros2/install/march_robot_information --record /home/sheila/march/ros2/build/march_robot_information/install.log --single-version-externally-managed
+[1.338s] running egg_info
+[1.339s] creating ../../../build/march_robot_information/march_robot_information.egg-info
+[1.342s] writing ../../../build/march_robot_information/march_robot_information.egg-info/PKG-INFO
+[1.342s] writing dependency_links to ../../../build/march_robot_information/march_robot_information.egg-info/dependency_links.txt
+[1.342s] writing entry points to ../../../build/march_robot_information/march_robot_information.egg-info/entry_points.txt
+[1.343s] writing requirements to ../../../build/march_robot_information/march_robot_information.egg-info/requires.txt
+[1.343s] writing top-level names to ../../../build/march_robot_information/march_robot_information.egg-info/top_level.txt
+[1.347s] writing manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+[1.415s] reading manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+[1.417s] writing manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+[1.417s] running build
+[1.417s] running build_py
+[1.419s] creating /home/sheila/march/ros2/build/march_robot_information/build
+[1.419s] creating /home/sheila/march/ros2/build/march_robot_information/build/lib
+[1.419s] creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test
+[1.419s] copying test/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test
+[1.420s] creating /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+[1.420s] copying march_robot_information/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+[1.421s] copying march_robot_information/robot_information_node.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+[1.421s] creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+[1.421s] copying test/unittest/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+[1.422s] copying test/unittest/test_robot_information.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+[1.422s] creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+[1.422s] copying test/launch_test/robot_information_description_launch_test.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+[1.422s] copying test/launch_test/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+[1.422s] copying test/launch_test/robot_information_launch_test.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+[1.422s] running install
+[1.423s] running install_lib
+[1.425s] creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test
+[1.425s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test
+[1.428s] creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+[1.428s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+[1.428s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest/test_robot_information.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+[1.428s] creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+[1.428s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/robot_information_description_launch_test.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+[1.429s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+[1.429s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/robot_information_launch_test.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+[1.429s] creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+[1.430s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+[1.430s] copying /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information/robot_information_node.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+[1.431s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/__init__.py to __init__.cpython-38.pyc
+[1.439s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest/__init__.py to __init__.cpython-38.pyc
+[1.443s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest/test_robot_information.py to test_robot_information.cpython-38.pyc
+[1.443s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/robot_information_description_launch_test.py to robot_information_description_launch_test.cpython-38.pyc
+[1.443s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/__init__.py to __init__.cpython-38.pyc
+[1.443s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/robot_information_launch_test.py to robot_information_launch_test.cpython-38.pyc
+[1.444s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information/__init__.py to __init__.cpython-38.pyc
+[1.444s] byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information/robot_information_node.py to robot_information_node.cpython-38.pyc
+[1.444s] running install_data
+[1.444s] creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index
+[1.445s] creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index
+[1.445s] creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index/packages
+[1.445s] copying resource/march_robot_information -> /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index/packages
+[1.445s] copying package.xml -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information
+[1.446s] creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/launch
+[1.446s] copying launch/robot_information.launch.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/launch
+[1.446s] creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test
+[1.446s] creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+[1.447s] copying test/unittest/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+[1.447s] copying test/unittest/test_robot_information.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+[1.447s] creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/resource
+[1.447s] copying test/resource/march4.xacro -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/resource
+[1.448s] running install_egg_info
+[1.450s] Copying ../../../build/march_robot_information/march_robot_information.egg-info to /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information-0.0.0-py3.8.egg-info
+[1.450s] running install_scripts
+[1.480s] Installing march_robot_information script to /home/sheila/march/ros2/install/march_robot_information/lib/march_robot_information
+[1.481s] writing list of installed files to '/home/sheila/march/ros2/build/march_robot_information/install.log'
+[1.535s] Invoked command in '/home/sheila/march/ros2/src/shared/march_robot_information' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_robot_information build --build-base /home/sheila/march/ros2/build/march_robot_information/build install --prefix /home/sheila/march/ros2/install/march_robot_information --record /home/sheila/march/ros2/build/march_robot_information/install.log --single-version-externally-managed

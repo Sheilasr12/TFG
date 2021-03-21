@@ -1,0 +1,46 @@
+[0.317s] Invoking command in '/home/sheila/march/ros2/build/march_monitor': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sheila/march/ros2/src/visualization/march_monitor -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_monitor
+[0.383s] -- The C compiler identification is GNU 9.3.0
+[0.441s] -- The CXX compiler identification is GNU 9.3.0
+[0.447s] -- Check for working C compiler: /usr/bin/cc
+[0.577s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.577s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.671s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.675s] -- Check for working CXX compiler: /usr/bin/c++
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.793s] -- Detecting CXX compiler ABI info
+[0.891s] -- Detecting CXX compiler ABI info - done
+[0.903s] -- Detecting CXX compile features
+[0.904s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.944s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.944s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.268s] -- Configuring done
+[1.271s] -- Generating done
+[1.272s] -- Build files have been written to: /home/sheila/march/ros2/build/march_monitor
+[1.277s] Invoked command in '/home/sheila/march/ros2/build/march_monitor' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sheila/march/ros2/src/visualization/march_monitor -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_monitor
+[1.280s] Invoking command in '/home/sheila/march/ros2/build/march_monitor': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sheila/march/ros2/build/march_monitor -- -j4 -l4
+[1.371s] Invoked command in '/home/sheila/march/ros2/build/march_monitor' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sheila/march/ros2/build/march_monitor -- -j4 -l4
+[1.395s] Invoking command in '/home/sheila/march/ros2/build/march_monitor': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sheila/march/ros2/build/march_monitor
+[1.405s] -- Install configuration: ""
+[1.405s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/config
+[1.405s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/config/full_monitor.perspective
+[1.406s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/launch
+[1.406s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/launch/monitor.launch.py
+[1.406s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/package_run_dependencies/march_monitor
+[1.406s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/parent_prefix_path/march_monitor
+[1.406s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/ament_prefix_path.sh
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/ament_prefix_path.dsv
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/path.sh
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/environment/path.dsv
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.bash
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.sh
+[1.407s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.zsh
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/local_setup.dsv
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/package.dsv
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/ament_index/resource_index/packages/march_monitor
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/cmake/march_monitorConfig.cmake
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/cmake/march_monitorConfig-version.cmake
+[1.408s] -- Installing: /home/sheila/march/ros2/install/march_monitor/share/march_monitor/package.xml
+[1.411s] Invoked command in '/home/sheila/march/ros2/build/march_monitor' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_rqt_note_taker:/home/sheila/march/ros2/install/march_shared_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_shared_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sheila/march/ros2/build/march_monitor

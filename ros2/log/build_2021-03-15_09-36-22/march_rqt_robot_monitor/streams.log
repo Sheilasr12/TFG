@@ -1,0 +1,61 @@
+[0.625s] Invoking command in '/home/sheila/march/ros2/src/visualization/march_rqt_robot_monitor': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:/home/sheila/march/ros2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:/home/sheila/march/ros2/install/diagnostic_updater LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_utility/lib:/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_rqt_robot_monitor build --build-base /home/sheila/march/ros2/build/march_rqt_robot_monitor/build install --prefix /home/sheila/march/ros2/install/march_rqt_robot_monitor --record /home/sheila/march/ros2/build/march_rqt_robot_monitor/install.log --single-version-externally-managed
+[1.045s] running egg_info
+[1.046s] creating ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info
+[1.046s] writing ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/PKG-INFO
+[1.046s] writing dependency_links to ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/dependency_links.txt
+[1.048s] writing entry points to ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/entry_points.txt
+[1.048s] writing requirements to ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/requires.txt
+[1.048s] writing top-level names to ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/top_level.txt
+[1.049s] writing manifest file '../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/SOURCES.txt'
+[1.118s] reading manifest file '../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/SOURCES.txt'
+[1.119s] writing manifest file '../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info/SOURCES.txt'
+[1.125s] running build
+[1.126s] running build_py
+[1.126s] creating /home/sheila/march/ros2/build/march_rqt_robot_monitor/build
+[1.127s] creating /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib
+[1.127s] creating /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor
+[1.127s] copying march_rqt_robot_monitor/updater.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor
+[1.127s] copying march_rqt_robot_monitor/__init__.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor
+[1.127s] creating /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.128s] copying march_rqt_robot_monitor/diagnostic_analyzers/temperature.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.128s] copying march_rqt_robot_monitor/diagnostic_analyzers/__init__.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.128s] copying march_rqt_robot_monitor/diagnostic_analyzers/control.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.128s] copying march_rqt_robot_monitor/diagnostic_analyzers/gait_state.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.128s] copying march_rqt_robot_monitor/diagnostic_analyzers/imc_state.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.129s] copying march_rqt_robot_monitor/diagnostic_analyzers/check_input_device.py -> /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers
+[1.129s] running install
+[1.129s] running install_lib
+[1.130s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor
+[1.130s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/updater.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor
+[1.130s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/__init__.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor
+[1.130s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.130s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/temperature.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.130s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/__init__.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.133s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/control.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.133s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/gait_state.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.133s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/imc_state.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.134s] copying /home/sheila/march/ros2/build/march_rqt_robot_monitor/build/lib/march_rqt_robot_monitor/diagnostic_analyzers/check_input_device.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers
+[1.134s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/updater.py to updater.cpython-38.pyc
+[1.135s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/__init__.py to __init__.cpython-38.pyc
+[1.135s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/temperature.py to temperature.cpython-38.pyc
+[1.140s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/__init__.py to __init__.cpython-38.pyc
+[1.141s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/control.py to control.cpython-38.pyc
+[1.146s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/gait_state.py to gait_state.cpython-38.pyc
+[1.147s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/imc_state.py to imc_state.cpython-38.pyc
+[1.150s] byte-compiling /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor/diagnostic_analyzers/check_input_device.py to check_input_device.cpython-38.pyc
+[1.156s] running install_data
+[1.158s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/ament_index
+[1.158s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/ament_index/resource_index
+[1.158s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/ament_index/resource_index/packages
+[1.159s] copying resource/march_rqt_robot_monitor -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/ament_index/resource_index/packages
+[1.159s] copying package.xml -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/march_rqt_robot_monitor
+[1.160s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/march_rqt_robot_monitor/launch
+[1.160s] copying launch/march_rqt_robot_monitor.launch.py -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/march_rqt_robot_monitor/launch
+[1.161s] creating /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/march_rqt_robot_monitor/config
+[1.161s] copying config/analyzers.yaml -> /home/sheila/march/ros2/install/march_rqt_robot_monitor/share/march_rqt_robot_monitor/config
+[1.161s] running install_egg_info
+[1.172s] Copying ../../../build/march_rqt_robot_monitor/march_rqt_robot_monitor.egg-info to /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages/march_rqt_robot_monitor-0.0.0-py3.8.egg-info
+[1.175s] running install_scripts
+[1.183s] Installing march_rqt_robot_monitor_node script to /home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/march_rqt_robot_monitor
+[1.184s] writing list of installed files to '/home/sheila/march/ros2/build/march_rqt_robot_monitor/install.log'
+[1.240s] Invoked command in '/home/sheila/march/ros2/src/visualization/march_rqt_robot_monitor' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:/home/sheila/march/ros2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:/home/sheila/march/ros2/install/diagnostic_updater LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_utility/lib:/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_rqt_robot_monitor/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:/home/sheila/march/ros2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_rqt_robot_monitor build --build-base /home/sheila/march/ros2/build/march_rqt_robot_monitor/build install --prefix /home/sheila/march/ros2/install/march_rqt_robot_monitor --record /home/sheila/march/ros2/build/march_rqt_robot_monitor/install.log --single-version-externally-managed

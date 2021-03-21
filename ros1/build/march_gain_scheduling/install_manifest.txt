@@ -1,0 +1,10 @@
+/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig/march_gain_scheduling.pc
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/cmake/march_gain_schedulingConfig.cmake
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/cmake/march_gain_schedulingConfig-version.cmake
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/package.xml
+/home/sheila/march/ros1/install/march_gain_scheduling/lib/march_gain_scheduling/march_gain_scheduling_node
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/test_joint_linear.yaml
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/test_joint_rotational.yaml
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/sjaan_gait.yaml
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/config/groundgait.yaml
+/home/sheila/march/ros1/install/march_gain_scheduling/share/march_gain_scheduling/launch/march_gain_scheduling.launch

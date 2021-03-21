@@ -1,0 +1,5 @@
+/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig/march_bridge_parameters.pc
+/home/sheila/march/ros1/install/march_bridge_parameters/share/march_bridge_parameters/cmake/march_bridge_parametersConfig.cmake
+/home/sheila/march/ros1/install/march_bridge_parameters/share/march_bridge_parameters/cmake/march_bridge_parametersConfig-version.cmake
+/home/sheila/march/ros1/install/march_bridge_parameters/share/march_bridge_parameters/package.xml
+/home/sheila/march/ros1/install/march_bridge_parameters/share/march_bridge_parameters/config/topics_services_to_bridge.yaml

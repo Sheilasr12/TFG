@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarch_robot_state_publisher.a  CMakeFiles/march_robot_state_publisher.dir/src/robot_state_publisher.cpp.o
+/usr/bin/ranlib libmarch_robot_state_publisher.a

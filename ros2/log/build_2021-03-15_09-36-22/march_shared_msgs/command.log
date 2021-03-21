@@ -1,0 +1,6 @@
+Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/shared/march_shared_msgs -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_shared_msgs
+Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/shared/march_shared_msgs -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_shared_msgs
+Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_shared_msgs -- -j4 -l4
+Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_shared_msgs -- -j4 -l4
+Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_shared_msgs
+Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_shared_msgs

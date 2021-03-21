@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_shared_classes
+
+Name: march_shared_classes
+Description: Description of march_shared_classes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: march_shared_msgs

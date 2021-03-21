@@ -1,0 +1,7 @@
+set(march_shared_classes_SETUP_PY_SETUP_MODULE "setuptools")
+set(march_shared_classes_SETUP_PY_VERSION "0.0.0")
+set(march_shared_classes_SETUP_PY_SCRIPTS "")
+set(march_shared_classes_SETUP_PY_PACKAGES "march_shared_classes")
+set(march_shared_classes_SETUP_PY_PACKAGE_DIRS "src/march_shared_classes")
+set(march_shared_classes_SETUP_PY_MODULES "")
+set(march_shared_classes_SETUP_PY_MODULE_DIRS "")

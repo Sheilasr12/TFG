@@ -1,0 +1,54 @@
+running egg_info
+creating ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info
+writing ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/PKG-INFO
+writing dependency_links to ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/dependency_links.txt
+writing entry points to ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/entry_points.txt
+writing requirements to ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/requires.txt
+writing top-level names to ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/top_level.txt
+writing manifest file '../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/SOURCES.txt'
+reading manifest file '../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/SOURCES.txt'
+writing manifest file '../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sheila/march/ros2/build/march_rqt_note_taker/build
+creating /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib
+creating /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/entry_model.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/notes_plugin.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/__init__.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/entry.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/notes_widget.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+copying march_rqt_note_taker/filter_map.py -> /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker
+running install
+running install_lib
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/entry_model.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/notes_plugin.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/__init__.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/entry.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/notes_widget.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+copying /home/sheila/march/ros2/build/march_rqt_note_taker/build/lib/march_rqt_note_taker/filter_map.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/entry_model.py to entry_model.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/notes_plugin.py to notes_plugin.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/entry.py to entry.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/notes_widget.py to notes_widget.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker/filter_map.py to filter_map.cpython-38.pyc
+running install_data
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/ament_index
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/ament_index/resource_index
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/ament_index/resource_index/packages
+copying resource/march_rqt_note_taker -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/ament_index/resource_index/packages
+copying package.xml -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker/launch
+copying launch/note_taker.launch.py -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker/launch
+copying plugin.xml -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker
+copying resource/note_taker.ui -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker/resource
+creating /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker/resource/img
+copying resource/img/march-walking.png -> /home/sheila/march/ros2/install/march_rqt_note_taker/share/march_rqt_note_taker/resource/img
+running install_egg_info
+Copying ../../../build/march_rqt_note_taker/march_rqt_note_taker.egg-info to /home/sheila/march/ros2/install/march_rqt_note_taker/lib/python3.8/site-packages/march_rqt_note_taker-0.0.0-py3.8.egg-info
+running install_scripts
+Installing note_taker script to /home/sheila/march/ros2/install/march_rqt_note_taker/lib/march_rqt_note_taker
+writing list of installed files to '/home/sheila/march/ros2/build/march_rqt_note_taker/install.log'

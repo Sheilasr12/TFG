@@ -1,0 +1,7 @@
+/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig/march_pdb_state_controller.pc
+/home/sheila/march/ros1/install/march_pdb_state_controller/share/march_pdb_state_controller/cmake/march_pdb_state_controllerConfig.cmake
+/home/sheila/march/ros1/install/march_pdb_state_controller/share/march_pdb_state_controller/cmake/march_pdb_state_controllerConfig-version.cmake
+/home/sheila/march/ros1/install/march_pdb_state_controller/share/march_pdb_state_controller/package.xml
+/home/sheila/march/ros1/install/march_pdb_state_controller/include/march_pdb_state_controller/march_pdb_state_controller.h
+/home/sheila/march/ros1/install/march_pdb_state_controller/lib/libmarch_pdb_state_controller.so
+/home/sheila/march/ros1/install/march_pdb_state_controller/share/march_pdb_state_controller/march_pdb_state_plugin.xml

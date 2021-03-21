@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_data_collector
+
+Name: march_data_collector
+Description: Description of march_data_collector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: control_msgs geometry_msgs march_shared_msgs sensor_msgs std_msgs tf2_geometry_msgs visualization_msgs

@@ -1,0 +1,120 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_description/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_description/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- xacro: determining deps for: ../../../../ros2/src/shared/march_description/urdf/march3.xacro ...
+-- xacro: determining deps for: ../../../../ros2/src/shared/march_description/urdf/march4.xacro ...
+-- xacro: determining deps for: ../../../../ros2/src/shared/march_description/urdf/march4_with_koen_lengths.xacro ...
+-- xacro: determining deps for: ../../../../ros2/src/shared/march_description/urdf/test_joint_rotational.xacro ...
+-- xacro: determining deps for: ../../../../ros2/src/shared/march_description/urdf/test_joint_linear.xacro ...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_description
+[35m[1mScanning dependencies of target march_description_test_joint_linear_xacro[0m
+[35m[1mScanning dependencies of target march_description_march4_with_koen_lengths_xacro_to_devel_space_[0m
+[35m[1mScanning dependencies of target march_description_test_joint_rotational_xacro_to_devel_space_[0m
+[  5%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/test_joint_linear.urdf from ../../../../ros2/src/shared/march_description/urdf/test_joint_linear.xacro[0m
+[35m[1mScanning dependencies of target march_description_march3_xacro_to_devel_space_[0m
+[ 10%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/march4_with_koen_lengths.urdf from ../../../../ros2/src/shared/march_description/urdf/march4_with_koen_lengths.xacro[0m
+[ 15%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/march3.urdf from ../../../../ros2/src/shared/march_description/urdf/march3.xacro[0m
+[ 20%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/test_joint_rotational.urdf from ../../../../ros2/src/shared/march_description/urdf/test_joint_rotational.xacro[0m
+
+[ 20%] Built target march_description_test_joint_linear_xacro
+
+[ 25%] [34m[1mcreating dir /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf[0m
+[ 30%] [34m[1mcreating dir /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf[0m
+[35m[1mScanning dependencies of target march_description_test_joint_linear_xacro_to_devel_space_[0m
+[ 35%] [34m[1mCopying to devel space: /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf/test_joint_rotational.urdf[0m
+
+[ 40%] [34m[1mCopying to devel space: /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf/test_joint_linear.urdf[0m
+[ 40%] Built target march_description_test_joint_rotational_xacro_to_devel_space_
+[ 45%] [34m[1mCopying to devel space: /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf/march3.urdf[0m
+[35m[1mScanning dependencies of target march_description_march4_xacro_to_devel_space_[0m
+[ 55%] Built target march_description_test_joint_linear_xacro_to_devel_space_
+[35m[1mScanning dependencies of target march_description_test_joint_rotational_xacro[0m
+[ 55%] Built target march_description_march3_xacro_to_devel_space_
+[ 60%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/march4.urdf from ../../../../ros2/src/shared/march_description/urdf/march4.xacro[0m
+[ 65%] Built target march_description_test_joint_rotational_xacro
+[ 70%] [34m[1mcreating dir /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf[0m
+[35m[1mScanning dependencies of target march_description_march4_with_koen_lengths_xacro[0m
+[ 75%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/march4_with_koen_lengths.urdf from ../../../../ros2/src/shared/march_description/urdf/march4_with_koen_lengths.xacro[0m
+[35m[1mScanning dependencies of target march_description_march3_xacro[0m
+
+[ 80%] Built target march_description_march3_xacro
+[35m[1mScanning dependencies of target march_description_march4_xacro[0m
+[ 85%] [34m[1mCopying to devel space: /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf/march4_with_koen_lengths.urdf[0m
+[ 90%] [34m[1mxacro: generating /home/sheila/march/ros1/build/march_description/march4.urdf from ../../../../ros2/src/shared/march_description/urdf/march4.xacro[0m
+[ 90%] Built target march_description_march4_with_koen_lengths_xacro_to_devel_space_
+
+[ 95%] [34m[1mCopying to devel space: /home/sheila/march/ros1/build/march_description/devel/share/march_description/urdf/march4.urdf[0m
+[100%] Built target march_description_march4_xacro_to_devel_space_
+
+[35m[1mScanning dependencies of target march_description_xacro_generated_to_devel_space_[0m
+[100%] Built target march_description_march4_with_koen_lengths_xacro
+[100%] Built target march_description_xacro_generated_to_devel_space_
+
+[100%] Built target march_description_march4_xacro
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_description/lib/pkgconfig/march_description.pc
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/cmake/march_description-extras.cmake
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/cmake/march_descriptionConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/cmake/march_descriptionConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march3.urdf
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march4.urdf
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march4_with_koen_lengths.urdf
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/test_joint_rotational.urdf
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/test_joint_linear.urdf
+-- Up-to-date: /home/sheila/march/ros1/install/march_description/share/march_description/urdf
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march3.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/HipBase.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/LowerRightLeg.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/RightHAA.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/LeftFoot.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/UpperLeftLeg.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/LeftHAA.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/LowerLeftLeg.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/UpperRightLeg.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/stl-files/RightFoot.stl
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march4_with_koen_lengths.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/test_joint_rotational_mpc.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/camera
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/camera/_d435.dae
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/camera/_d435.gazebo.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/camera/_d435.urdf.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/test_joint_linear.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march.gazebo
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/test_joint_rotational.xacro
+-- Installing: /home/sheila/march/ros1/install/march_description/share/march_description/urdf/march4.xacro

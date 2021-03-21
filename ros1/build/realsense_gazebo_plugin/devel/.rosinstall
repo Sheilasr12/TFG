@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sheila/march/ros1/build/realsense_gazebo_plugin/devel/setup.sh

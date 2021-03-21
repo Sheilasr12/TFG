@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_gazebo_plugins
+
+Name: march_gazebo_plugins
+Description: Description of march_gazebo_plugins
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmarch_gazebo_plugins -lcontact
+Requires: march_shared_msgs roscpp

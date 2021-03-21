@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_bridge_parameters/devel
+
+Name: march_bridge_parameters
+Description: Description of march_bridge_parameters
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

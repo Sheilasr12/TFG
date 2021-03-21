@@ -1,0 +1,11 @@
+source;share/march_utility/hook/cmake_prefix_path.ps1
+source;share/march_utility/hook/cmake_prefix_path.dsv
+source;share/march_utility/hook/cmake_prefix_path.sh
+source;share/march_utility/hook/pythonpath.ps1
+source;share/march_utility/hook/pythonpath.dsv
+source;share/march_utility/hook/pythonpath.sh
+source;share/march_utility/local_setup.bash
+source;share/march_utility/local_setup.dsv
+source;share/march_utility/local_setup.ps1
+source;share/march_utility/local_setup.sh
+source;share/march_utility/local_setup.zsh

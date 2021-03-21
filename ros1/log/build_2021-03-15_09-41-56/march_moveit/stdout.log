@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_moveit/devel
+-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- This workspace overlays: /home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_moveit/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_moveit
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_moveit/lib/pkgconfig/march_moveit.pc
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/cmake/march_moveitConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/cmake/march_moveitConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/demo_gazebo.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/warehouse_settings.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/joystick_control.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/move_group.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/fake_moveit_controller_manager.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/moveit.rviz
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/trajectory_execution.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/chomp_planning_pipeline.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/warehouse.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/ompl_planning_pipeline.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/demo.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/sensor_manager.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/march_moveit.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/run_benchmark_ompl.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/planning_pipeline.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/march_moveit_sensor_manager.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/march_moveit_controller_manager.launch.xml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/planning_context.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/ros_controllers.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/default_warehouse_db.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/gazebo.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/launch/moveit_rviz.launch
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/fake_controllers.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/sensors_3d.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/kinematics.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/chomp_planning.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/ros_controllers.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/joint_limits.yaml
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/march.srdf
+-- Installing: /home/sheila/march/ros1/install/march_moveit/share/march_moveit/config/ompl_planning.yaml

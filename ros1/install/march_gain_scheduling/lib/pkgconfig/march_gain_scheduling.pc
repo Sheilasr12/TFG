@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_gain_scheduling
+
+Name: march_gain_scheduling
+Description: Description of march_gain_scheduling
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: march_shared_msgs std_msgs

@@ -1,0 +1,7 @@
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h
+/home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h

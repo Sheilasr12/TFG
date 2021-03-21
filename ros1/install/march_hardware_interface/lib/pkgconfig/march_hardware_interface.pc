@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_hardware_interface
+
+Name: march_hardware_interface
+Description: Description of march_hardware_interface
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: controller_manager joint_limits_interface march_description march_hardware march_hardware_builder march_shared_msgs realtime_tools roscpp std_msgs urdf

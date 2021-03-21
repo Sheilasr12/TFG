@@ -1,0 +1,1213 @@
+[0.048s] Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/shared/march_shared_msgs -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_shared_msgs
+[0.399s] -- The C compiler identification is GNU 9.3.0
+[0.657s] -- The CXX compiler identification is GNU 9.3.0
+[0.665s] -- Check for working C compiler: /usr/bin/cc
+[0.790s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.821s] -- Detecting C compiler ABI info
+[0.943s] -- Detecting C compiler ABI info - done
+[0.998s] -- Detecting C compile features
+[1.000s] -- Detecting C compile features - done
+[1.005s] -- Check for working CXX compiler: /usr/bin/c++
+[1.145s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.147s] -- Detecting CXX compiler ABI info
+[1.297s] -- Detecting CXX compiler ABI info - done
+[1.319s] -- Detecting CXX compile features
+[1.320s] -- Detecting CXX compile features - done
+[1.363s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.413s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.413s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.818s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.841s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.227s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.493s] -- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.519s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.594s] -- Found rosgraph_msgs: 1.0.0 (/opt/ros/foxy/share/rosgraph_msgs/cmake)
+[2.642s] -- Found trajectory_msgs: 2.0.3 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[2.791s] -- Found control_msgs: 2.5.0 (/opt/ros/foxy/share/control_msgs/cmake)
+[3.388s] -- Found actionlib_msgs: 2.0.3 (/opt/ros/foxy/share/actionlib_msgs/cmake)
+[3.463s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.616s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[4.387s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.521s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[5.523s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.622s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[5.633s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.633s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.634s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.723s] -- Found PythonExtra: .so  
+[6.409s] -- Configuring done
+[7.283s] -- Generating done
+[7.290s] -- Build files have been written to: /home/sheila/march/ros2/build/march_shared_msgs
+[7.339s] Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/shared/march_shared_msgs -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/march_shared_msgs
+[7.344s] Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_shared_msgs -- -j4 -l4
+[7.628s] [35m[1mScanning dependencies of target march_shared_msgs__cpp[0m
+[7.640s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.706s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.853s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_generator_c[0m
+[17.012s] [  1%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/after_limit_joint_command__functions.c.o[0m
+[17.065s] [  1%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/alive__functions.c.o[0m
+[17.177s] [  1%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/current_gait__functions.c.o[0m
+[17.277s] [  2%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/current_state__functions.c.o[0m
+[17.347s] [  2%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/error__functions.c.o[0m
+[17.419s] [  2%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__functions.c.o[0m
+[17.506s] [  3%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__functions.c.o[0m
+[17.562s] [  3%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/follow_joint_trajectory_result__functions.c.o[0m
+[17.657s] [  3%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__functions.c.o[0m
+[17.742s] [  4%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/gait_instruction__functions.c.o[0m
+[17.803s] [  4%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/gait_instruction_response__functions.c.o[0m
+[17.846s] [  4%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/high_voltage_net__functions.c.o[0m
+[17.946s] [  5%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/imc_state__functions.c.o[0m
+[18.001s] [  5%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/low_voltage_net__functions.c.o[0m
+[18.105s] [  5%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/power_distribution_board_state__functions.c.o[0m
+[18.148s] [  6%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/pressure_sole__functions.c.o[0m
+[18.179s] [  6%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/pressure_sole_data__functions.c.o[0m
+[18.287s] [  6%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/msg/detail/pressure_soles_data__functions.c.o[0m
+[18.363s] [  6%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/capture_point_pose__functions.c.o[0m
+[18.401s] [  7%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/contains_gait__functions.c.o[0m
+[18.486s] [  7%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/possible_gaits__functions.c.o[0m
+[18.611s] [  7%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_gait_version__functions.c.o[0m
+[18.649s] [  8%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__functions.c.o[0m
+[18.753s] [  8%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_obstacle_size_block_like__functions.c.o[0m
+[18.785s] [  8%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_move_it_trajectory__functions.c.o[0m
+[18.903s] [  9%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_param_string_list__functions.c.o[0m
+[19.002s] [  9%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_param_string__functions.c.o[0m
+[19.022s] [  9%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_param_bool__functions.c.o[0m
+[19.149s] [ 10%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_param_int__functions.c.o[0m
+[19.222s] [ 10%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_param_float__functions.c.o[0m
+[19.241s] [ 10%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_param_string_list__functions.c.o[0m
+[19.337s] [ 11%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_param_string__functions.c.o[0m
+[19.409s] [ 11%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_param_bool__functions.c.o[0m
+[19.415s] [ 11%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_param_int__functions.c.o[0m
+[19.519s] [ 12%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/set_param_float__functions.c.o[0m
+[19.596s] [ 12%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_generator_c.dir/rosidl_generator_c/march_shared_msgs/srv/detail/get_joint_names__functions.c.o[0m
+[19.797s] [ 12%] [32m[1mLinking C shared library libmarch_shared_msgs__rosidl_generator_c.so[0m
+[20.095s] [ 12%] Built target march_shared_msgs__rosidl_generator_c
+[20.169s] [ 13%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.209s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.673s] [ 14%] Built target march_shared_msgs__cpp
+[20.754s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.761s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[29.024s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_c[0m
+[29.213s] [ 15%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/after_limit_joint_command__type_support.cpp.o[0m
+[29.347s] [ 15%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/alive__type_support.cpp.o[0m
+[29.489s] [ 16%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/current_gait__type_support.cpp.o[0m
+[29.669s] [ 16%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/current_state__type_support.cpp.o[0m
+[29.715s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_cpp[0m
+[29.825s] [ 16%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/error__type_support.cpp.o[0m
+[29.886s] [ 17%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/after_limit_joint_command__type_support.cpp.o[0m
+[30.022s] [ 18%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/follow_joint_trajectory_goal__type_support.cpp.o[0m
+[30.218s] [ 18%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/follow_joint_trajectory_action_goal__type_support.cpp.o[0m
+[30.435s] [ 18%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/follow_joint_trajectory_result__type_support.cpp.o[0m
+[30.602s] [ 18%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/follow_joint_trajectory_action_result__type_support.cpp.o[0m
+[30.757s] [ 19%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/gait_instruction__type_support.cpp.o[0m
+[30.808s] [ 19%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/alive__type_support.cpp.o[0m
+[30.910s] [ 19%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/gait_instruction_response__type_support.cpp.o[0m
+[31.060s] [ 19%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/high_voltage_net__type_support.cpp.o[0m
+[31.245s] [ 20%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/imc_state__type_support.cpp.o[0m
+[31.438s] [ 20%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/low_voltage_net__type_support.cpp.o[0m
+[31.621s] [ 20%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/power_distribution_board_state__type_support.cpp.o[0m
+[31.794s] [ 20%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/current_gait__type_support.cpp.o[0m
+[31.823s] [ 21%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/pressure_sole__type_support.cpp.o[0m
+[31.903s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_introspection_c[0m
+[32.022s] [ 21%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/pressure_sole_data__type_support.cpp.o[0m
+[32.141s] [ 21%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/after_limit_joint_command__type_support.c.o[0m
+[32.184s] [ 21%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/msg/pressure_soles_data__type_support.cpp.o[0m
+[32.311s] [ 21%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/alive__type_support.c.o[0m
+[32.345s] [ 22%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/capture_point_pose__type_support.cpp.o[0m
+[32.502s] [ 22%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/contains_gait__type_support.cpp.o[0m
+[32.510s] [ 23%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/current_gait__type_support.c.o[0m
+[32.694s] [ 23%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/possible_gaits__type_support.cpp.o[0m
+[32.705s] [ 23%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/current_state__type_support.c.o[0m
+[32.809s] [ 24%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_gait_version__type_support.cpp.o[0m
+[32.811s] [ 25%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/current_state__type_support.cpp.o[0m
+[32.882s] [ 25%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/error__type_support.c.o[0m
+[32.943s] [ 25%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_obstacle_size_ramp_like__type_support.cpp.o[0m
+[32.985s] [ 26%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support.c.o[0m
+[33.084s] [ 26%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_obstacle_size_block_like__type_support.cpp.o[0m
+[33.115s] [ 26%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support.c.o[0m
+[33.272s] [ 27%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_move_it_trajectory__type_support.cpp.o[0m
+[33.293s] [ 27%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support.c.o[0m
+[33.474s] [ 27%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_param_string_list__type_support.cpp.o[0m
+[33.505s] [ 28%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support.c.o[0m
+[33.649s] [ 28%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/error__type_support.cpp.o[0m
+[33.660s] [ 28%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_param_string__type_support.cpp.o[0m
+[33.674s] [ 28%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/gait_instruction__type_support.c.o[0m
+[33.797s] [ 29%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_param_bool__type_support.cpp.o[0m
+[33.850s] [ 29%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/gait_instruction_response__type_support.c.o[0m
+[33.972s] [ 29%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_param_int__type_support.cpp.o[0m
+[33.988s] [ 30%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/high_voltage_net__type_support.c.o[0m
+[34.136s] [ 30%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/imc_state__type_support.c.o[0m
+[34.138s] [ 30%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_param_float__type_support.cpp.o[0m
+[34.154s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[34.254s] [ 30%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/low_voltage_net__type_support.c.o[0m
+[34.271s] [ 31%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_param_string_list__type_support.cpp.o[0m
+[34.328s] [ 31%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/follow_joint_trajectory_goal__type_support.cpp.o[0m
+[34.342s] [ 32%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/power_distribution_board_state__type_support.c.o[0m
+[34.377s] [ 32%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/after_limit_joint_command__type_support.cpp.o[0m
+[34.412s] [ 32%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_param_string__type_support.cpp.o[0m
+[34.469s] [ 32%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/pressure_sole__type_support.c.o[0m
+[34.531s] [ 32%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_param_bool__type_support.cpp.o[0m
+[34.551s] [ 32%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/pressure_sole_data__type_support.c.o[0m
+[34.610s] [ 33%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_param_int__type_support.cpp.o[0m
+[34.681s] [ 34%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/msg/detail/pressure_soles_data__type_support.c.o[0m
+[34.813s] [ 34%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/set_param_float__type_support.cpp.o[0m
+[34.866s] [ 34%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/capture_point_pose__type_support.c.o[0m
+[34.954s] [ 34%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/march_shared_msgs/srv/get_joint_names__type_support.cpp.o[0m
+[35.009s] [ 34%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/contains_gait__type_support.c.o[0m
+[35.036s] [ 34%] [32m[1mLinking CXX shared library libmarch_shared_msgs__rosidl_typesupport_c.so[0m
+[35.174s] [ 34%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/possible_gaits__type_support.c.o[0m
+[35.302s] [ 34%] Built target march_shared_msgs__rosidl_typesupport_c
+[35.341s] [ 35%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/follow_joint_trajectory_action_goal__type_support.cpp.o[0m
+[35.342s] [ 35%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support.c.o[0m
+[35.352s] [ 36%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_gait_version__type_support.c.o[0m
+[35.473s] [ 36%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support.c.o[0m
+[35.565s] [ 37%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support.c.o[0m
+[35.669s] [ 37%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/alive__type_support.cpp.o[0m
+[35.670s] [ 37%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_param_string_list__type_support.c.o[0m
+[35.685s] [ 37%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_param_string__type_support.c.o[0m
+[35.837s] [ 38%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_param_bool__type_support.c.o[0m
+[35.853s] [ 38%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/current_gait__type_support.cpp.o[0m
+[36.022s] [ 38%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_param_int__type_support.c.o[0m
+[36.207s] [ 38%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/follow_joint_trajectory_result__type_support.cpp.o[0m
+[36.218s] [ 38%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_param_float__type_support.c.o[0m
+[36.390s] [ 39%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_param_string_list__type_support.c.o[0m
+[36.598s] [ 39%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_param_string__type_support.c.o[0m
+[36.790s] [ 39%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_param_bool__type_support.c.o[0m
+[36.849s] [ 39%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/follow_joint_trajectory_action_result__type_support.cpp.o[0m
+[36.916s] [ 40%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_param_int__type_support.c.o[0m
+[37.072s] [ 40%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/set_param_float__type_support.c.o[0m
+[37.075s] [ 41%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/current_state__type_support.cpp.o[0m
+[37.138s] [ 41%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/error__type_support.cpp.o[0m
+[37.154s] [ 41%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/march_shared_msgs/srv/detail/get_joint_names__type_support.c.o[0m
+[37.294s] [ 42%] [32m[1mLinking C shared library libmarch_shared_msgs__rosidl_typesupport_introspection_c.so[0m
+[37.453s] [ 43%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/gait_instruction__type_support.cpp.o[0m
+[37.462s] [ 43%] Built target march_shared_msgs__rosidl_typesupport_introspection_c
+[37.525s] [ 44%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[37.955s] [ 44%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/follow_joint_trajectory_goal__type_support.cpp.o[0m
+[38.133s] [ 45%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/follow_joint_trajectory_action_goal__type_support.cpp.o[0m
+[38.155s] [ 45%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/gait_instruction_response__type_support.cpp.o[0m
+[38.914s] [ 45%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/high_voltage_net__type_support.cpp.o[0m
+[39.254s] [ 45%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/follow_joint_trajectory_result__type_support.cpp.o[0m
+[39.380s] [ 45%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/follow_joint_trajectory_action_result__type_support.cpp.o[0m
+[39.678s] [ 46%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/imc_state__type_support.cpp.o[0m
+[40.228s] [ 46%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/low_voltage_net__type_support.cpp.o[0m
+[40.431s] [ 46%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/power_distribution_board_state__type_support.cpp.o[0m
+[40.447s] [ 47%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/gait_instruction__type_support.cpp.o[0m
+[40.777s] [ 48%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/pressure_sole__type_support.cpp.o[0m
+[41.271s] [ 48%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/gait_instruction_response__type_support.cpp.o[0m
+[41.377s] [ 48%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/pressure_sole_data__type_support.cpp.o[0m
+[41.455s] [ 48%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/msg/pressure_soles_data__type_support.cpp.o[0m
+[41.989s] [ 48%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/high_voltage_net__type_support.cpp.o[0m
+[42.096s] [ 49%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/capture_point_pose__type_support.cpp.o[0m
+[42.208s] [ 50%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/imc_state__type_support.cpp.o[0m
+[42.766s] [ 50%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/contains_gait__type_support.cpp.o[0m
+[42.915s] [ 50%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/low_voltage_net__type_support.cpp.o[0m
+[43.344s] [ 50%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/possible_gaits__type_support.cpp.o[0m
+[43.498s] [ 50%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/power_distribution_board_state__type_support.cpp.o[0m
+[43.716s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_introspection_cpp[0m
+[43.844s] [ 51%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/pressure_sole__type_support.cpp.o[0m
+[43.916s] [ 51%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/after_limit_joint_command__type_support.cpp.o[0m
+[43.997s] [ 52%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_gait_version__type_support.cpp.o[0m
+[44.805s] [ 52%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/alive__type_support.cpp.o[0m
+[44.904s] [ 52%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_obstacle_size_ramp_like__type_support.cpp.o[0m
+[44.914s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/current_gait__type_support.cpp.o[0m
+[44.924s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/pressure_sole_data__type_support.cpp.o[0m
+[45.566s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/msg/detail/dds_fastrtps/pressure_soles_data__type_support.cpp.o[0m
+[45.721s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/current_state__type_support.cpp.o[0m
+[45.764s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_obstacle_size_block_like__type_support.cpp.o[0m
+[45.986s] [ 53%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_move_it_trajectory__type_support.cpp.o[0m
+[46.366s] [ 54%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_param_string_list__type_support.cpp.o[0m
+[46.387s] [ 54%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/error__type_support.cpp.o[0m
+[46.508s] [ 55%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/capture_point_pose__type_support.cpp.o[0m
+[46.550s] [ 55%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_param_string__type_support.cpp.o[0m
+[46.964s] [ 56%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_param_bool__type_support.cpp.o[0m
+[46.964s] [ 56%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support.cpp.o[0m
+[47.134s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_param_int__type_support.cpp.o[0m
+[47.337s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/contains_gait__type_support.cpp.o[0m
+[47.538s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_param_float__type_support.cpp.o[0m
+[47.698s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/possible_gaits__type_support.cpp.o[0m
+[47.713s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support.cpp.o[0m
+[48.114s] [ 57%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_param_string_list__type_support.cpp.o[0m
+[48.268s] [ 58%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_gait_version__type_support.cpp.o[0m
+[48.399s] [ 58%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support.cpp.o[0m
+[48.626s] [ 58%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_obstacle_size_ramp_like__type_support.cpp.o[0m
+[48.647s] [ 59%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_param_string__type_support.cpp.o[0m
+[48.990s] [ 59%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support.cpp.o[0m
+[49.208s] [ 59%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_param_bool__type_support.cpp.o[0m
+[49.209s] [ 59%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_param_int__type_support.cpp.o[0m
+[49.484s] [ 59%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_obstacle_size_block_like__type_support.cpp.o[0m
+[49.552s] [ 60%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/gait_instruction__type_support.cpp.o[0m
+[49.763s] [ 61%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/set_param_float__type_support.cpp.o[0m
+[49.777s] [ 61%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/march_shared_msgs/srv/get_joint_names__type_support.cpp.o[0m
+[50.145s] [ 61%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/gait_instruction_response__type_support.cpp.o[0m
+[50.339s] [ 61%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/high_voltage_net__type_support.cpp.o[0m
+[50.339s] [ 61%] [32m[1mLinking CXX shared library libmarch_shared_msgs__rosidl_typesupport_cpp.so[0m
+[50.341s] [ 62%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_move_it_trajectory__type_support.cpp.o[0m
+[50.492s] [ 62%] Built target march_shared_msgs__rosidl_typesupport_cpp
+[50.509s] [ 62%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_param_string_list__type_support.cpp.o[0m
+[50.702s] [ 63%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/imc_state__type_support.cpp.o[0m
+[50.917s] [ 63%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/low_voltage_net__type_support.cpp.o[0m
+[51.196s] [ 63%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_param_string__type_support.cpp.o[0m
+[51.451s] [ 64%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_param_bool__type_support.cpp.o[0m
+[51.486s] [ 64%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/power_distribution_board_state__type_support.cpp.o[0m
+[51.528s] [ 65%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/pressure_sole__type_support.cpp.o[0m
+[52.072s] [ 65%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_param_int__type_support.cpp.o[0m
+[52.195s] [ 65%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/pressure_sole_data__type_support.cpp.o[0m
+[52.215s] [ 65%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/msg/detail/pressure_soles_data__type_support.cpp.o[0m
+[52.262s] [ 65%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_param_float__type_support.cpp.o[0m
+[52.775s] [ 66%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/capture_point_pose__type_support.cpp.o[0m
+[52.776s] [ 66%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/contains_gait__type_support.cpp.o[0m
+[52.940s] [ 66%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_param_string_list__type_support.cpp.o[0m
+[53.097s] [ 67%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_param_string__type_support.cpp.o[0m
+[53.339s] [ 67%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/possible_gaits__type_support.cpp.o[0m
+[53.378s] [ 68%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_gait_version__type_support.cpp.o[0m
+[53.881s] [ 68%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_param_bool__type_support.cpp.o[0m
+[53.918s] [ 68%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_param_int__type_support.cpp.o[0m
+[53.989s] [ 68%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support.cpp.o[0m
+[54.031s] [ 68%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support.cpp.o[0m
+[54.597s] [ 69%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_param_string_list__type_support.cpp.o[0m
+[54.597s] [ 69%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support.cpp.o[0m
+[54.761s] [ 70%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/set_param_float__type_support.cpp.o[0m
+[55.233s] [ 70%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_param_string__type_support.cpp.o[0m
+[55.233s] [ 70%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/march_shared_msgs/srv/detail/dds_fastrtps/get_joint_names__type_support.cpp.o[0m
+[55.246s] [ 71%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_param_bool__type_support.cpp.o[0m
+[55.627s] [ 71%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_param_int__type_support.cpp.o[0m
+[55.813s] [ 71%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_param_float__type_support.cpp.o[0m
+[56.030s] [ 71%] [32m[1mLinking CXX shared library libmarch_shared_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[56.074s] [ 72%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_param_string_list__type_support.cpp.o[0m
+[56.266s] [ 72%] Built target march_shared_msgs__rosidl_typesupport_fastrtps_cpp
+[56.346s] [ 72%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_param_bool__type_support.cpp.o[0m
+[56.358s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[56.620s] [ 73%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_param_string__type_support.cpp.o[0m
+[56.763s] [ 74%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_param_int__type_support.cpp.o[0m
+[57.141s] [ 74%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/set_param_float__type_support.cpp.o[0m
+[57.170s] [ 74%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/march_shared_msgs/srv/detail/get_joint_names__type_support.cpp.o[0m
+[57.825s] [ 75%] [32m[1mLinking CXX shared library libmarch_shared_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[58.021s] [ 75%] Built target march_shared_msgs__rosidl_typesupport_introspection_cpp
+[59.892s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_fastrtps_c[0m
+[60.058s] [ 75%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/alive__type_support_c.cpp.o[0m
+[60.061s] [ 76%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/after_limit_joint_command__type_support_c.cpp.o[0m
+[60.062s] [ 76%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/current_gait__type_support_c.cpp.o[0m
+[60.512s] [ 76%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/current_state__type_support_c.cpp.o[0m
+[60.513s] [ 76%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/error__type_support_c.cpp.o[0m
+[60.737s] [ 77%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support_c.cpp.o[0m
+[60.738s] [ 77%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support_c.cpp.o[0m
+[61.223s] [ 78%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support_c.cpp.o[0m
+[61.223s] [ 78%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support_c.cpp.o[0m
+[61.452s] [ 78%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/gait_instruction__type_support_c.cpp.o[0m
+[61.452s] [ 78%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/gait_instruction_response__type_support_c.cpp.o[0m
+[61.900s] [ 79%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/imc_state__type_support_c.cpp.o[0m
+[61.900s] [ 79%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/high_voltage_net__type_support_c.cpp.o[0m
+[62.145s] [ 79%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/low_voltage_net__type_support_c.cpp.o[0m
+[62.148s] [ 79%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/power_distribution_board_state__type_support_c.cpp.o[0m
+[62.599s] [ 80%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/pressure_sole__type_support_c.cpp.o[0m
+[62.668s] [ 80%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/pressure_sole_data__type_support_c.cpp.o[0m
+[62.850s] [ 80%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/msg/detail/pressure_soles_data__type_support_c.cpp.o[0m
+[62.860s] [ 81%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/capture_point_pose__type_support_c.cpp.o[0m
+[63.311s] [ 81%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/contains_gait__type_support_c.cpp.o[0m
+[63.365s] [ 81%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/possible_gaits__type_support_c.cpp.o[0m
+[63.541s] [ 82%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_gait_version__type_support_c.cpp.o[0m
+[63.580s] [ 82%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support_c.cpp.o[0m
+[64.057s] [ 82%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support_c.cpp.o[0m
+[64.109s] [ 83%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support_c.cpp.o[0m
+[64.279s] [ 83%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_param_string_list__type_support_c.cpp.o[0m
+[64.324s] [ 83%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_param_string__type_support_c.cpp.o[0m
+[64.780s] [ 84%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_param_bool__type_support_c.cpp.o[0m
+[64.806s] [ 84%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_param_int__type_support_c.cpp.o[0m
+[65.042s] [ 84%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_param_float__type_support_c.cpp.o[0m
+[65.050s] [ 85%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_param_string_list__type_support_c.cpp.o[0m
+[65.486s] [ 85%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_param_string__type_support_c.cpp.o[0m
+[65.526s] [ 85%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_param_bool__type_support_c.cpp.o[0m
+[65.781s] [ 85%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_param_float__type_support_c.cpp.o[0m
+[65.782s] [ 86%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/set_param_int__type_support_c.cpp.o[0m
+[66.234s] [ 86%] [32mBuilding CXX object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/march_shared_msgs/srv/detail/get_joint_names__type_support_c.cpp.o[0m
+[66.783s] [ 87%] [32m[1mLinking CXX shared library libmarch_shared_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[66.981s] [ 87%] Built target march_shared_msgs__rosidl_typesupport_fastrtps_c
+[66.993s] [35m[1mScanning dependencies of target march_shared_msgs[0m
+[67.008s] [ 87%] Built target march_shared_msgs
+[67.025s] [35m[1mScanning dependencies of target march_shared_msgs__py[0m
+[67.040s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[73.402s] [ 87%] Built target march_shared_msgs__py
+[73.414s] [35m[1mScanning dependencies of target march_shared_msgs__python[0m
+[73.539s] [ 87%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_after_limit_joint_command_s.c.o[0m
+[73.540s] [ 87%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_current_gait_s.c.o[0m
+[73.540s] [ 88%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_alive_s.c.o[0m
+[73.541s] [ 87%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_current_state_s.c.o[0m
+[73.723s] [ 89%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_error_s.c.o[0m
+[73.728s] [ 89%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_follow_joint_trajectory_goal_s.c.o[0m
+[73.728s] [ 89%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_follow_joint_trajectory_action_goal_s.c.o[0m
+[73.872s] [ 90%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_follow_joint_trajectory_result_s.c.o[0m
+[73.892s] [ 90%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_follow_joint_trajectory_action_result_s.c.o[0m
+[73.897s] [ 90%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_gait_instruction_s.c.o[0m
+[74.055s] [ 91%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_gait_instruction_response_s.c.o[0m
+[74.058s] [ 91%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_imc_state_s.c.o[0m
+[74.059s] [ 91%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_high_voltage_net_s.c.o[0m
+[74.205s] [ 92%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_power_distribution_board_state_s.c.o[0m
+[74.205s] [ 92%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_low_voltage_net_s.c.o[0m
+[74.273s] [ 92%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_pressure_sole_s.c.o[0m
+[74.409s] [ 92%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_capture_point_pose_s.c.o[0m
+[74.411s] [ 93%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_pressure_soles_data_s.c.o[0m
+[74.412s] [ 93%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/msg/_pressure_sole_data_s.c.o[0m
+[74.518s] [ 94%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_contains_gait_s.c.o[0m
+[74.577s] [ 94%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_possible_gaits_s.c.o[0m
+[74.582s] [ 94%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_gait_version_s.c.o[0m
+[74.713s] [ 95%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_obstacle_size_block_like_s.c.o[0m
+[74.714s] [ 95%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_obstacle_size_ramp_like_s.c.o[0m
+[74.727s] [ 95%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_move_it_trajectory_s.c.o[0m
+[74.827s] [ 96%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_param_string_list_s.c.o[0m
+[74.932s] [ 96%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_param_bool_s.c.o[0m
+[74.935s] [ 96%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_param_string_s.c.o[0m
+[74.942s] [ 96%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_param_int_s.c.o[0m
+[75.087s] [ 97%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_param_float_s.c.o[0m
+[75.104s] [ 97%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_param_string_list_s.c.o[0m
+[75.117s] [ 97%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_param_string_s.c.o[0m
+[75.263s] [ 97%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_param_int_s.c.o[0m
+[75.267s] [ 98%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_param_bool_s.c.o[0m
+[75.274s] [ 98%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_set_param_float_s.c.o[0m
+[75.428s] [ 99%] [32mBuilding C object CMakeFiles/march_shared_msgs__python.dir/rosidl_generator_py/march_shared_msgs/srv/_get_joint_names_s.c.o[0m
+[75.578s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/march_shared_msgs/libmarch_shared_msgs__python.so[0m
+[75.672s] [ 99%] Built target march_shared_msgs__python
+[75.686s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[75.690s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[75.690s] [35m[1mScanning dependencies of target march_shared_msgs__rosidl_typesupport_c__pyext[0m
+[75.727s] [ 99%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/march_shared_msgs/_march_shared_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[75.739s] [ 99%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/march_shared_msgs/_march_shared_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[75.739s] [100%] [32mBuilding C object CMakeFiles/march_shared_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/march_shared_msgs/_march_shared_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[76.096s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[76.213s] [100%] Built target march_shared_msgs__rosidl_typesupport_fastrtps_c__pyext
+[76.266s] [100%] [32m[1mLinking C shared library rosidl_generator_py/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[76.266s] [100%] [32m[1mLinking C shared library rosidl_generator_py/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[76.332s] [100%] Built target march_shared_msgs__rosidl_typesupport_c__pyext
+[76.332s] [100%] Built target march_shared_msgs__rosidl_typesupport_introspection_c__pyext
+[76.390s] Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/march_shared_msgs -- -j4 -l4
+[76.951s] Invoking command in '/home/sheila/march/ros2/build/march_shared_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_shared_msgs
+[76.965s] -- Install configuration: ""
+[76.966s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/ament_index/resource_index/rosidl_interfaces/march_shared_msgs
+[76.966s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[76.966s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[76.966s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/error.h
+[76.966s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/after_limit_joint_command.h
+[76.967s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/imc_state.h
+[76.967s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/low_voltage_net.h
+[76.967s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/rosidl_generator_c__visibility_control.h
+[76.967s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/alive.h
+[76.967s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_sole_data.h
+[76.968s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[76.968s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__functions.h
+[76.968s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__functions.h
+[76.968s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__functions.c
+[76.968s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__struct.h
+[76.969s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__functions.c
+[76.969s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__struct.h
+[76.969s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__struct.h
+[76.969s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__struct.h
+[76.969s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__functions.h
+[76.970s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__functions.c
+[76.970s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support.h
+[76.970s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__functions.c
+[76.970s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support.h
+[76.970s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__type_support.h
+[76.971s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__functions.h
+[76.971s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__functions.c
+[76.971s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__type_support.h
+[76.971s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support.h
+[76.971s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__functions.c
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__functions.c
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__functions.c
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__functions.c
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__struct.h
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__struct.h
+[76.972s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__functions.h
+[76.973s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__struct.h
+[76.973s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__type_support.h
+[76.973s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__type_support.h
+[76.973s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__struct.h
+[76.973s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__struct.h
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__functions.c
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__functions.c
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__struct.h
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__type_support.h
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__type_support.h
+[76.974s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__functions.h
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__struct.h
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__functions.h
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__functions.c
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__functions.c
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__functions.c
+[76.975s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__functions.c
+[76.976s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__struct.h
+[76.976s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__functions.h
+[76.976s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__functions.h
+[76.976s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__functions.h
+[76.976s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__functions.h
+[76.977s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__struct.h
+[76.977s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__functions.h
+[76.977s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__functions.c
+[76.977s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support.h
+[76.977s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__type_support.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__struct.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__functions.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__type_support.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__type_support.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__struct.h
+[76.978s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__functions.h
+[76.979s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__struct.h
+[76.979s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__functions.c
+[76.979s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__struct.h
+[76.979s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__type_support.h
+[76.979s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__type_support.h
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__functions.c
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__functions.h
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__functions.h
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__type_support.h
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__type_support.h
+[76.980s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__type_support.h
+[76.981s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__functions.h
+[76.981s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__functions.h
+[76.981s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__struct.h
+[76.981s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_action_goal.h
+[76.981s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_goal.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/current_state.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/high_voltage_net.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/gait_instruction_response.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/current_gait.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_sole.h
+[76.982s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_result.h
+[76.983s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_soles_data.h
+[76.983s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/gait_instruction.h
+[76.983s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_action_result.h
+[76.983s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/power_distribution_board_state.h
+[76.983s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_float.h
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_joint_names.h
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_string_list.h
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_gait_version.h
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/contains_gait.h
+[76.984s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/capture_point_pose.h
+[76.985s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_string.h
+[76.985s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_string_list.h
+[76.985s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[76.985s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__functions.c
+[76.985s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__struct.h
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__struct.h
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__type_support.h
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__functions.c
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__functions.h
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__type_support.h
+[76.986s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__type_support.h
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__functions.h
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__functions.h
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__functions.c
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__functions.c
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__struct.h
+[76.987s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__struct.h
+[76.988s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support.h
+[76.988s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__functions.h
+[76.988s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__type_support.h
+[76.988s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__struct.h
+[76.988s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__functions.c
+[76.989s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__functions.h
+[76.989s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__type_support.h
+[76.989s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__functions.h
+[76.989s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__struct.h
+[76.989s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__functions.h
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__type_support.h
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__functions.c
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__functions.c
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__functions.h
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__struct.h
+[76.990s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__struct.h
+[76.991s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__functions.h
+[76.991s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__struct.h
+[76.991s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__functions.c
+[76.991s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__struct.h
+[76.991s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support.h
+[76.992s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__struct.h
+[76.992s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__functions.h
+[76.992s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__functions.h
+[76.992s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__functions.c
+[76.992s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__functions.c
+[76.993s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__functions.c
+[76.993s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__functions.h
+[76.993s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__functions.c
+[76.993s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__functions.h
+[76.993s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__type_support.h
+[76.994s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__type_support.h
+[76.994s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__functions.h
+[76.994s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support.h
+[76.994s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__type_support.h
+[76.995s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__functions.c
+[76.995s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__functions.h
+[76.995s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__type_support.h
+[76.995s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__struct.h
+[76.995s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__functions.c
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__functions.h
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__struct.h
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__functions.c
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__struct.h
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__type_support.h
+[76.996s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__type_support.h
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__type_support.h
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__functions.c
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__struct.h
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__struct.h
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__functions.c
+[76.997s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__functions.h
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__functions.c
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__type_support.h
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__struct.h
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__functions.h
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__type_support.h
+[76.998s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__struct.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_int.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/possible_gaits.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_obstacle_size_block_like.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_float.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_obstacle_size_ramp_like.h
+[76.999s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_bool.h
+[77.000s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_move_it_trajectory.h
+[77.000s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_int.h
+[77.000s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_string.h
+[77.000s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_bool.h
+[77.000s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/library_path.sh
+[77.001s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/library_path.dsv
+[77.001s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_generator_c.so
+[77.001s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_generator_c.so" to ""
+[77.001s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[77.001s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[77.002s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[77.002s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__rosidl_typesupport_fastrtps_c.h
+[77.002s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__rosidl_typesupport_fastrtps_c.h
+[77.002s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__rosidl_typesupport_fastrtps_c.h
+[77.002s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__rosidl_typesupport_fastrtps_c.h
+[77.003s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__rosidl_typesupport_fastrtps_c.h
+[77.004s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__rosidl_typesupport_fastrtps_c.h
+[77.004s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__rosidl_typesupport_fastrtps_c.h
+[77.004s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__rosidl_typesupport_fastrtps_c.h
+[77.004s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__rosidl_typesupport_fastrtps_c.h
+[77.004s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__rosidl_typesupport_fastrtps_c.h
+[77.005s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__rosidl_typesupport_fastrtps_c.h
+[77.005s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[77.005s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__rosidl_typesupport_fastrtps_c.h
+[77.005s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[77.005s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[77.005s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__rosidl_typesupport_fastrtps_c.h
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__rosidl_typesupport_fastrtps_c.h
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__rosidl_typesupport_fastrtps_c.h
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__rosidl_typesupport_fastrtps_c.h
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__rosidl_typesupport_fastrtps_c.h
+[77.006s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__rosidl_typesupport_fastrtps_c.h
+[77.007s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__rosidl_typesupport_fastrtps_c.h
+[77.008s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__rosidl_typesupport_fastrtps_c.h
+[77.008s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__rosidl_typesupport_fastrtps_c.h
+[77.008s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__rosidl_typesupport_fastrtps_c.h
+[77.008s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__rosidl_typesupport_fastrtps_c.h
+[77.008s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__rosidl_typesupport_fastrtps_c.h
+[77.009s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__rosidl_typesupport_fastrtps_c.h
+[77.009s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_fastrtps_c.so
+[77.009s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[77.009s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[77.009s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[77.009s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[77.010s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[77.010s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[77.010s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__rosidl_typesupport_fastrtps_cpp.hpp
+[77.010s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__rosidl_typesupport_fastrtps_cpp.hpp
+[77.010s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[77.011s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[77.012s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[77.012s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__rosidl_typesupport_fastrtps_cpp.hpp
+[77.012s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/dds_fastrtps
+[77.012s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__rosidl_typesupport_fastrtps_cpp.hpp
+[77.012s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__rosidl_typesupport_fastrtps_cpp.hpp
+[77.013s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[77.013s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__rosidl_typesupport_fastrtps_cpp.hpp
+[77.013s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__rosidl_typesupport_fastrtps_cpp.hpp
+[77.013s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[77.013s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[77.014s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[77.014s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[77.014s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__rosidl_typesupport_fastrtps_cpp.hpp
+[77.014s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__rosidl_typesupport_fastrtps_cpp.hpp
+[77.014s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[77.014s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__rosidl_typesupport_fastrtps_cpp.hpp
+[77.015s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__rosidl_typesupport_fastrtps_cpp.hpp
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/dds_fastrtps
+[77.016s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__rosidl_typesupport_fastrtps_cpp.hpp
+[77.017s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[77.017s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_fastrtps_cpp.so
+[77.017s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[77.017s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[77.018s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[77.018s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[77.018s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__type_support.c
+[77.018s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__type_support.c
+[77.018s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__rosidl_typesupport_introspection_c.h
+[77.018s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__type_support.c
+[77.019s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__rosidl_typesupport_introspection_c.h
+[77.019s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__rosidl_typesupport_introspection_c.h
+[77.019s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__rosidl_typesupport_introspection_c.h
+[77.019s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__type_support.c
+[77.019s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__type_support.c
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support.c
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__rosidl_typesupport_introspection_c.h
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__rosidl_typesupport_introspection_c.h
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__type_support.c
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__rosidl_typesupport_introspection_c.h
+[77.020s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__type_support.c
+[77.021s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__rosidl_typesupport_introspection_c.h
+[77.021s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__type_support.c
+[77.021s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__rosidl_typesupport_introspection_c.h
+[77.021s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__rosidl_typesupport_introspection_c.h
+[77.021s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__type_support.c
+[77.022s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__rosidl_typesupport_introspection_c.h
+[77.022s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support.c
+[77.022s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__type_support.c
+[77.022s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__rosidl_typesupport_introspection_c.h
+[77.022s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__type_support.c
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__rosidl_typesupport_introspection_c.h
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__rosidl_typesupport_introspection_c.h
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support.c
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support.c
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__type_support.c
+[77.023s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__rosidl_typesupport_introspection_c.h
+[77.024s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__rosidl_typesupport_introspection_c.h
+[77.024s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__type_support.c
+[77.024s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__rosidl_typesupport_introspection_c.h
+[77.024s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__type_support.c
+[77.024s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__rosidl_typesupport_introspection_c.h
+[77.025s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[77.025s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[77.025s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[77.025s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__rosidl_typesupport_introspection_c.h
+[77.025s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__type_support.c
+[77.025s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__rosidl_typesupport_introspection_c.h
+[77.026s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__type_support.c
+[77.026s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__rosidl_typesupport_introspection_c.h
+[77.026s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__type_support.c
+[77.026s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__rosidl_typesupport_introspection_c.h
+[77.026s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__rosidl_typesupport_introspection_c.h
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__rosidl_typesupport_introspection_c.h
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__rosidl_typesupport_introspection_c.h
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__type_support.c
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support.c
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__rosidl_typesupport_introspection_c.h
+[77.027s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__rosidl_typesupport_introspection_c.h
+[77.028s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__type_support.c
+[77.028s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support.c
+[77.028s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__type_support.c
+[77.028s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__rosidl_typesupport_introspection_c.h
+[77.028s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__type_support.c
+[77.029s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__rosidl_typesupport_introspection_c.h
+[77.029s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__rosidl_typesupport_introspection_c.h
+[77.029s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__rosidl_typesupport_introspection_c.h
+[77.029s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__type_support.c
+[77.029s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__type_support.c
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__type_support.c
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__type_support.c
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__rosidl_typesupport_introspection_c.h
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__rosidl_typesupport_introspection_c.h
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__type_support.c
+[77.030s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__type_support.c
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__type_support.c
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__rosidl_typesupport_introspection_c.h
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__type_support.c
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__rosidl_typesupport_introspection_c.h
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__rosidl_typesupport_introspection_c.h
+[77.031s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support.c
+[77.032s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_introspection_c.so
+[77.032s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_introspection_c.so" to ""
+[77.032s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_c.so
+[77.033s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_c.so" to ""
+[77.033s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[77.033s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[77.033s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_result.hpp
+[77.033s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_sole_data.hpp
+[77.034s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/gait_instruction.hpp
+[77.034s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_action_result.hpp
+[77.034s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_sole.hpp
+[77.034s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/power_distribution_board_state.hpp
+[77.034s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/after_limit_joint_command.hpp
+[77.035s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/current_gait.hpp
+[77.035s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/current_state.hpp
+[77.035s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/low_voltage_net.hpp
+[77.035s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/error.hpp
+[77.035s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[77.035s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__builder.hpp
+[77.036s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__traits.hpp
+[77.036s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__traits.hpp
+[77.036s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__builder.hpp
+[77.036s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__struct.hpp
+[77.036s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__traits.hpp
+[77.037s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__builder.hpp
+[77.037s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__struct.hpp
+[77.037s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__traits.hpp
+[77.037s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__builder.hpp
+[77.037s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__traits.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__struct.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__struct.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__struct.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__builder.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__traits.hpp
+[77.038s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__builder.hpp
+[77.039s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__traits.hpp
+[77.039s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__traits.hpp
+[77.039s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__builder.hpp
+[77.039s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__builder.hpp
+[77.039s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__builder.hpp
+[77.040s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__traits.hpp
+[77.040s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__struct.hpp
+[77.040s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__struct.hpp
+[77.040s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__traits.hpp
+[77.040s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__struct.hpp
+[77.041s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__traits.hpp
+[77.041s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__struct.hpp
+[77.041s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__struct.hpp
+[77.041s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__struct.hpp
+[77.041s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__builder.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__builder.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__traits.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__builder.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__traits.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__struct.hpp
+[77.042s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__struct.hpp
+[77.043s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__traits.hpp
+[77.043s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__struct.hpp
+[77.043s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__struct.hpp
+[77.043s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__traits.hpp
+[77.043s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__traits.hpp
+[77.044s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__builder.hpp
+[77.044s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__struct.hpp
+[77.044s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__struct.hpp
+[77.044s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__struct.hpp
+[77.045s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__builder.hpp
+[77.045s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__builder.hpp
+[77.045s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__traits.hpp
+[77.046s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__builder.hpp
+[77.046s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__traits.hpp
+[77.046s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__builder.hpp
+[77.046s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__builder.hpp
+[77.046s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/alive.hpp
+[77.047s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/high_voltage_net.hpp
+[77.047s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_action_goal.hpp
+[77.047s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/pressure_soles_data.hpp
+[77.047s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/follow_joint_trajectory_goal.hpp
+[77.047s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/imc_state.hpp
+[77.048s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/gait_instruction_response.hpp
+[77.048s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[77.048s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/possible_gaits.hpp
+[77.048s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_string_list.hpp
+[77.048s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_int.hpp
+[77.048s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_string.hpp
+[77.049s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/capture_point_pose.hpp
+[77.049s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_string.hpp
+[77.049s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_float.hpp
+[77.049s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_gait_version.hpp
+[77.049s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_obstacle_size_block_like.hpp
+[77.050s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_int.hpp
+[77.050s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_string_list.hpp
+[77.050s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_bool.hpp
+[77.050s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[77.050s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__struct.hpp
+[77.050s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__struct.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__builder.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__traits.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__traits.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__traits.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__builder.hpp
+[77.051s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__traits.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__builder.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__struct.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__traits.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__struct.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__traits.hpp
+[77.052s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__builder.hpp
+[77.053s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__struct.hpp
+[77.053s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__struct.hpp
+[77.053s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__struct.hpp
+[77.053s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__traits.hpp
+[77.053s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__traits.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__builder.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__traits.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__struct.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__builder.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__traits.hpp
+[77.054s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__struct.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__builder.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__traits.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__struct.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__struct.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__traits.hpp
+[77.055s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__struct.hpp
+[77.056s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__builder.hpp
+[77.056s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__builder.hpp
+[77.056s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__builder.hpp
+[77.056s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__builder.hpp
+[77.056s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__builder.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__builder.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__builder.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__struct.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__builder.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__struct.hpp
+[77.057s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__struct.hpp
+[77.058s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__struct.hpp
+[77.058s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__struct.hpp
+[77.058s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__builder.hpp
+[77.058s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__traits.hpp
+[77.058s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__traits.hpp
+[77.059s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__traits.hpp
+[77.059s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__struct.hpp
+[77.059s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__traits.hpp
+[77.059s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__traits.hpp
+[77.059s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__builder.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__traits.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__builder.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_joint_names.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_param_float.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/set_obstacle_size_ramp_like.hpp
+[77.060s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_move_it_trajectory.hpp
+[77.061s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/contains_gait.hpp
+[77.061s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/get_param_bool.hpp
+[77.061s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs
+[77.061s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg
+[77.061s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__type_support.cpp
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__type_support.cpp
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__rosidl_typesupport_introspection_cpp.hpp
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__rosidl_typesupport_introspection_cpp.hpp
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__rosidl_typesupport_introspection_cpp.hpp
+[77.062s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_gait__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__type_support.cpp
+[77.063s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__type_support.cpp
+[77.064s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/alive__type_support.cpp
+[77.064s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__rosidl_typesupport_introspection_cpp.hpp
+[77.064s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_goal__rosidl_typesupport_introspection_cpp.hpp
+[77.064s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__type_support.cpp
+[77.064s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/high_voltage_net__type_support.cpp
+[77.065s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/low_voltage_net__rosidl_typesupport_introspection_cpp.hpp
+[77.065s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__type_support.cpp
+[77.065s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction__rosidl_typesupport_introspection_cpp.hpp
+[77.065s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__rosidl_typesupport_introspection_cpp.hpp
+[77.065s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__type_support.cpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole_data__type_support.cpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__rosidl_typesupport_introspection_cpp.hpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/imc_state__rosidl_typesupport_introspection_cpp.hpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__type_support.cpp
+[77.066s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/after_limit_joint_command__rosidl_typesupport_introspection_cpp.hpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_soles_data__rosidl_typesupport_introspection_cpp.hpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/current_state__rosidl_typesupport_introspection_cpp.hpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_goal__type_support.cpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_result__rosidl_typesupport_introspection_cpp.hpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/follow_joint_trajectory_action_result__type_support.cpp
+[77.067s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/pressure_sole__rosidl_typesupport_introspection_cpp.hpp
+[77.068s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/power_distribution_board_state__rosidl_typesupport_introspection_cpp.hpp
+[77.068s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/msg/detail/gait_instruction_response__rosidl_typesupport_introspection_cpp.hpp
+[77.068s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv
+[77.068s] -- Up-to-date: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail
+[77.068s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__type_support.cpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__rosidl_typesupport_introspection_cpp.hpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__type_support.cpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__type_support.cpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__rosidl_typesupport_introspection_cpp.hpp
+[77.069s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__type_support.cpp
+[77.070s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__rosidl_typesupport_introspection_cpp.hpp
+[77.070s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_block_like__rosidl_typesupport_introspection_cpp.hpp
+[77.071s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__type_support.cpp
+[77.071s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__rosidl_typesupport_introspection_cpp.hpp
+[77.071s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/contains_gait__rosidl_typesupport_introspection_cpp.hpp
+[77.071s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__type_support.cpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_joint_names__type_support.cpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__rosidl_typesupport_introspection_cpp.hpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string__type_support.cpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_gait_version__rosidl_typesupport_introspection_cpp.hpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_string_list__rosidl_typesupport_introspection_cpp.hpp
+[77.072s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_move_it_trajectory__type_support.cpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__rosidl_typesupport_introspection_cpp.hpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__rosidl_typesupport_introspection_cpp.hpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__rosidl_typesupport_introspection_cpp.hpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_int__type_support.cpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__rosidl_typesupport_introspection_cpp.hpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__type_support.cpp
+[77.073s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__rosidl_typesupport_introspection_cpp.hpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_float__type_support.cpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string__rosidl_typesupport_introspection_cpp.hpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_bool__type_support.cpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_float__type_support.cpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_obstacle_size_ramp_like__type_support.cpp
+[77.074s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/capture_point_pose__type_support.cpp
+[77.075s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/possible_gaits__rosidl_typesupport_introspection_cpp.hpp
+[77.075s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/get_param_int__type_support.cpp
+[77.075s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_bool__type_support.cpp
+[77.075s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/include/march_shared_msgs/srv/detail/set_param_string_list__rosidl_typesupport_introspection_cpp.hpp
+[77.075s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_introspection_cpp.so
+[77.075s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[77.076s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_cpp.so
+[77.076s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__rosidl_typesupport_cpp.so" to ""
+[77.076s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/pythonpath.sh
+[77.076s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/pythonpath.dsv
+[77.076s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/__init__.py
+[77.111s] Compiling '/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/__init__.py'...
+[77.116s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg
+[77.116s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_current_state_s.c
+[77.117s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/__init__.py
+[77.117s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_gait_instruction_s.c
+[77.117s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_gait_instruction_response.py
+[77.117s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_action_goal.py
+[77.117s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_gait_instruction_response_s.c
+[77.118s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_goal_s.c
+[77.118s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_current_state.py
+[77.118s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_gait_instruction.py
+[77.118s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_after_limit_joint_command_s.c
+[77.118s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_action_result_s.c
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_high_voltage_net_s.c
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_error.py
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_low_voltage_net.py
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_action_goal_s.c
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_power_distribution_board_state_s.c
+[77.119s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_alive_s.c
+[77.120s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_result_s.c
+[77.120s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_soles_data.py
+[77.120s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_imc_state_s.c
+[77.120s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_soles_data_s.c
+[77.120s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_imc_state.py
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_after_limit_joint_command.py
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_action_result.py
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_result.py
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_current_gait_s.c
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_alive.py
+[77.121s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_power_distribution_board_state.py
+[77.122s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_current_gait.py
+[77.122s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_error_s.c
+[77.122s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_sole.py
+[77.122s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_sole_data_s.c
+[77.122s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_sole_s.c
+[77.123s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_low_voltage_net_s.c
+[77.123s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_high_voltage_net.py
+[77.123s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_follow_joint_trajectory_goal.py
+[77.123s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/msg/_pressure_sole_data.py
+[77.123s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_move_it_trajectory.py
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_contains_gait_s.c
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_possible_gaits_s.c
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/__init__.py
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_possible_gaits.py
+[77.124s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_int.py
+[77.125s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_capture_point_pose_s.c
+[77.125s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_string_list.py
+[77.125s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_string.py
+[77.125s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_float_s.c
+[77.125s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_string_s.c
+[77.126s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_contains_gait.py
+[77.126s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_joint_names_s.c
+[77.126s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_int_s.c
+[77.126s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_move_it_trajectory_s.c
+[77.126s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_gait_version_s.c
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_bool.py
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_string_list.py
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_int_s.c
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_int.py
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_string_s.c
+[77.127s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_string_list_s.c
+[77.128s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_float.py
+[77.128s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_obstacle_size_ramp_like_s.c
+[77.128s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_obstacle_size_ramp_like.py
+[77.128s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_bool_s.c
+[77.128s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_bool.py
+[77.129s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_joint_names.py
+[77.129s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_float_s.c
+[77.129s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_get_param_bool_s.c
+[77.129s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_obstacle_size_block_like.py
+[77.129s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_gait_version.py
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_string_list_s.c
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_obstacle_size_block_like_s.c
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_float.py
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_set_param_string.py
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/srv/_capture_point_pose.py
+[77.130s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[77.131s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[77.132s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[77.133s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[77.133s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[77.134s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages/march_shared_msgs/march_shared_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[77.134s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__python.so
+[77.135s] -- Set runtime path of "/home/sheila/march/ros2/install/march_shared_msgs/lib/libmarch_shared_msgs__python.so" to ""
+[77.135s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/AfterLimitJointCommand.idl
+[77.135s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/Alive.idl
+[77.136s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentGait.idl
+[77.136s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentState.idl
+[77.136s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/Error.idl
+[77.137s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryGoal.idl
+[77.137s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryActionGoal.idl
+[77.137s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryResult.idl
+[77.137s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryActionResult.idl
+[77.138s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstruction.idl
+[77.138s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstructionResponse.idl
+[77.138s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/HighVoltageNet.idl
+[77.139s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/ImcState.idl
+[77.139s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/LowVoltageNet.idl
+[77.139s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PowerDistributionBoardState.idl
+[77.139s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSole.idl
+[77.140s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSoleData.idl
+[77.140s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSolesData.idl
+[77.140s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/CapturePointPose.idl
+[77.141s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/ContainsGait.idl
+[77.141s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/PossibleGaits.idl
+[77.141s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetGaitVersion.idl
+[77.141s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeRampLike.idl
+[77.142s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeBlockLike.idl
+[77.142s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetMoveItTrajectory.idl
+[77.142s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamStringList.idl
+[77.143s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamString.idl
+[77.143s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamBool.idl
+[77.143s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamInt.idl
+[77.143s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamFloat.idl
+[77.144s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamStringList.idl
+[77.144s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamString.idl
+[77.144s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamBool.idl
+[77.145s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamInt.idl
+[77.145s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamFloat.idl
+[77.145s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetJointNames.idl
+[77.146s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/AfterLimitJointCommand.msg
+[77.146s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/Alive.msg
+[77.146s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentGait.msg
+[77.146s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentState.msg
+[77.147s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/Error.msg
+[77.147s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryGoal.msg
+[77.147s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryActionGoal.msg
+[77.148s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryResult.msg
+[77.148s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/FollowJointTrajectoryActionResult.msg
+[77.148s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstruction.msg
+[77.148s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstructionResponse.msg
+[77.149s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/HighVoltageNet.msg
+[77.149s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/ImcState.msg
+[77.149s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/LowVoltageNet.msg
+[77.150s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PowerDistributionBoardState.msg
+[77.150s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSole.msg
+[77.150s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSoleData.msg
+[77.150s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSolesData.msg
+[77.151s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/CapturePointPose.srv
+[77.151s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/CapturePointPose_Request.msg
+[77.151s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/CapturePointPose_Response.msg
+[77.152s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/ContainsGait.srv
+[77.152s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/ContainsGait_Request.msg
+[77.152s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/ContainsGait_Response.msg
+[77.152s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/PossibleGaits.srv
+[77.153s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/PossibleGaits_Request.msg
+[77.153s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/PossibleGaits_Response.msg
+[77.153s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetGaitVersion.srv
+[77.154s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetGaitVersion_Request.msg
+[77.154s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetGaitVersion_Response.msg
+[77.154s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeRampLike.srv
+[77.154s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeRampLike_Request.msg
+[77.155s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeRampLike_Response.msg
+[77.155s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeBlockLike.srv
+[77.155s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeBlockLike_Request.msg
+[77.156s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeBlockLike_Response.msg
+[77.156s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetMoveItTrajectory.srv
+[77.156s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetMoveItTrajectory_Request.msg
+[77.156s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetMoveItTrajectory_Response.msg
+[77.157s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamStringList.srv
+[77.157s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamStringList_Request.msg
+[77.157s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamStringList_Response.msg
+[77.158s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamString.srv
+[77.158s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamString_Request.msg
+[77.158s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamString_Response.msg
+[77.159s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamBool.srv
+[77.159s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamBool_Request.msg
+[77.159s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamBool_Response.msg
+[77.159s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamInt.srv
+[77.160s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamInt_Request.msg
+[77.160s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamInt_Response.msg
+[77.160s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamFloat.srv
+[77.161s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamFloat_Request.msg
+[77.161s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamFloat_Response.msg
+[77.161s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamStringList.srv
+[77.161s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamStringList_Request.msg
+[77.162s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamStringList_Response.msg
+[77.162s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamString.srv
+[77.162s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamString_Request.msg
+[77.163s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamString_Response.msg
+[77.163s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamBool.srv
+[77.163s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamBool_Request.msg
+[77.163s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamBool_Response.msg
+[77.164s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamInt.srv
+[77.164s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamInt_Request.msg
+[77.164s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamInt_Response.msg
+[77.165s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamFloat.srv
+[77.165s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamFloat_Request.msg
+[77.165s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamFloat_Response.msg
+[77.166s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetJointNames.srv
+[77.166s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetJointNames_Request.msg
+[77.166s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/srv/GetJointNames_Response.msg
+[77.166s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/mapping_rules.yaml
+[77.167s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/ament_index/resource_index/package_run_dependencies/march_shared_msgs
+[77.167s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/ament_index/resource_index/parent_prefix_path/march_shared_msgs
+[77.167s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/ament_prefix_path.sh
+[77.168s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/ament_prefix_path.dsv
+[77.168s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/path.sh
+[77.168s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/environment/path.dsv
+[77.169s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/local_setup.bash
+[77.169s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/local_setup.sh
+[77.169s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/local_setup.zsh
+[77.170s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/local_setup.dsv
+[77.170s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/package.dsv
+[77.170s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/ament_index/resource_index/packages/march_shared_msgs
+[77.171s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_generator_cExport.cmake
+[77.171s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_generator_cExport-noconfig.cmake
+[77.171s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_introspection_cExport.cmake
+[77.172s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[77.172s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_cExport.cmake
+[77.172s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[77.173s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_generator_cppExport.cmake
+[77.173s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[77.173s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[77.174s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_cppExport.cmake
+[77.174s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[77.174s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/rosidl_cmake-extras.cmake
+[77.175s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.175s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[77.175s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[77.176s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.176s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[77.176s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[77.177s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgsConfig.cmake
+[77.177s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgsConfig-version.cmake
+[77.177s] -- Installing: /home/sheila/march/ros2/install/march_shared_msgs/share/march_shared_msgs/package.xml
+[77.182s] Invoked command in '/home/sheila/march/ros2/build/march_shared_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/march_shared_msgs

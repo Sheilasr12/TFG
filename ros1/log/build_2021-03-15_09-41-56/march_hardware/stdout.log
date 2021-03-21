@@ -1,0 +1,151 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_hardware/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_hardware/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_hardware
+[35m[1mScanning dependencies of target march_hardware[0m
+[  4%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/encoder/absolute_encoder.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/encoder/encoder.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/error/error_type.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/encoder/incremental_encoder.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/error/motion_error.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/ethercat/ethercat_master.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/ethercat/pdo_interface.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/ethercat/pdo_map.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/ethercat/sdo_interface.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/imotioncube/imotioncube.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/imotioncube/imotioncube_target_state.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/joint.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/march_robot.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/power/high_voltage.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/power/low_voltage.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/power/power_distribution_board.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/temperature/temperature_ges.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/march_hardware.dir/src/pressure_sole/pressure_sole.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library devel/lib/libmarch_hardware.so[0m
+[ 90%] Built target march_hardware
+[35m[1mScanning dependencies of target slave_count_check[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/slave_count_check.dir/check/slave_count.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/march_hardware/slave_count_check[0m
+[100%] Built target slave_count_check
+[35m[1mScanning dependencies of target gtest[0m
+[  2%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
+[  4%] Built target gtest
+[ 50%] Built target march_hardware
+[35m[1mScanning dependencies of target gmock[0m
+[ 52%] [32mBuilding CXX object gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 54%] [32m[1mLinking CXX shared library ../../lib/libgmock.so[0m
+[ 54%] Built target gmock
+[35m[1mScanning dependencies of target march_hardware_test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/encoder/absolute_encoder_test.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/error/hardware_exception_test.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/error/motion_error_test.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/ethercat/pdo_map_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/ethercat/slave_test.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/imotioncube/imotioncube_test.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/joint_test.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/boot_shutdown_offsets_test.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/high_voltage_test.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/low_voltage_test.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/net_driver_offsets_test.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/net_monitor_offsets_test.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/power/power_distribution_board_test.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/temperature/temperature_ges_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/pressure_sole/pressure_sole_test.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/encoder/incremental_encoder_test.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/test_runner.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/march_hardware_test.dir/test/encoder/encoder_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/march_hardware/march_hardware_test[0m
+[100%] Built target march_hardware_test
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_hardware/lib/pkgconfig/march_hardware.pc
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/cmake/march_hardware-extras.cmake
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/cmake/march_hardwareConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/cmake/march_hardwareConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/joint.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/march_robot.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/error
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/error/error_type.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/error/hardware_exception.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/error/motion_error.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/imotioncube
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/imotioncube/actuation_mode.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/imotioncube/imotioncube_target_state.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/imotioncube/imotioncube_state.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/imotioncube/imotioncube.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/pressure_sole
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/pressure_sole/pressure_sole.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/temperature
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/temperature/temperature_sensor.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/temperature/temperature_ges.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/encoder
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/encoder/absolute_encoder.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/encoder/incremental_encoder.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/encoder/encoder.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/net_monitor_offsets.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/high_voltage.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/power_distribution_board.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/boot_shutdown_offsets.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/low_voltage.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/power/net_driver_offsets.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/pdo_interface.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/sdo_interface.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/slave.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/pdo_map.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/pdo_types.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/include/march_hardware/ethercat/ethercat_master.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware/lib/libmarch_hardware.so
+-- Set runtime path of "/home/sheila/march/ros1/install/march_hardware/lib/libmarch_hardware.so" to ""
+-- Installing: /home/sheila/march/ros1/install/march_hardware/lib/march_hardware/slave_count_check
+-- Set runtime path of "/home/sheila/march/ros1/install/march_hardware/lib/march_hardware/slave_count_check" to "/home/sheila/march/ros1/install/march_hardware/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu"
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/launch
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/launch/slave_count.launch
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/rotational_joint.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/left_hip_aa.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/right_hip_aa.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/left_ankle.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/right_hip_fe.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/right_knee.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/left_hip_fe.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/left_knee.sw
+-- Installing: /home/sheila/march/ros1/install/march_hardware/share/march_hardware/config/sw_files/right_ankle.sw

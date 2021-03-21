@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarch_utility.a  CMakeFiles/march_utility.dir/src/node_utils.cpp.o
+/usr/bin/ranlib libmarch_utility.a

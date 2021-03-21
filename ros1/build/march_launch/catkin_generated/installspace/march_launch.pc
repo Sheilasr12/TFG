@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_launch
+
+Name: march_launch
+Description: Description of march_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

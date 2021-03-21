@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_hardware_builder/devel
+-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- This workspace overlays: /home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_hardware_builder/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.9
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sheila/march/ros1/build/march_hardware_builder
+[35m[1mScanning dependencies of target march_hardware_builder[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder.dir/src/hardware_builder.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libmarch_hardware_builder.so[0m
+[100%] Built target march_hardware_builder
+[35m[1mScanning dependencies of target gtest[0m
+[  8%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] Built target march_hardware_builder
+[ 33%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
+[ 33%] Built target gtest
+[35m[1mScanning dependencies of target march_hardware_builder_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/absolute_encoder_builder_test.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/allowed_robot_test.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/incremental_encoder_builder_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/imc_builder_test.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/joint_builder_test.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/pdb_builder_test.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/test_runner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/march_hardware_builder/march_hardware_builder_test[0m
+[100%] Built target march_hardware_builder_test
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+-- Install configuration: ""
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig/march_hardware_builder.pc
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/cmake/march_hardware_builderConfig.cmake
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/cmake/march_hardware_builderConfig-version.cmake
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/package.xml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/hardware_builder.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/allowed_robot.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/hardware_config_exceptions.h
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/test_joint_linear.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/march4.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/march3.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/pressure_soles.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/test_joint_rotational.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/pdb.yaml
+-- Installing: /home/sheila/march/ros1/install/march_hardware_builder/lib/libmarch_hardware_builder.so
+-- Set runtime path of "/home/sheila/march/ros1/install/march_hardware_builder/lib/libmarch_hardware_builder.so" to ""

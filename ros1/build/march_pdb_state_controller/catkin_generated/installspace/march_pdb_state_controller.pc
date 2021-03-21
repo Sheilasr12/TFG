@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_pdb_state_controller
+
+Name: march_pdb_state_controller
+Description: Description of march_pdb_state_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmarch_pdb_state_controller
+Requires: controller_interface hardware_interface march_hardware march_hardware_interface march_shared_msgs pluginlib realtime_tools roscpp sensor_msgs

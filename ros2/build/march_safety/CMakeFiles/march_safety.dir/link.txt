@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarch_safety.a  CMakeFiles/march_safety.dir/src/input_device_safety.cpp.o CMakeFiles/march_safety.dir/src/safety_handler.cpp.o CMakeFiles/march_safety.dir/src/temperature_safety.cpp.o
+/usr/bin/ranlib libmarch_safety.a

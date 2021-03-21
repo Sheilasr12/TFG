@@ -1,0 +1,4 @@
+source;share/march_gait_files/local_setup.bash
+source;share/march_gait_files/local_setup.dsv
+source;share/march_gait_files/local_setup.sh
+source;share/march_gait_files/local_setup.zsh

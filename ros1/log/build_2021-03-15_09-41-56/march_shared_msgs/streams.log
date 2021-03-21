@@ -1,0 +1,762 @@
+[0.034s] Invoking command in '/home/sheila/march/ros1/build/march_shared_msgs': /usr/bin/cmake /home/sheila/march/ros1/src/shared/march_shared_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_shared_msgs
+[0.166s] -- The C compiler identification is GNU 9.3.0
+[0.294s] -- The CXX compiler identification is GNU 9.3.0
+[0.308s] -- Check for working C compiler: /usr/bin/cc
+[0.437s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.439s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.599s] -- Detecting C compile features
+[0.599s] -- Detecting C compile features - done
+[0.608s] -- Check for working CXX compiler: /usr/bin/c++
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.755s] -- Detecting CXX compiler ABI info
+[0.888s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Detecting CXX compile features
+[0.919s] -- Detecting CXX compile features - done
+[0.923s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_shared_msgs/devel
+[0.923s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.923s] -- This workspace overlays: /opt/ros/noetic
+[0.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.968s] -- Using Debian Python package layout
+[1.018s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.018s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.372s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.373s] -- Call enable_testing()
+[1.382s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_shared_msgs/test_results
+[1.910s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.910s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.911s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.962s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.966s] -- Found Threads: TRUE  
+[1.979s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.091s] -- catkin 0.8.9
+[2.091s] -- BUILD_SHARED_LIBS is on
+[2.440s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.014s] -- march_shared_msgs: 16 messages, 20 services
+[3.462s] -- Configuring done
+[3.572s] -- Generating done
+[3.591s] -- Build files have been written to: /home/sheila/march/ros1/build/march_shared_msgs
+[3.608s] Invoked command in '/home/sheila/march/ros1/build/march_shared_msgs' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/shared/march_shared_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_shared_msgs
+[3.610s] Invoking command in '/home/sheila/march/ros1/build/march_shared_msgs': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_msgs -- -j4 -l4
+[3.761s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetParamFloat[0m
+[3.779s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetParamStringList[0m
+[3.787s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_ContainsGait[0m
+[3.820s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetObstacleSizeBlockLike[0m
+[4.037s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetParamFloat
+[4.094s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetObstacleSizeRampLike[0m
+[4.104s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetParamStringList
+[4.116s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_ContainsGait
+[4.139s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetObstacleSizeBlockLike
+[4.172s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_PossibleGaits[0m
+[4.183s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetPossibleComLevels[0m
+[4.195s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetGaitVersion[0m
+[4.359s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetObstacleSizeRampLike
+[4.400s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetGaitVersion
+[4.414s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetParamStringList[0m
+[4.443s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_PossibleGaits
+[4.464s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.487s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetParamString[0m
+[4.503s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetPossibleComLevels
+[4.531s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.580s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_PressureSoleData[0m
+[4.622s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[4.637s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetParamStringList
+[4.699s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[4.706s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetParamString
+[4.719s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetMoveItTrajectory[0m
+[4.771s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetParamBool[0m
+[4.808s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_AfterLimitJointCommand[0m
+[4.855s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_PressureSoleData
+[4.905s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_CurrentState[0m
+[4.934s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetMoveItTrajectory
+[4.934s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetParamBool
+[4.989s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetParamBool[0m
+[4.994s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_AfterLimitJointCommand
+[4.997s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_Error[0m
+[5.123s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GaitParameters[0m
+[5.163s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetParamBool
+[5.213s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_CurrentState
+[5.247s] [35m[1mScanning dependencies of target control_msgs_generate_messages_nodejs[0m
+[5.259s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_Error
+[5.282s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_SetParamInt[0m
+[5.344s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetParamInt[0m
+[5.367s] [  0%] Built target control_msgs_generate_messages_nodejs
+[5.375s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GaitParameters
+[5.436s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_CapturePointPose[0m
+[5.471s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetParamString[0m
+[5.563s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_SetParamInt
+[5.600s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetParamFloat[0m
+[5.623s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_CapturePointPose
+[5.627s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetParamInt
+[5.671s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_Alive[0m
+[5.717s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_CurrentGait[0m
+[5.799s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetParamString
+[5.867s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GaitInstruction[0m
+[5.875s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetParamFloat
+[5.979s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GaitInstructionResponse[0m
+[6.011s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_Alive
+[6.050s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[6.059s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_CurrentGait
+[6.171s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GaitInstruction
+[6.179s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.191s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_HighVoltageNet[0m
+[6.242s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_JointValues[0m
+[6.287s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_ImcState[0m
+[6.325s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GaitInstructionResponse
+[6.439s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_GetGaitParameters[0m
+[6.499s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_JointValues
+[6.504s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_HighVoltageNet
+[6.553s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_ImcState
+[6.580s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_PowerDistributionBoardState[0m
+[6.615s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_LowVoltageNet[0m
+[6.627s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_PressureSole[0m
+[6.648s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_GetGaitParameters
+[6.718s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_PressureSolesData[0m
+[6.839s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_PowerDistributionBoardState
+[6.839s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_PressureSole
+[6.907s] [35m[1mScanning dependencies of target _march_shared_msgs_generate_messages_check_deps_ChangeComLevel[0m
+[6.940s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[6.940s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_LowVoltageNet
+[6.997s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_PressureSolesData
+[7.020s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[7.040s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.060s] [  0%] Built target std_msgs_generate_messages_py
+[7.087s] [35m[1mScanning dependencies of target control_msgs_generate_messages_py[0m
+[7.099s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[7.134s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[7.153s] [  0%] Built target control_msgs_generate_messages_py
+[7.190s] [  0%] Built target trajectory_msgs_generate_messages_py
+[7.200s] [  0%] Built target _march_shared_msgs_generate_messages_check_deps_ChangeComLevel
+[7.219s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[7.228s] [35m[1mScanning dependencies of target control_msgs_generate_messages_eus[0m
+[7.255s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.269s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.287s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[7.303s] [  0%] Built target control_msgs_generate_messages_eus
+[7.319s] [  0%] Built target std_msgs_generate_messages_eus
+[7.349s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.374s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[7.408s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[7.422s] [35m[1mScanning dependencies of target control_msgs_generate_messages_cpp[0m
+[7.432s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.443s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[7.457s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.494s] [  0%] Built target control_msgs_generate_messages_cpp
+[7.528s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.559s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[7.579s] [35m[1mScanning dependencies of target control_msgs_generate_messages_lisp[0m
+[7.596s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[7.599s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.627s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages_nodejs[0m
+[7.631s] [  0%] Built target control_msgs_generate_messages_lisp
+[7.684s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.703s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.703s] [  0%] [34m[1mGenerating Javascript code from march_shared_msgs/AfterLimitJointCommand.msg[0m
+[7.731s] [  0%] [34m[1mGenerating Javascript code from march_shared_msgs/CurrentGait.msg[0m
+[7.735s] [  1%] [34m[1mGenerating Javascript code from march_shared_msgs/Alive.msg[0m
+[7.771s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages_py[0m
+[7.827s] [  1%] [34m[1mGenerating Python from MSG march_shared_msgs/AfterLimitJointCommand[0m
+[7.976s] [  2%] [34m[1mGenerating Python from MSG march_shared_msgs/Alive[0m
+[8.012s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages_eus[0m
+[8.018s] [  3%] [34m[1mGenerating Javascript code from march_shared_msgs/CurrentState.msg[0m
+[8.119s] [  3%] [34m[1mGenerating EusLisp code from march_shared_msgs/AfterLimitJointCommand.msg[0m
+[8.138s] [  4%] [34m[1mGenerating EusLisp code from march_shared_msgs/Alive.msg[0m
+[8.279s] [  4%] [34m[1mGenerating Javascript code from march_shared_msgs/Error.msg[0m
+[8.421s] [  4%] [34m[1mGenerating Python from MSG march_shared_msgs/CurrentGait[0m
+[8.562s] [  5%] [34m[1mGenerating Javascript code from march_shared_msgs/GaitInstruction.msg[0m
+[8.576s] [  6%] [34m[1mGenerating Python from MSG march_shared_msgs/CurrentState[0m
+[8.666s] [  6%] [34m[1mGenerating EusLisp code from march_shared_msgs/CurrentGait.msg[0m
+[8.763s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages_cpp[0m
+[8.808s] [  6%] [34m[1mGenerating C++ code from march_shared_msgs/AfterLimitJointCommand.msg[0m
+[8.844s] [  6%] [34m[1mGenerating Javascript code from march_shared_msgs/GaitInstructionResponse.msg[0m
+[8.899s] [  6%] [34m[1mGenerating Python from MSG march_shared_msgs/Error[0m
+[9.099s] [  7%] [34m[1mGenerating EusLisp code from march_shared_msgs/CurrentState.msg[0m
+[9.160s] [  8%] [34m[1mGenerating Javascript code from march_shared_msgs/GaitParameters.msg[0m
+[9.279s] [  9%] [34m[1mGenerating C++ code from march_shared_msgs/Alive.msg[0m
+[9.316s] [ 10%] [34m[1mGenerating Python from MSG march_shared_msgs/GaitInstruction[0m
+[9.515s] [ 10%] [34m[1mGenerating Javascript code from march_shared_msgs/HighVoltageNet.msg[0m
+[9.639s] [ 10%] [34m[1mGenerating EusLisp code from march_shared_msgs/Error.msg[0m
+[9.695s] [ 10%] [34m[1mGenerating Python from MSG march_shared_msgs/GaitInstructionResponse[0m
+[9.728s] [ 11%] [34m[1mGenerating Javascript code from march_shared_msgs/ImcState.msg[0m
+[10.023s] [ 11%] [34m[1mGenerating C++ code from march_shared_msgs/CurrentGait.msg[0m
+[10.038s] [ 12%] [34m[1mGenerating Javascript code from march_shared_msgs/JointValues.msg[0m
+[10.043s] [ 13%] [34m[1mGenerating Python from MSG march_shared_msgs/GaitParameters[0m
+[10.205s] [ 14%] [34m[1mGenerating EusLisp code from march_shared_msgs/GaitInstruction.msg[0m
+[10.271s] [ 14%] [34m[1mGenerating Python from MSG march_shared_msgs/HighVoltageNet[0m
+[10.276s] [ 14%] [34m[1mGenerating Javascript code from march_shared_msgs/LowVoltageNet.msg[0m
+[10.402s] [ 15%] [34m[1mGenerating Javascript code from march_shared_msgs/PowerDistributionBoardState.msg[0m
+[10.627s] [ 16%] [34m[1mGenerating Python from MSG march_shared_msgs/ImcState[0m
+[10.651s] [ 16%] [34m[1mGenerating EusLisp code from march_shared_msgs/GaitInstructionResponse.msg[0m
+[10.705s] [ 16%] [34m[1mGenerating Javascript code from march_shared_msgs/PressureSole.msg[0m
+[10.820s] [ 17%] [34m[1mGenerating C++ code from march_shared_msgs/CurrentState.msg[0m
+[10.979s] [ 18%] [34m[1mGenerating Javascript code from march_shared_msgs/PressureSoleData.msg[0m
+[11.003s] [ 18%] [34m[1mGenerating Python from MSG march_shared_msgs/JointValues[0m
+[11.120s] [ 19%] [34m[1mGenerating EusLisp code from march_shared_msgs/GaitParameters.msg[0m
+[11.276s] [ 20%] [34m[1mGenerating Python from MSG march_shared_msgs/LowVoltageNet[0m
+[11.347s] [ 20%] [34m[1mGenerating Javascript code from march_shared_msgs/PressureSolesData.msg[0m
+[11.506s] [ 20%] [34m[1mGenerating C++ code from march_shared_msgs/Error.msg[0m
+[11.545s] [ 20%] [34m[1mGenerating EusLisp code from march_shared_msgs/HighVoltageNet.msg[0m
+[11.563s] [ 20%] [34m[1mGenerating Python from MSG march_shared_msgs/PowerDistributionBoardState[0m
+[11.651s] [ 21%] [34m[1mGenerating Javascript code from march_shared_msgs/CapturePointPose.srv[0m
+[11.920s] [ 23%] [34m[1mGenerating EusLisp code from march_shared_msgs/ImcState.msg[0m
+[11.939s] [ 23%] [34m[1mGenerating Python from MSG march_shared_msgs/PressureSole[0m
+[11.939s] [ 23%] [34m[1mGenerating Javascript code from march_shared_msgs/ChangeComLevel.srv[0m
+[12.040s] [ 25%] [34m[1mGenerating C++ code from march_shared_msgs/GaitInstruction.msg[0m
+[12.185s] [ 25%] [34m[1mGenerating EusLisp code from march_shared_msgs/JointValues.msg[0m
+[12.213s] [ 26%] [34m[1mGenerating Javascript code from march_shared_msgs/ContainsGait.srv[0m
+[12.388s] [ 26%] [34m[1mGenerating Python from MSG march_shared_msgs/PressureSoleData[0m
+[12.455s] [ 26%] [34m[1mGenerating Javascript code from march_shared_msgs/GetGaitParameters.srv[0m
+[12.557s] [ 27%] [34m[1mGenerating EusLisp code from march_shared_msgs/LowVoltageNet.msg[0m
+[12.656s] [ 28%] [34m[1mGenerating Javascript code from march_shared_msgs/GetMoveItTrajectory.srv[0m
+[12.776s] [ 29%] [34m[1mGenerating Python from MSG march_shared_msgs/PressureSolesData[0m
+[12.819s] [ 29%] [34m[1mGenerating C++ code from march_shared_msgs/GaitInstructionResponse.msg[0m
+[12.883s] [ 29%] [34m[1mGenerating EusLisp code from march_shared_msgs/PowerDistributionBoardState.msg[0m
+[13.003s] [ 29%] [34m[1mGenerating Javascript code from march_shared_msgs/GetParamBool.srv[0m
+[13.096s] [ 30%] [34m[1mGenerating Python code from SRV march_shared_msgs/CapturePointPose[0m
+[13.296s] [ 31%] [34m[1mGenerating Javascript code from march_shared_msgs/GetParamFloat.srv[0m
+[13.352s] [ 32%] [34m[1mGenerating EusLisp code from march_shared_msgs/PressureSole.msg[0m
+[13.440s] [ 32%] [34m[1mGenerating Python code from SRV march_shared_msgs/ChangeComLevel[0m
+[13.451s] [ 33%] [34m[1mGenerating C++ code from march_shared_msgs/GaitParameters.msg[0m
+[13.653s] [ 33%] [34m[1mGenerating Javascript code from march_shared_msgs/GetParamInt.srv[0m
+[13.735s] [ 33%] [34m[1mGenerating EusLisp code from march_shared_msgs/PressureSoleData.msg[0m
+[13.788s] [ 34%] [34m[1mGenerating Python code from SRV march_shared_msgs/ContainsGait[0m
+[13.919s] [ 35%] [34m[1mGenerating Javascript code from march_shared_msgs/GetParamString.srv[0m
+[13.921s] [ 35%] [34m[1mGenerating C++ code from march_shared_msgs/HighVoltageNet.msg[0m
+[14.077s] [ 35%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetGaitParameters[0m
+[14.155s] [ 35%] [34m[1mGenerating Javascript code from march_shared_msgs/GetParamStringList.srv[0m
+[14.236s] [ 36%] [34m[1mGenerating EusLisp code from march_shared_msgs/PressureSolesData.msg[0m
+[14.399s] [ 37%] [34m[1mGenerating C++ code from march_shared_msgs/ImcState.msg[0m
+[14.444s] [ 38%] [34m[1mGenerating Javascript code from march_shared_msgs/GetPossibleComLevels.srv[0m
+[14.511s] [ 39%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetMoveItTrajectory[0m
+[14.619s] [ 39%] [34m[1mGenerating EusLisp code from march_shared_msgs/CapturePointPose.srv[0m
+[14.715s] [ 39%] [34m[1mGenerating Javascript code from march_shared_msgs/PossibleGaits.srv[0m
+[14.784s] [ 39%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetParamBool[0m
+[14.916s] [ 40%] [34m[1mGenerating EusLisp code from march_shared_msgs/ChangeComLevel.srv[0m
+[14.922s] [ 41%] [34m[1mGenerating Javascript code from march_shared_msgs/SetGaitVersion.srv[0m
+[14.991s] [ 42%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetParamFloat[0m
+[15.196s] [ 42%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetParamInt[0m
+[15.231s] [ 42%] [34m[1mGenerating C++ code from march_shared_msgs/JointValues.msg[0m
+[15.263s] [ 42%] [34m[1mGenerating Javascript code from march_shared_msgs/SetObstacleSizeRampLike.srv[0m
+[15.355s] [ 42%] [34m[1mGenerating EusLisp code from march_shared_msgs/ContainsGait.srv[0m
+[15.472s] [ 43%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetParamString[0m
+[15.597s] [ 44%] [34m[1mGenerating Javascript code from march_shared_msgs/SetObstacleSizeBlockLike.srv[0m
+[15.675s] [ 44%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetParamStringList[0m
+[15.808s] [ 45%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetGaitParameters.srv[0m
+[15.911s] [ 46%] [34m[1mGenerating Javascript code from march_shared_msgs/SetParamBool.srv[0m
+[16.022s] [ 47%] [34m[1mGenerating Python code from SRV march_shared_msgs/GetPossibleComLevels[0m
+[16.063s] [ 48%] [34m[1mGenerating C++ code from march_shared_msgs/LowVoltageNet.msg[0m
+[16.172s] [ 48%] [34m[1mGenerating Javascript code from march_shared_msgs/SetParamFloat.srv[0m
+[16.207s] [ 50%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetMoveItTrajectory.srv[0m
+[16.230s] [ 50%] [34m[1mGenerating Python code from SRV march_shared_msgs/PossibleGaits[0m
+[16.503s] [ 51%] [34m[1mGenerating Javascript code from march_shared_msgs/SetParamInt.srv[0m
+[16.556s] [ 52%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetGaitVersion[0m
+[16.639s] [ 52%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetParamBool.srv[0m
+[16.719s] [ 52%] [34m[1mGenerating C++ code from march_shared_msgs/PowerDistributionBoardState.msg[0m
+[16.792s] [ 52%] [34m[1mGenerating Javascript code from march_shared_msgs/SetParamString.srv[0m
+[16.960s] [ 52%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetObstacleSizeRampLike[0m
+[17.056s] [ 53%] [34m[1mGenerating Javascript code from march_shared_msgs/SetParamStringList.srv[0m
+[17.114s] [ 54%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetParamFloat.srv[0m
+[17.212s] [ 55%] [34m[1mGenerating C++ code from march_shared_msgs/PressureSole.msg[0m
+[17.250s] [ 56%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetObstacleSizeBlockLike[0m
+[17.315s] [ 56%] Built target march_shared_msgs_generate_messages_nodejs
+[17.376s] [ 57%] [34m[1mGenerating C++ code from march_shared_msgs/PressureSoleData.msg[0m
+[17.551s] [ 57%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetParamInt.srv[0m
+[17.641s] [ 57%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetParamBool[0m
+[17.839s] [ 58%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetParamFloat[0m
+[18.030s] [ 59%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetParamStringList.srv[0m
+[18.030s] [ 59%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetParamString.srv[0m
+[18.031s] [ 59%] [34m[1mGenerating C++ code from march_shared_msgs/PressureSolesData.msg[0m
+[18.191s] [ 59%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetParamInt[0m
+[18.320s] [ 60%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetParamString[0m
+[18.487s] [ 61%] [34m[1mGenerating EusLisp code from march_shared_msgs/GetPossibleComLevels.srv[0m
+[18.589s] [ 62%] [34m[1mGenerating C++ code from march_shared_msgs/CapturePointPose.srv[0m
+[18.598s] [ 62%] [34m[1mGenerating Python code from SRV march_shared_msgs/SetParamStringList[0m
+[18.624s] [ 62%] [34m[1mGenerating EusLisp code from march_shared_msgs/PossibleGaits.srv[0m
+[18.935s] [ 63%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetGaitVersion.srv[0m
+[18.959s] [ 64%] [34m[1mGenerating Python msg __init__.py for march_shared_msgs[0m
+[18.994s] [ 64%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetObstacleSizeRampLike.srv[0m
+[19.279s] [ 65%] [34m[1mGenerating Python srv __init__.py for march_shared_msgs[0m
+[19.355s] [ 66%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetObstacleSizeBlockLike.srv[0m
+[19.496s] [ 66%] [34m[1mGenerating C++ code from march_shared_msgs/ChangeComLevel.srv[0m
+[19.586s] [ 66%] Built target march_shared_msgs_generate_messages_py
+[19.639s] [ 67%] [34m[1mGenerating C++ code from march_shared_msgs/ContainsGait.srv[0m
+[19.747s] [ 67%] [34m[1mGenerating C++ code from march_shared_msgs/GetGaitParameters.srv[0m
+[19.768s] [ 67%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetParamBool.srv[0m
+[20.191s] [ 68%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetParamFloat.srv[0m
+[20.483s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages_lisp[0m
+[20.539s] [ 68%] [34m[1mGenerating Lisp code from march_shared_msgs/AfterLimitJointCommand.msg[0m
+[20.596s] [ 68%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetParamInt.srv[0m
+[20.635s] [ 69%] [34m[1mGenerating Lisp code from march_shared_msgs/Alive.msg[0m
+[20.854s] [ 70%] [34m[1mGenerating C++ code from march_shared_msgs/GetMoveItTrajectory.srv[0m
+[20.871s] [ 71%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetParamString.srv[0m
+[20.883s] [ 71%] [34m[1mGenerating Lisp code from march_shared_msgs/CurrentGait.msg[0m
+[20.925s] [ 71%] [34m[1mGenerating EusLisp code from march_shared_msgs/SetParamStringList.srv[0m
+[21.179s] [ 72%] [34m[1mGenerating Lisp code from march_shared_msgs/CurrentState.msg[0m
+[21.371s] [ 73%] [34m[1mGenerating EusLisp manifest code for march_shared_msgs[0m
+[21.375s] [ 73%] [34m[1mGenerating C++ code from march_shared_msgs/GetParamBool.srv[0m
+[21.543s] [ 75%] [34m[1mGenerating Lisp code from march_shared_msgs/Error.msg[0m
+[21.731s] [ 75%] [34m[1mGenerating Lisp code from march_shared_msgs/GaitInstruction.msg[0m
+[21.933s] [ 76%] [34m[1mGenerating Lisp code from march_shared_msgs/GaitInstructionResponse.msg[0m
+[22.111s] [ 77%] [34m[1mGenerating C++ code from march_shared_msgs/GetParamFloat.srv[0m
+[22.187s] [ 77%] [34m[1mGenerating Lisp code from march_shared_msgs/GaitParameters.msg[0m
+[22.588s] [ 78%] [34m[1mGenerating Lisp code from march_shared_msgs/HighVoltageNet.msg[0m
+[22.667s] [ 78%] [34m[1mGenerating C++ code from march_shared_msgs/GetParamInt.srv[0m
+[22.951s] [ 78%] [34m[1mGenerating Lisp code from march_shared_msgs/ImcState.msg[0m
+[23.271s] [ 79%] [34m[1mGenerating Lisp code from march_shared_msgs/JointValues.msg[0m
+[23.324s] [ 80%] [34m[1mGenerating C++ code from march_shared_msgs/GetParamString.srv[0m
+[23.619s] [ 80%] [34m[1mGenerating Lisp code from march_shared_msgs/LowVoltageNet.msg[0m
+[23.869s] [ 81%] [34m[1mGenerating Lisp code from march_shared_msgs/PowerDistributionBoardState.msg[0m
+[23.972s] [ 81%] [34m[1mGenerating C++ code from march_shared_msgs/GetParamStringList.srv[0m
+[24.047s] [ 81%] Built target march_shared_msgs_generate_messages_eus
+[24.106s] [ 81%] [34m[1mGenerating Lisp code from march_shared_msgs/PressureSole.msg[0m
+[24.145s] [ 82%] [34m[1mGenerating C++ code from march_shared_msgs/GetPossibleComLevels.srv[0m
+[24.371s] [ 83%] [34m[1mGenerating Lisp code from march_shared_msgs/PressureSoleData.msg[0m
+[24.396s] [ 83%] [34m[1mGenerating C++ code from march_shared_msgs/PossibleGaits.srv[0m
+[24.679s] [ 83%] [34m[1mGenerating Lisp code from march_shared_msgs/PressureSolesData.msg[0m
+[24.878s] [ 84%] [34m[1mGenerating C++ code from march_shared_msgs/SetGaitVersion.srv[0m
+[24.971s] [ 85%] [34m[1mGenerating Lisp code from march_shared_msgs/CapturePointPose.srv[0m
+[25.223s] [ 85%] [34m[1mGenerating Lisp code from march_shared_msgs/ChangeComLevel.srv[0m
+[25.457s] [ 86%] [34m[1mGenerating Lisp code from march_shared_msgs/ContainsGait.srv[0m
+[25.484s] [ 87%] [34m[1mGenerating C++ code from march_shared_msgs/SetObstacleSizeBlockLike.srv[0m
+[25.731s] [ 87%] [34m[1mGenerating Lisp code from march_shared_msgs/GetGaitParameters.srv[0m
+[25.823s] [ 87%] [34m[1mGenerating C++ code from march_shared_msgs/SetObstacleSizeRampLike.srv[0m
+[26.015s] [ 88%] [34m[1mGenerating Lisp code from march_shared_msgs/GetMoveItTrajectory.srv[0m
+[26.254s] [ 88%] [34m[1mGenerating Lisp code from march_shared_msgs/GetParamBool.srv[0m
+[26.474s] [ 89%] [34m[1mGenerating Lisp code from march_shared_msgs/GetParamFloat.srv[0m
+[26.522s] [ 89%] [34m[1mGenerating C++ code from march_shared_msgs/SetParamBool.srv[0m
+[26.672s] [ 90%] [34m[1mGenerating C++ code from march_shared_msgs/SetParamFloat.srv[0m
+[26.778s] [ 90%] [34m[1mGenerating Lisp code from march_shared_msgs/GetParamInt.srv[0m
+[27.067s] [ 91%] [34m[1mGenerating Lisp code from march_shared_msgs/GetParamString.srv[0m
+[27.305s] [ 92%] [34m[1mGenerating Lisp code from march_shared_msgs/GetParamStringList.srv[0m
+[27.535s] [ 92%] [34m[1mGenerating C++ code from march_shared_msgs/SetParamInt.srv[0m
+[27.547s] [ 93%] [34m[1mGenerating C++ code from march_shared_msgs/SetParamString.srv[0m
+[27.570s] [ 93%] [34m[1mGenerating Lisp code from march_shared_msgs/GetPossibleComLevels.srv[0m
+[27.778s] [ 94%] [34m[1mGenerating Lisp code from march_shared_msgs/PossibleGaits.srv[0m
+[28.079s] [ 94%] [34m[1mGenerating Lisp code from march_shared_msgs/SetGaitVersion.srv[0m
+[28.274s] [ 95%] [34m[1mGenerating Lisp code from march_shared_msgs/SetObstacleSizeRampLike.srv[0m
+[28.278s] [ 96%] [34m[1mGenerating C++ code from march_shared_msgs/SetParamStringList.srv[0m
+[28.599s] [ 97%] [34m[1mGenerating Lisp code from march_shared_msgs/SetParamBool.srv[0m
+[28.859s] [ 97%] [34m[1mGenerating Lisp code from march_shared_msgs/SetParamFloat.srv[0m
+[29.085s] [ 98%] [34m[1mGenerating Lisp code from march_shared_msgs/SetParamInt.srv[0m
+[29.207s] [ 98%] Built target march_shared_msgs_generate_messages_cpp
+[29.375s] [100%] [34m[1mGenerating Lisp code from march_shared_msgs/SetParamStringList.srv[0m
+[29.526s] [100%] [34m[1mGenerating Lisp code from march_shared_msgs/SetParamString.srv[0m
+[29.626s] [100%] [34m[1mGenerating Lisp code from march_shared_msgs/SetObstacleSizeBlockLike.srv[0m
+[29.866s] [100%] Built target march_shared_msgs_generate_messages_lisp
+[29.928s] [35m[1mScanning dependencies of target march_shared_msgs_generate_messages[0m
+[30.008s] [100%] Built target march_shared_msgs_generate_messages
+[30.057s] Invoked command in '/home/sheila/march/ros1/build/march_shared_msgs' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_msgs -- -j4 -l4
+[31.533s] Invoking command in '/home/sheila/march/ros1/build/march_shared_msgs': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_msgs --target tests -- -j4 -l4
+[31.645s] [35m[1mScanning dependencies of target tests[0m
+[31.664s] Built target tests
+[31.686s] Invoked command in '/home/sheila/march/ros1/build/march_shared_msgs' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_shared_msgs --target tests -- -j4 -l4
+[31.798s] Invoking command in '/home/sheila/march/ros1/build/march_shared_msgs': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_shared_msgs
+[31.815s] -- Install configuration: ""
+[31.815s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/AfterLimitJointCommand.msg
+[31.815s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/Alive.msg
+[31.816s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentGait.msg
+[31.816s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/CurrentState.msg
+[31.816s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/Error.msg
+[31.816s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstruction.msg
+[31.816s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/GaitInstructionResponse.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/GaitParameters.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/HighVoltageNet.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/ImcState.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/JointValues.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/LowVoltageNet.msg
+[31.817s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/PowerDistributionBoardState.msg
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSole.msg
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSoleData.msg
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/msg/PressureSolesData.msg
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/CapturePointPose.srv
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/ChangeComLevel.srv
+[31.818s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/ContainsGait.srv
+[31.819s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetGaitParameters.srv
+[31.819s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetMoveItTrajectory.srv
+[31.819s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamBool.srv
+[31.819s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamFloat.srv
+[31.820s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamInt.srv
+[31.820s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamString.srv
+[31.820s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetParamStringList.srv
+[31.820s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/GetPossibleComLevels.srv
+[31.820s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/PossibleGaits.srv
+[31.821s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetGaitVersion.srv
+[31.821s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeRampLike.srv
+[31.821s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetObstacleSizeBlockLike.srv
+[31.821s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamBool.srv
+[31.822s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamFloat.srv
+[31.822s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamInt.srv
+[31.822s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamString.srv
+[31.823s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/srv/SetParamStringList.srv
+[31.823s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs-msg-paths.cmake
+[31.823s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs
+[31.823s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PossibleGaitsResponse.h
+[31.824s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeBlockLike.h
+[31.824s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamStringResponse.h
+[31.824s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamInt.h
+[31.825s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamBoolResponse.h
+[31.825s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/JointValues.h
+[31.825s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamStringListRequest.h
+[31.825s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamStringResponse.h
+[31.826s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamFloatResponse.h
+[31.826s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamBoolResponse.h
+[31.826s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PressureSolesData.h
+[31.832s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetMoveItTrajectory.h
+[31.832s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PossibleGaits.h
+[31.833s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/Error.h
+[31.833s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/CapturePointPoseRequest.h
+[31.833s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamFloatRequest.h
+[31.833s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamFloatRequest.h
+[31.834s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetGaitVersionResponse.h
+[31.834s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetMoveItTrajectoryResponse.h
+[31.834s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeBlockLikeRequest.h
+[31.834s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamFloat.h
+[31.834s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetPossibleComLevelsRequest.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/AfterLimitJointCommand.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PressureSoleData.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeRampLikeResponse.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamStringRequest.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GaitInstructionResponse.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamBoolRequest.h
+[31.835s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ChangeComLevel.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamBool.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ContainsGaitRequest.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamStringListRequest.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ContainsGaitResponse.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PressureSole.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeRampLike.h
+[31.836s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamStringRequest.h
+[31.837s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamStringList.h
+[31.837s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/Alive.h
+[31.837s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamIntRequest.h
+[31.837s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/CapturePointPoseResponse.h
+[31.841s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamFloat.h
+[31.842s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamFloatResponse.h
+[31.842s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetMoveItTrajectoryRequest.h
+[31.842s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamString.h
+[31.843s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PossibleGaitsRequest.h
+[31.843s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/CapturePointPose.h
+[31.843s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamBool.h
+[31.843s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/CurrentState.h
+[31.843s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetGaitVersion.h
+[31.844s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetGaitParametersResponse.h
+[31.844s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamInt.h
+[31.844s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetGaitParametersRequest.h
+[31.844s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ImcState.h
+[31.844s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ChangeComLevelRequest.h
+[31.845s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/PowerDistributionBoardState.h
+[31.845s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetPossibleComLevels.h
+[31.845s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ContainsGait.h
+[31.845s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetGaitVersionRequest.h
+[31.846s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamIntRequest.h
+[31.846s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamIntResponse.h
+[31.846s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GaitInstruction.h
+[31.846s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeBlockLikeResponse.h
+[31.848s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamBoolRequest.h
+[31.848s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamStringList.h
+[31.849s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamStringListResponse.h
+[31.849s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamStringListResponse.h
+[31.851s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/LowVoltageNet.h
+[31.853s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GaitParameters.h
+[31.853s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/HighVoltageNet.h
+[31.853s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetParamString.h
+[31.853s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetGaitParameters.h
+[31.854s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/ChangeComLevelResponse.h
+[31.854s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/GetPossibleComLevelsResponse.h
+[31.854s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/CurrentGait.h
+[31.854s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetParamIntResponse.h
+[31.855s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/include/march_shared_msgs/SetObstacleSizeRampLikeRequest.h
+[31.855s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs
+[31.855s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/manifest.l
+[31.856s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg
+[31.856s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/GaitInstructionResponse.l
+[31.856s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/PressureSolesData.l
+[31.856s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/GaitParameters.l
+[31.857s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/PowerDistributionBoardState.l
+[31.857s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/CurrentState.l
+[31.857s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/JointValues.l
+[31.857s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/Alive.l
+[31.857s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/ImcState.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/HighVoltageNet.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/AfterLimitJointCommand.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/GaitInstruction.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/LowVoltageNet.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/PressureSoleData.l
+[31.858s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/CurrentGait.l
+[31.859s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/PressureSole.l
+[31.859s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/msg/Error.l
+[31.859s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv
+[31.859s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetParamStringList.l
+[31.859s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/ChangeComLevel.l
+[31.860s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetParamFloat.l
+[31.860s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetParamString.l
+[31.860s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetObstacleSizeRampLike.l
+[31.860s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetParamBool.l
+[31.860s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetParamInt.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetGaitParameters.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetParamFloat.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetGaitVersion.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetParamStringList.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetParamInt.l
+[31.861s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/ContainsGait.l
+[31.862s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetPossibleComLevels.l
+[31.862s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetObstacleSizeBlockLike.l
+[31.862s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetMoveItTrajectory.l
+[31.863s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/CapturePointPose.l
+[31.863s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/SetParamBool.l
+[31.863s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/PossibleGaits.l
+[31.863s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/roseus/ros/march_shared_msgs/srv/GetParamString.l
+[31.863s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs
+[31.864s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg
+[31.864s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/Alive.lisp
+[31.864s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/CurrentState.lisp
+[31.864s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/PowerDistributionBoardState.lisp
+[31.865s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_PowerDistributionBoardState.lisp
+[31.865s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_Alive.lisp
+[31.865s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/LowVoltageNet.lisp
+[31.865s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_PressureSolesData.lisp
+[31.865s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/CurrentGait.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/AfterLimitJointCommand.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_Error.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/Error.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/JointValues.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_GaitInstruction.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_CurrentState.lisp
+[31.866s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_CurrentGait.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_PressureSoleData.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_LowVoltageNet.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/PressureSolesData.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_PressureSole.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/ImcState.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/GaitInstruction.lisp
+[31.867s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_AfterLimitJointCommand.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/march_shared_msgs-msg.asd
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_GaitInstructionResponse.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/HighVoltageNet.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_HighVoltageNet.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_ImcState.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/PressureSoleData.lisp
+[31.868s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/GaitInstructionResponse.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/PressureSole.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/GaitParameters.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_JointValues.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/msg/_package_GaitParameters.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetParamInt.lisp
+[31.869s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/PossibleGaits.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_ChangeComLevel.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/march_shared_msgs-srv.asd
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetParamString.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetParamBool.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetPossibleComLevels.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetParamStringList.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_PossibleGaits.lisp
+[31.870s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetPossibleComLevels.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_CapturePointPose.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetParamFloat.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetObstacleSizeRampLike.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_ContainsGait.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetParamFloat.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/ChangeComLevel.lisp
+[31.871s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetParamString.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetObstacleSizeBlockLike.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetParamFloat.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetGaitParameters.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetParamFloat.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/ContainsGait.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetParamBool.lisp
+[31.872s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetObstacleSizeRampLike.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetGaitVersion.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetParamStringList.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetParamBool.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetParamStringList.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetParamInt.lisp
+[31.873s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/CapturePointPose.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetObstacleSizeBlockLike.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetParamBool.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetParamString.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetGaitParameters.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetParamInt.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetParamString.lisp
+[31.874s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetParamStringList.lisp
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_GetMoveItTrajectory.lisp
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/GetMoveItTrajectory.lisp
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/_package_SetGaitVersion.lisp
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/common-lisp/ros/march_shared_msgs/srv/SetParamInt.lisp
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg
+[31.875s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/PressureSolesData.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/ImcState.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/Alive.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/GaitInstructionResponse.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/HighVoltageNet.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/PowerDistributionBoardState.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/PressureSoleData.js
+[31.876s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/GaitParameters.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/Error.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/PressureSole.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/AfterLimitJointCommand.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/CurrentState.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/GaitInstruction.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/JointValues.js
+[31.877s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/_index.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/CurrentGait.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/msg/LowVoltageNet.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetParamBool.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetParamString.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetParamStringList.js
+[31.878s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetParamString.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetParamFloat.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/CapturePointPose.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/ContainsGait.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetParamInt.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/PossibleGaits.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetGaitVersion.js
+[31.879s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetParamBool.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetObstacleSizeBlockLike.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetParamFloat.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetMoveItTrajectory.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetObstacleSizeRampLike.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/ChangeComLevel.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetPossibleComLevels.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetParamStringList.js
+[31.880s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/_index.js
+[31.881s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/GetGaitParameters.js
+[31.881s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/srv/SetParamInt.js
+[31.881s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/gennodejs/ros/march_shared_msgs/_index.js
+[32.045s] Listing '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs'...
+[32.045s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/__init__.py'...
+[32.045s] Listing '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_AfterLimitJointCommand.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_Alive.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_CurrentGait.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_CurrentState.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_Error.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_GaitInstruction.py'...
+[32.046s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_GaitInstructionResponse.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_GaitParameters.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_HighVoltageNet.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_ImcState.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_JointValues.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_LowVoltageNet.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_PowerDistributionBoardState.py'...
+[32.047s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSole.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSoleData.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSolesData.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/msg/__init__.py'...
+[32.048s] Listing '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_CapturePointPose.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_ChangeComLevel.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_ContainsGait.py'...
+[32.048s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetGaitParameters.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetMoveItTrajectory.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamBool.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamFloat.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamInt.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamString.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamStringList.py'...
+[32.049s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_GetPossibleComLevels.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_PossibleGaits.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetGaitVersion.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetObstacleSizeBlockLike.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetObstacleSizeRampLike.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamBool.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamFloat.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamInt.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamString.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamStringList.py'...
+[32.050s] Compiling '/home/sheila/march/ros1/build/march_shared_msgs/devel/lib/python3/dist-packages/march_shared_msgs/srv/__init__.py'...
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/__init__.py
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSoleData.py
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__init__.py
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_HighVoltageNet.py
+[32.055s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_GaitParameters.py
+[32.056s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_Error.py
+[32.056s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_CurrentState.py
+[32.056s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_ImcState.py
+[32.056s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_GaitInstruction.py
+[32.056s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_Alive.py
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSolesData.py
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_Error.cpython-38.pyc
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/__init__.cpython-38.pyc
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_GaitInstructionResponse.cpython-38.pyc
+[32.057s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_PowerDistributionBoardState.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_AfterLimitJointCommand.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_ImcState.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_HighVoltageNet.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_CurrentGait.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_PressureSole.cpython-38.pyc
+[32.058s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_PressureSoleData.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_LowVoltageNet.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_PressureSolesData.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_CurrentState.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_GaitInstruction.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_GaitParameters.cpython-38.pyc
+[32.059s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_Alive.cpython-38.pyc
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/__pycache__/_JointValues.cpython-38.pyc
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_GaitInstructionResponse.py
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_AfterLimitJointCommand.py
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_PowerDistributionBoardState.py
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_PressureSole.py
+[32.060s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_LowVoltageNet.py
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_CurrentGait.py
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/msg/_JointValues.py
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__init__.py
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamFloat.py
+[32.061s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamInt.py
+[32.062s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamString.py
+[32.062s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamInt.py
+[32.062s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_PossibleGaits.py
+[32.062s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_ContainsGait.py
+[32.062s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamBool.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_CapturePointPose.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamBool.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetPossibleComLevels.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamFloat.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetObstacleSizeBlockLike.py
+[32.063s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_ChangeComLevel.py
+[32.064s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamString.py
+[32.065s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetParamStringList.py
+[32.065s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetObstacleSizeRampLike.py
+[32.065s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetGaitParameters.py
+[32.065s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__
+[32.066s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/__init__.cpython-38.pyc
+[32.066s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetGaitParameters.cpython-38.pyc
+[32.066s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetParamStringList.cpython-38.pyc
+[32.066s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetGaitVersion.cpython-38.pyc
+[32.066s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetParamFloat.cpython-38.pyc
+[32.067s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetParamBool.cpython-38.pyc
+[32.067s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetObstacleSizeRampLike.cpython-38.pyc
+[32.067s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetParamString.cpython-38.pyc
+[32.067s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetParamFloat.cpython-38.pyc
+[32.074s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_ChangeComLevel.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetMoveItTrajectory.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetParamInt.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetParamStringList.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetParamInt.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_CapturePointPose.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetParamString.cpython-38.pyc
+[32.075s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetPossibleComLevels.cpython-38.pyc
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_ContainsGait.cpython-38.pyc
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_SetObstacleSizeBlockLike.cpython-38.pyc
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_PossibleGaits.cpython-38.pyc
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/__pycache__/_GetParamBool.cpython-38.pyc
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetParamStringList.py
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_SetGaitVersion.py
+[32.076s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/srv/_GetMoveItTrajectory.py
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/__pycache__
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages/march_shared_msgs/__pycache__/__init__.cpython-38.pyc
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig/march_shared_msgs.pc
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgs-msg-extras.cmake
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgsConfig.cmake
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/cmake/march_shared_msgsConfig-version.cmake
+[32.077s] -- Installing: /home/sheila/march/ros1/install/march_shared_msgs/share/march_shared_msgs/package.xml
+[32.082s] Invoked command in '/home/sheila/march/ros1/build/march_shared_msgs' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_shared_msgs

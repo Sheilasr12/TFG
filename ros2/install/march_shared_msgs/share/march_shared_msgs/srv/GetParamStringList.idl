@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from march_shared_msgs/srv/GetParamStringList.srv
+// generated code does not contain a copyright notice
+
+
+module march_shared_msgs {
+  module srv {
+    struct GetParamStringList_Request {
+      string name;
+    };
+    struct GetParamStringList_Response {
+      sequence<string> value;
+
+      boolean success;
+    };
+  };
+};

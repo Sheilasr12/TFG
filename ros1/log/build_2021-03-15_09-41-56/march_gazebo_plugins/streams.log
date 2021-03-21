@@ -1,0 +1,143 @@
+[0.021s] Invoking command in '/home/sheila/march/ros1/build/march_gazebo_plugins': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/simulation/march_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_gazebo_plugins
+[0.149s] -- The CXX compiler identification is GNU 9.3.0
+[0.160s] -- Check for working CXX compiler: /usr/bin/c++
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.335s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.515s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_gazebo_plugins/devel
+[0.515s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.515s] -- This workspace overlays: /home/sheila/march/ros1/install/march_shared_msgs;/opt/ros/noetic
+[0.555s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.556s] -- Using Debian Python package layout
+[0.621s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.621s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.872s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.872s] -- Call enable_testing()
+[0.874s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_gazebo_plugins/test_results
+[1.538s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.538s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.539s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.642s] -- The C compiler identification is GNU 9.3.0
+[1.652s] -- Check for working C compiler: /usr/bin/cc
+[1.773s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.776s] -- Detecting C compiler ABI info
+[1.894s] -- Detecting C compiler ABI info - done
+[1.927s] -- Detecting C compile features
+[1.928s] -- Detecting C compile features - done
+[1.979s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.984s] -- Found Threads: TRUE  
+[1.998s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.116s] -- catkin 0.8.9
+[2.116s] -- BUILD_SHARED_LIBS is on
+[2.563s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.838s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.841s] -- Checking for module 'bullet>=2.82'
+[2.877s] --   Found bullet, version 2.88
+[3.239s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[3.370s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.499s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.543s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.611s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.670s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.683s] -- Looking for ignition-math6 -- found version 6.7.0
+[3.700s] -- Searching for dependencies of ignition-math6
+[3.706s] -- Looking for OGRE...
+[3.707s] -- OGRE_PREFIX_WATCH changed.
+[3.721s] -- Checking for module 'OGRE'
+[3.763s] --   Found OGRE, version 1.9.0
+[3.853s] -- Found Ogre Ghadamon (1.9.0)
+[3.878s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.900s] -- Looking for OGRE_Paging...
+[3.918s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.919s] -- Looking for OGRE_Terrain...
+[3.936s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.936s] -- Looking for OGRE_Property...
+[3.955s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.955s] -- Looking for OGRE_RTShaderSystem...
+[3.975s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.979s] -- Looking for OGRE_Volume...
+[4.000s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.000s] -- Looking for OGRE_Overlay...
+[4.016s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.391s] -- Looking for ignition-math6 -- found version 6.7.0
+[4.417s] -- Looking for ignition-transport8 -- found version 8.2.0
+[4.418s] -- Searching for dependencies of ignition-transport8
+[4.450s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.471s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.481s] -- Checking for module 'libzmq >= 4'
+[4.525s] --   Found libzmq , version 4.3.2
+[4.612s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.744s] -- Checking for module 'uuid'
+[4.786s] --   Found uuid, version 2.34.0
+[4.870s] -- Found UUID: TRUE  
+[4.878s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[4.881s] -- Searching for dependencies of ignition-msgs5
+[4.916s] -- Looking for ignition-math6 -- found version 6.7.0
+[4.925s] -- Checking for module 'tinyxml2'
+[4.959s] --   Found tinyxml2, version 6.2.0
+[5.051s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[5.057s] -- Looking for ignition-common3 -- found version 3.10.0
+[5.058s] -- Searching for dependencies of ignition-common3
+[5.060s] -- Looking for dlfcn.h - found
+[5.062s] -- Looking for libdl - found
+[5.067s] -- Found DL: TRUE  
+[5.080s] -- Searching for <ignition-common3> component [graphics]
+[5.084s] -- Looking for ignition-common3-graphics -- found version 3.10.0
+[5.086s] -- Searching for dependencies of ignition-common3-graphics
+[5.087s] -- Looking for ignition-math6 -- found version 6.7.0
+[5.094s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[5.095s] -- Searching for dependencies of ignition-fuel_tools4
+[5.250s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.266s] -- Checking for module 'jsoncpp'
+[5.304s] --   Found jsoncpp, version 1.7.4
+[5.386s] -- Found JSONCPP: TRUE  
+[5.422s] -- Checking for module 'yaml-0.1'
+[5.455s] --   Found yaml-0.1, version 0.2.2
+[5.539s] -- Found YAML: TRUE  
+[5.641s] -- Checking for module 'libzip'
+[5.677s] --   Found libzip, version 1.5.1
+[5.761s] -- Found ZIP: TRUE  
+[5.762s] -- Looking for ignition-common3 -- found version 3.10.0
+[5.763s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[6.131s] -- Configuring done
+[6.278s] -- Generating done
+[6.298s] -- Build files have been written to: /home/sheila/march/ros1/build/march_gazebo_plugins
+[6.320s] Invoked command in '/home/sheila/march/ros1/build/march_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/simulation/march_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_gazebo_plugins
+[6.322s] Invoking command in '/home/sheila/march/ros1/build/march_gazebo_plugins': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gazebo_plugins -- -j4 -l4
+[6.404s] [35m[1mScanning dependencies of target contact[0m
+[6.867s] [ 16%] [32mBuilding CXX object CMakeFiles/contact.dir/src/contact_plugin.cpp.o[0m
+[30.030s] [ 33%] [32m[1mLinking CXX shared library devel/lib/libcontact.so[0m
+[31.084s] [ 33%] Built target contact
+[31.103s] [35m[1mScanning dependencies of target march_gazebo_plugins[0m
+[31.359s] [ 50%] [32mBuilding CXX object CMakeFiles/march_gazebo_plugins.dir/src/com_controller_plugin.cpp.o[0m
+[50.587s] [ 66%] [32mBuilding CXX object CMakeFiles/march_gazebo_plugins.dir/src/walk_controller.cpp.o[0m
+[68.009s] [ 83%] [32mBuilding CXX object CMakeFiles/march_gazebo_plugins.dir/src/obstacle_controller.cpp.o[0m
+[85.145s] [100%] [32m[1mLinking CXX shared library devel/lib/libmarch_gazebo_plugins.so[0m
+[85.745s] [100%] Built target march_gazebo_plugins
+[85.770s] Invoked command in '/home/sheila/march/ros1/build/march_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gazebo_plugins -- -j4 -l4
+[85.930s] Invoking command in '/home/sheila/march/ros1/build/march_gazebo_plugins': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gazebo_plugins --target tests -- -j4 -l4
+[86.026s] [35m[1mScanning dependencies of target tests[0m
+[86.042s] Built target tests
+[86.062s] Invoked command in '/home/sheila/march/ros1/build/march_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_gazebo_plugins --target tests -- -j4 -l4
+[86.183s] Invoking command in '/home/sheila/march/ros1/build/march_gazebo_plugins': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_gazebo_plugins
+[86.199s] -- Install configuration: ""
+[86.200s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig/march_gazebo_plugins.pc
+[86.201s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/cmake/march_gazebo_pluginsConfig.cmake
+[86.201s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/cmake/march_gazebo_pluginsConfig-version.cmake
+[86.202s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/package.xml
+[86.202s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins
+[86.203s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/com_controller_plugin.h
+[86.203s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/walk_controller.h
+[86.204s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/obstacle_controller.h
+[86.204s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/lib/libmarch_gazebo_plugins.so
+[86.209s] -- Set runtime path of "/home/sheila/march/ros1/install/march_gazebo_plugins/lib/libmarch_gazebo_plugins.so" to ""
+[86.209s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/contact
+[86.210s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/contact/contact_plugin.h
+[86.210s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/config
+[86.211s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/config/com_levels.yaml
+[86.212s] -- Installing: /home/sheila/march/ros1/install/march_gazebo_plugins/lib/libcontact.so
+[86.215s] -- Set runtime path of "/home/sheila/march/ros1/install/march_gazebo_plugins/lib/libcontact.so" to ""
+[86.222s] Invoked command in '/home/sheila/march/ros1/build/march_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_gazebo_plugins

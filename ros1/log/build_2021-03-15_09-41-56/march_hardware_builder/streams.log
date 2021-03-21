@@ -1,0 +1,83 @@
+[0.185s] Invoking command in '/home/sheila/march/ros1/build/march_hardware_builder': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/hardware/interface/march_hardware_builder -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_hardware_builder
+[0.558s] -- The C compiler identification is GNU 9.3.0
+[0.734s] -- The CXX compiler identification is GNU 9.3.0
+[0.746s] -- Check for working C compiler: /usr/bin/cc
+[0.872s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.874s] -- Detecting C compiler ABI info
+[0.983s] -- Detecting C compiler ABI info - done
+[1.014s] -- Detecting C compile features
+[1.015s] -- Detecting C compile features - done
+[1.022s] -- Check for working CXX compiler: /usr/bin/c++
+[1.171s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.174s] -- Detecting CXX compiler ABI info
+[1.295s] -- Detecting CXX compiler ABI info - done
+[1.329s] -- Detecting CXX compile features
+[1.330s] -- Detecting CXX compile features - done
+[1.334s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_hardware_builder/devel
+[1.335s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[1.335s] -- This workspace overlays: /home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[1.408s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.408s] -- Using Debian Python package layout
+[1.449s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.449s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.614s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.614s] -- Call enable_testing()
+[1.617s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_hardware_builder/test_results
+[2.001s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.001s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.001s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.036s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.040s] -- Found Threads: TRUE  
+[2.051s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.147s] -- catkin 0.8.9
+[2.147s] -- BUILD_SHARED_LIBS is on
+[2.746s] -- Configuring done
+[2.786s] -- Generating done
+[2.791s] -- Build files have been written to: /home/sheila/march/ros1/build/march_hardware_builder
+[2.799s] Invoked command in '/home/sheila/march/ros1/build/march_hardware_builder' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/hardware/interface/march_hardware_builder -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_hardware_builder
+[2.802s] Invoking command in '/home/sheila/march/ros1/build/march_hardware_builder': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware_builder -- -j4 -l4
+[2.847s] [35m[1mScanning dependencies of target march_hardware_builder[0m
+[2.872s] [ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder.dir/src/hardware_builder.cpp.o[0m
+[7.133s] [100%] [32m[1mLinking CXX shared library devel/lib/libmarch_hardware_builder.so[0m
+[7.318s] [100%] Built target march_hardware_builder
+[7.343s] Invoked command in '/home/sheila/march/ros1/build/march_hardware_builder' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware_builder -- -j4 -l4
+[7.400s] Invoking command in '/home/sheila/march/ros1/build/march_hardware_builder': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware_builder --target tests -- -j4 -l4
+[7.469s] [35m[1mScanning dependencies of target gtest[0m
+[7.494s] [  8%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.496s] [ 25%] Built target march_hardware_builder
+[11.627s] [ 33%] [32m[1mLinking CXX shared library ../../lib/libgtest.so[0m
+[11.793s] [ 33%] Built target gtest
+[11.805s] [35m[1mScanning dependencies of target march_hardware_builder_test[0m
+[11.849s] [ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/absolute_encoder_builder_test.cpp.o[0m
+[11.849s] [ 50%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/allowed_robot_test.cpp.o[0m
+[12.864s] [ 58%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/incremental_encoder_builder_test.cpp.o[0m
+[13.923s] [ 66%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/imc_builder_test.cpp.o[0m
+[18.532s] [ 75%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/joint_builder_test.cpp.o[0m
+[18.539s] [ 83%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/pdb_builder_test.cpp.o[0m
+[20.640s] [ 91%] [32mBuilding CXX object CMakeFiles/march_hardware_builder_test.dir/test/test_runner.cpp.o[0m
+[25.722s] [100%] [32m[1mLinking CXX executable devel/lib/march_hardware_builder/march_hardware_builder_test[0m
+[26.139s] [100%] Built target march_hardware_builder_test
+[26.149s] [35m[1mScanning dependencies of target tests[0m
+[26.161s] [100%] Built target tests
+[26.174s] Invoked command in '/home/sheila/march/ros1/build/march_hardware_builder' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware_builder --target tests -- -j4 -l4
+[26.233s] Invoking command in '/home/sheila/march/ros1/build/march_hardware_builder': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_hardware_builder
+[26.242s] -- Install configuration: ""
+[26.242s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig/march_hardware_builder.pc
+[26.242s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/cmake/march_hardware_builderConfig.cmake
+[26.242s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/cmake/march_hardware_builderConfig-version.cmake
+[26.243s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/package.xml
+[26.243s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder
+[26.243s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/hardware_builder.h
+[26.243s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/allowed_robot.h
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/include/march_hardware_builder/hardware_config_exceptions.h
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/test_joint_linear.yaml
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/march4.yaml
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/march3.yaml
+[26.244s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/pressure_soles.yaml
+[26.245s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/test_joint_rotational.yaml
+[26.245s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/share/march_hardware_builder/robots/pdb.yaml
+[26.245s] -- Installing: /home/sheila/march/ros1/install/march_hardware_builder/lib/libmarch_hardware_builder.so
+[26.245s] -- Set runtime path of "/home/sheila/march/ros1/install/march_hardware_builder/lib/libmarch_hardware_builder.so" to ""
+[26.248s] Invoked command in '/home/sheila/march/ros1/build/march_hardware_builder' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sheila/march/ros1/install/march_hardware/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_hardware_builder

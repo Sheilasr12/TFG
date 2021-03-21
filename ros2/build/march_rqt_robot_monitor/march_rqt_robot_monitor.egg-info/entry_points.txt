@@ -1,0 +1,3 @@
+[console_scripts]
+march_rqt_robot_monitor_node = march_rqt_robot_monitor.updater:main
+

@@ -1,0 +1,143 @@
+[0.049s] Invoking command in '/home/sheila/march/ros1/build/march_rqt_gait_generator': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/gaits/march_rqt_gait_generator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_rqt_gait_generator
+[0.162s] -- The C compiler identification is GNU 9.3.0
+[0.289s] -- The CXX compiler identification is GNU 9.3.0
+[0.302s] -- Check for working C compiler: /usr/bin/cc
+[0.421s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.423s] -- Detecting C compiler ABI info
+[0.542s] -- Detecting C compiler ABI info - done
+[0.575s] -- Detecting C compile features
+[0.576s] -- Detecting C compile features - done
+[0.585s] -- Check for working CXX compiler: /usr/bin/c++
+[0.731s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.734s] -- Detecting CXX compiler ABI info
+[0.877s] -- Detecting CXX compiler ABI info - done
+[1.014s] -- Detecting CXX compile features
+[1.016s] -- Detecting CXX compile features - done
+[1.021s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/march_rqt_gait_generator/devel
+[1.021s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[1.022s] -- This workspace overlays: /home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_description;/opt/ros/noetic
+[1.063s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.064s] -- Using Debian Python package layout
+[1.130s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.131s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.375s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.375s] -- Call enable_testing()
+[1.379s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/march_rqt_gait_generator/test_results
+[2.037s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.037s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.038s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.092s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.096s] -- Found Threads: TRUE  
+[2.111s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.236s] -- catkin 0.8.9
+[2.237s] -- BUILD_SHARED_LIBS is on
+[2.608s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.148s] -- Configuring done
+[4.188s] -- Generating done
+[4.199s] -- Build files have been written to: /home/sheila/march/ros1/build/march_rqt_gait_generator
+[4.215s] Invoked command in '/home/sheila/march/ros1/build/march_rqt_gait_generator' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/sheila/march/ros1/src/gaits/march_rqt_gait_generator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_rqt_gait_generator
+[4.217s] Invoking command in '/home/sheila/march/ros1/build/march_rqt_gait_generator': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_rqt_gait_generator -- -j4 -l4
+[4.292s] Invoked command in '/home/sheila/march/ros1/build/march_rqt_gait_generator' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_rqt_gait_generator -- -j4 -l4
+[4.388s] Invoking command in '/home/sheila/march/ros1/build/march_rqt_gait_generator': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_rqt_gait_generator --target tests -- -j4 -l4
+[4.479s] [35m[1mScanning dependencies of target tests[0m
+[4.496s] Built target tests
+[4.516s] Invoked command in '/home/sheila/march/ros1/build/march_rqt_gait_generator' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/sheila/march/ros1/build/march_rqt_gait_generator --target tests -- -j4 -l4
+[4.604s] Invoking command in '/home/sheila/march/ros1/build/march_rqt_gait_generator': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_rqt_gait_generator
+[4.622s] -- Install configuration: ""
+[4.625s] + cd /home/sheila/march/ros1/src/gaits/march_rqt_gait_generator
+[4.626s] + mkdir -p /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages
+[4.628s] + /usr/bin/env PYTHONPATH=/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/build/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/sheila/march/ros1/build/march_rqt_gait_generator /usr/bin/python3 /home/sheila/march/ros1/src/gaits/march_rqt_gait_generator/setup.py egg_info --egg-base /home/sheila/march/ros1/build/march_rqt_gait_generator build --build-base /home/sheila/march/ros1/build/march_rqt_gait_generator install --root=/ --install-layout=deb --prefix=/home/sheila/march/ros1/install/march_rqt_gait_generator --install-scripts=/home/sheila/march/ros1/install/march_rqt_gait_generator/bin
+[5.159s] running egg_info
+[5.162s] creating /home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info
+[5.162s] writing /home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/PKG-INFO
+[5.162s] writing dependency_links to /home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/dependency_links.txt
+[5.163s] writing top-level names to /home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/top_level.txt
+[5.165s] writing manifest file '/home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/SOURCES.txt'
+[5.241s] reading manifest file '/home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/SOURCES.txt'
+[5.243s] writing manifest file '/home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info/SOURCES.txt'
+[5.244s] running build
+[5.244s] running build_py
+[5.244s] creating /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.244s] copying src/march_rqt_gait_generator/inverse_kinematics_pop_up.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.244s] copying src/march_rqt_gait_generator/__init__.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.245s] copying src/march_rqt_gait_generator/gait_generator_controller.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.245s] copying src/march_rqt_gait_generator/gait_generator_view.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.245s] copying src/march_rqt_gait_generator/joint_table_controller.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.246s] copying src/march_rqt_gait_generator/side_subgait_view.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.246s] copying src/march_rqt_gait_generator/joint_plot.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.246s] copying src/march_rqt_gait_generator/time_slider_thread.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.246s] copying src/march_rqt_gait_generator/gait_generator_plugin.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.247s] copying src/march_rqt_gait_generator/joint_setting_spin_box_delegate.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.247s] copying src/march_rqt_gait_generator/side_subgait_controller.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator
+[5.248s] creating /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model
+[5.248s] copying src/march_rqt_gait_generator/model/__init__.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model
+[5.248s] copying src/march_rqt_gait_generator/model/modifiable_joint_trajectory.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model
+[5.248s] copying src/march_rqt_gait_generator/model/modifiable_subgait.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model
+[5.249s] copying src/march_rqt_gait_generator/model/modifiable_setpoint.py -> /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model
+[5.250s] running build_scripts
+[5.250s] creating /home/sheila/march/ros1/build/march_rqt_gait_generator/scripts-3.8
+[5.250s] copying and adjusting scripts/march_rqt_gait_generator -> /home/sheila/march/ros1/build/march_rqt_gait_generator/scripts-3.8
+[5.250s] changing mode of /home/sheila/march/ros1/build/march_rqt_gait_generator/scripts-3.8/march_rqt_gait_generator from 664 to 775
+[5.250s] running install
+[5.253s] running install_lib
+[5.255s] creating /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.255s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/inverse_kinematics_pop_up.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.255s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/__init__.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.256s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/gait_generator_controller.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.256s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/gait_generator_view.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.256s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/joint_table_controller.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.256s] creating /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model
+[5.256s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model/__init__.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model
+[5.257s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model/modifiable_joint_trajectory.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model
+[5.257s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model/modifiable_subgait.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model
+[5.257s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/model/modifiable_setpoint.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model
+[5.257s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/side_subgait_view.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.258s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/joint_plot.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.258s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/time_slider_thread.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.258s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/gait_generator_plugin.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.258s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/joint_setting_spin_box_delegate.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.258s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/lib/march_rqt_gait_generator/side_subgait_controller.py -> /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator
+[5.261s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/inverse_kinematics_pop_up.py to inverse_kinematics_pop_up.cpython-38.pyc
+[5.265s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/__init__.py to __init__.cpython-38.pyc
+[5.265s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/gait_generator_controller.py to gait_generator_controller.cpython-38.pyc
+[5.274s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/gait_generator_view.py to gait_generator_view.cpython-38.pyc
+[5.278s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/joint_table_controller.py to joint_table_controller.cpython-38.pyc
+[5.279s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model/__init__.py to __init__.cpython-38.pyc
+[5.279s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model/modifiable_joint_trajectory.py to modifiable_joint_trajectory.cpython-38.pyc
+[5.282s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model/modifiable_subgait.py to modifiable_subgait.cpython-38.pyc
+[5.285s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/model/modifiable_setpoint.py to modifiable_setpoint.cpython-38.pyc
+[5.285s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/side_subgait_view.py to side_subgait_view.cpython-38.pyc
+[5.286s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/joint_plot.py to joint_plot.cpython-38.pyc
+[5.290s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/time_slider_thread.py to time_slider_thread.cpython-38.pyc
+[5.291s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/gait_generator_plugin.py to gait_generator_plugin.cpython-38.pyc
+[5.292s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/joint_setting_spin_box_delegate.py to joint_setting_spin_box_delegate.cpython-38.pyc
+[5.294s] byte-compiling /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator/side_subgait_controller.py to side_subgait_controller.cpython-38.pyc
+[5.295s] running install_egg_info
+[5.298s] Copying /home/sheila/march/ros1/build/march_rqt_gait_generator/march_rqt_gait_generator.egg-info to /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages/march_rqt_gait_generator-0.1.0.egg-info
+[5.298s] Skipping SOURCES.txt
+[5.299s] running install_scripts
+[5.332s] creating /home/sheila/march/ros1/install/march_rqt_gait_generator/bin
+[5.332s] copying /home/sheila/march/ros1/build/march_rqt_gait_generator/scripts-3.8/march_rqt_gait_generator -> /home/sheila/march/ros1/install/march_rqt_gait_generator/bin
+[5.332s] changing mode of /home/sheila/march/ros1/install/march_rqt_gait_generator/bin/march_rqt_gait_generator to 775
+[5.403s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig/march_rqt_gait_generator.pc
+[5.403s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/cmake/march_rqt_gait_generatorConfig.cmake
+[5.404s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/cmake/march_rqt_gait_generatorConfig-version.cmake
+[5.404s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/package.xml
+[5.404s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/plugin.xml
+[5.405s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/config
+[5.405s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/config/layout.yaml
+[5.405s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/launch
+[5.406s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/launch/march_rqt_gait_generator.launch
+[5.406s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource
+[5.406s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/cfg.rviz
+[5.406s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/img
+[5.406s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/img/march-walking.png
+[5.407s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/joint_setting.ui
+[5.407s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/empty_gait
+[5.407s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/empty_gait/empty_subgait
+[5.407s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/empty_gait/empty_subgait/empty_subgait.subgait
+[5.407s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/inverse_kinematics_pop_up.ui
+[5.408s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/gait_generator.ui
+[5.408s] -- Installing: /home/sheila/march/ros1/install/march_rqt_gait_generator/lib/march_rqt_gait_generator/march_rqt_gait_generator
+[5.416s] Invoked command in '/home/sheila/march/ros1/build/march_rqt_gait_generator' returned '0': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/sheila/march/ros1/build/march_rqt_gait_generator

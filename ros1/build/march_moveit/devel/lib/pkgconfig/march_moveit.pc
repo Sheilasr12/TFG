@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_moveit/devel
+
+Name: march_moveit
+Description: Description of march_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

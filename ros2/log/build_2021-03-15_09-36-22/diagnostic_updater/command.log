@@ -1,0 +1,6 @@
+Invoking command in '/home/sheila/march/ros2/build/diagnostic_updater': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/libraries/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/diagnostic_updater
+Invoked command in '/home/sheila/march/ros2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sheila/march/ros2/src/libraries/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros2/install/diagnostic_updater
+Invoking command in '/home/sheila/march/ros2/build/diagnostic_updater': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/diagnostic_updater -- -j4 -l4
+Invoked command in '/home/sheila/march/ros2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sheila/march/ros2/build/diagnostic_updater -- -j4 -l4
+Invoking command in '/home/sheila/march/ros2/build/diagnostic_updater': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/diagnostic_updater
+Invoked command in '/home/sheila/march/ros2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sheila/march/ros2/build/diagnostic_updater

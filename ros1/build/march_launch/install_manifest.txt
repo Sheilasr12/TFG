@@ -1,0 +1,8 @@
+/home/sheila/march/ros1/install/march_launch/lib/pkgconfig/march_launch.pc
+/home/sheila/march/ros1/install/march_launch/share/march_launch/cmake/march_launchConfig.cmake
+/home/sheila/march/ros1/install/march_launch/share/march_launch/cmake/march_launchConfig-version.cmake
+/home/sheila/march/ros1/install/march_launch/share/march_launch/package.xml
+/home/sheila/march/ros1/install/march_launch/share/march_launch/launch/serial_connection.launch
+/home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march_simulation.launch
+/home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march_headless.launch
+/home/sheila/march/ros1/install/march_launch/share/march_launch/launch/march.launch

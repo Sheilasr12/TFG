@@ -1,0 +1,7 @@
+set(march_gain_scheduling_SETUP_PY_SETUP_MODULE "setuptools")
+set(march_gain_scheduling_SETUP_PY_VERSION "0.0.0")
+set(march_gain_scheduling_SETUP_PY_SCRIPTS "scripts/march_gain_scheduling_node")
+set(march_gain_scheduling_SETUP_PY_PACKAGES "march_gain_scheduling")
+set(march_gain_scheduling_SETUP_PY_PACKAGE_DIRS "src/march_gain_scheduling")
+set(march_gain_scheduling_SETUP_PY_MODULES "")
+set(march_gain_scheduling_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from march_shared_msgs/msg/PowerDistributionBoardState.msg
+// generated code does not contain a copyright notice
+
+#include "march_shared_msgs/msg/HighVoltageNet.idl"
+#include "march_shared_msgs/msg/LowVoltageNet.idl"
+#include "std_msgs/msg/Header.idl"
+
+module march_shared_msgs {
+  module msg {
+    struct PowerDistributionBoardState {
+      std_msgs::msg::Header header;
+
+      boolean high_voltage_enabled;
+
+      @verbatim (language="comment", text=
+        " The current consumed by the power distribution board.")
+      float power_distribution_board_current;
+
+      @verbatim (language="comment", text=
+        " The total current of all high voltage nets combined.")
+      float high_voltage_net_current;
+
+      @verbatim (language="comment", text=
+        " The request of the power distribution board to shutdown the master.")
+      boolean master_shutdown_requested;
+
+      sequence<march_shared_msgs::msg::LowVoltageNet> low_voltage_nets;
+
+      sequence<march_shared_msgs::msg::HighVoltageNet> high_voltage_nets;
+    };
+  };
+};

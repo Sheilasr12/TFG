@@ -1,0 +1,8 @@
+Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/drivers/march_imu_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_imu_manager
+Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/drivers/march_imu_manager -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_imu_manager
+Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager --target tests -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_imu_manager --target tests -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_imu_manager': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_imu_manager
+Invoked command in '/home/sheila/march/ros1/build/march_imu_manager' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_imu_manager

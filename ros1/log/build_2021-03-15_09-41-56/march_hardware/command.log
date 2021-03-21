@@ -1,0 +1,8 @@
+Invoking command in '/home/sheila/march/ros1/build/march_hardware': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/interface/march_hardware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_hardware
+Invoked command in '/home/sheila/march/ros1/build/march_hardware' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/hardware/interface/march_hardware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/march_hardware
+Invoking command in '/home/sheila/march/ros1/build/march_hardware': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_hardware' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_hardware': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware --target tests -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/march_hardware' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/march_hardware --target tests -- -j4 -l4
+Invoking command in '/home/sheila/march/ros1/build/march_hardware': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_hardware
+Invoked command in '/home/sheila/march/ros1/build/march_hardware' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/march_hardware

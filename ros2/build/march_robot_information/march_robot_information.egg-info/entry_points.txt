@@ -1,0 +1,3 @@
+[console_scripts]
+march_robot_information = march_robot_information.robot_information_node:main
+

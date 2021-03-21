@@ -1,0 +1,6 @@
+source;share/march_rqt_input_device/hook/pythonpath.ps1
+source;share/march_rqt_input_device/hook/pythonpath.dsv
+source;share/march_rqt_input_device/hook/pythonpath.sh
+source;share/march_rqt_input_device/hook/ament_prefix_path.ps1
+source;share/march_rqt_input_device/hook/ament_prefix_path.dsv
+source;share/march_rqt_input_device/hook/ament_prefix_path.sh

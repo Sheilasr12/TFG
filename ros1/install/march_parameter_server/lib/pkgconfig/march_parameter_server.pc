@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/march_parameter_server
+
+Name: march_parameter_server
+Description: Description of march_parameter_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: march_shared_msgs

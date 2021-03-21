@@ -1,0 +1,7 @@
+set(march_parameter_server_SETUP_PY_SETUP_MODULE "setuptools")
+set(march_parameter_server_SETUP_PY_VERSION "0.0.0")
+set(march_parameter_server_SETUP_PY_SCRIPTS "scripts/march_parameter_server_node")
+set(march_parameter_server_SETUP_PY_PACKAGES "march_parameter_server")
+set(march_parameter_server_SETUP_PY_PACKAGE_DIRS "src/march_parameter_server")
+set(march_parameter_server_SETUP_PY_MODULES "")
+set(march_parameter_server_SETUP_PY_MODULE_DIRS "")

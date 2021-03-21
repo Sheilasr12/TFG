@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/build/march_realsense_reader/devel
+
+Name: march_realsense_reader
+Description: Description of march_realsense_reader
+Version: 0.0.0
+Cflags: -I/home/sheila/march/ros1/src/data/march_realsense_reader/include
+Libs: -L${prefix}/lib 
+Requires: pcl_conversions pcl_ros roscpp sensor_msgs tf2_ros march_shared_msgs

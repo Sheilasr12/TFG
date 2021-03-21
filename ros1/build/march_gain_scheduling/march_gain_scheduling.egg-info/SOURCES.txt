@@ -1,0 +1,7 @@
+setup.py
+scripts/march_gain_scheduling_node
+src/march_gain_scheduling/__init__.py
+src/march_gain_scheduling/dynamic_pid_reconfigurer.py
+src/march_gain_scheduling/gain_scheduling_node.py
+src/march_gain_scheduling/interpolation_errors.py
+src/march_gain_scheduling/one_step_linear_interpolation.py

@@ -1,0 +1,11 @@
+/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig/march_gazebo_plugins.pc
+/home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/cmake/march_gazebo_pluginsConfig.cmake
+/home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/cmake/march_gazebo_pluginsConfig-version.cmake
+/home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/package.xml
+/home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/com_controller_plugin.h
+/home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/walk_controller.h
+/home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/march_gazebo_plugins/obstacle_controller.h
+/home/sheila/march/ros1/install/march_gazebo_plugins/lib/libmarch_gazebo_plugins.so
+/home/sheila/march/ros1/install/march_gazebo_plugins/include/march_gazebo_plugins/contact/contact_plugin.h
+/home/sheila/march/ros1/install/march_gazebo_plugins/share/march_gazebo_plugins/config/com_levels.yaml
+/home/sheila/march/ros1/install/march_gazebo_plugins/lib/libcontact.so

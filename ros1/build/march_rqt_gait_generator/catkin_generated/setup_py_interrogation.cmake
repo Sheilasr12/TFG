@@ -1,0 +1,7 @@
+set(march_rqt_gait_generator_SETUP_PY_SETUP_MODULE "setuptools")
+set(march_rqt_gait_generator_SETUP_PY_VERSION "0.1.0")
+set(march_rqt_gait_generator_SETUP_PY_SCRIPTS "scripts/march_rqt_gait_generator")
+set(march_rqt_gait_generator_SETUP_PY_PACKAGES "march_rqt_gait_generator")
+set(march_rqt_gait_generator_SETUP_PY_PACKAGE_DIRS "src/march_rqt_gait_generator")
+set(march_rqt_gait_generator_SETUP_PY_MODULES "")
+set(march_rqt_gait_generator_SETUP_PY_MODULE_DIRS "")

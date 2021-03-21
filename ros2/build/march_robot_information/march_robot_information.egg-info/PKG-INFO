@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: march-robot-information
+Version: 0.0.0
+Summary: This node contains information about the march robot such as the joint names in its node parameters and makes this information public to other nodes.
+Home-page: UNKNOWN
+Maintainer: Project March
+Maintainer-email: software@projectmarch.nl
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

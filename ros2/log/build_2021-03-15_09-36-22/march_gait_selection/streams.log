@@ -1,0 +1,166 @@
+[0.625s] Invoking command in '/home/sheila/march/ros2/src/gaits/march_gait_selection': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_utility/lib:/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_gait_selection build --build-base /home/sheila/march/ros2/build/march_gait_selection/build install --prefix /home/sheila/march/ros2/install/march_gait_selection --record /home/sheila/march/ros2/build/march_gait_selection/install.log --single-version-externally-managed
+[1.037s] running egg_info
+[1.038s] creating ../../../build/march_gait_selection/march_gait_selection.egg-info
+[1.038s] writing ../../../build/march_gait_selection/march_gait_selection.egg-info/PKG-INFO
+[1.039s] writing dependency_links to ../../../build/march_gait_selection/march_gait_selection.egg-info/dependency_links.txt
+[1.039s] writing entry points to ../../../build/march_gait_selection/march_gait_selection.egg-info/entry_points.txt
+[1.039s] writing requirements to ../../../build/march_gait_selection/march_gait_selection.egg-info/requires.txt
+[1.039s] writing top-level names to ../../../build/march_gait_selection/march_gait_selection.egg-info/top_level.txt
+[1.042s] writing manifest file '../../../build/march_gait_selection/march_gait_selection.egg-info/SOURCES.txt'
+[1.108s] reading manifest file '../../../build/march_gait_selection/march_gait_selection.egg-info/SOURCES.txt'
+[1.110s] writing manifest file '../../../build/march_gait_selection/march_gait_selection.egg-info/SOURCES.txt'
+[1.111s] running build
+[1.111s] running build_py
+[1.111s] creating /home/sheila/march/ros2/build/march_gait_selection/build
+[1.111s] creating /home/sheila/march/ros2/build/march_gait_selection/build/lib
+[1.112s] creating /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection
+[1.112s] copying march_gait_selection/__init__.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection
+[1.112s] copying march_gait_selection/gait_selection_node.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection
+[1.112s] copying march_gait_selection/gait_selection.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection
+[1.113s] creating /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.113s] copying march_gait_selection/state_machine/__init__.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.113s] copying march_gait_selection/state_machine/gait_state_machine_error.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.113s] copying march_gait_selection/state_machine/gait_state_machine.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.114s] copying march_gait_selection/state_machine/trajectory_scheduler.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.114s] copying march_gait_selection/state_machine/setpoints_gait.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.115s] copying march_gait_selection/state_machine/home_gait.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.115s] copying march_gait_selection/state_machine/gait_interface.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.115s] copying march_gait_selection/state_machine/state_machine_input.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine
+[1.117s] creating /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits
+[1.117s] copying march_gait_selection/dynamic_gaits/__init__.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits
+[1.117s] copying march_gait_selection/dynamic_gaits/semi_dynamic_setpoints_gait.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits
+[1.117s] copying march_gait_selection/dynamic_gaits/transition_subgait.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits
+[1.118s] copying march_gait_selection/dynamic_gaits/balance_gait.py -> /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits
+[1.118s] running install
+[1.118s] running install_lib
+[1.118s] creating /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection
+[1.119s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/__init__.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection
+[1.119s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/gait_selection_node.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection
+[1.120s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/gait_selection.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection
+[1.120s] creating /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.120s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/__init__.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.121s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/gait_state_machine_error.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.121s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/gait_state_machine.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.122s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/trajectory_scheduler.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.122s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/setpoints_gait.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.122s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/home_gait.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.123s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/gait_interface.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.124s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/state_machine/state_machine_input.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine
+[1.124s] creating /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits
+[1.124s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits/__init__.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits
+[1.124s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits/semi_dynamic_setpoints_gait.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits
+[1.127s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits/transition_subgait.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits
+[1.127s] copying /home/sheila/march/ros2/build/march_gait_selection/build/lib/march_gait_selection/dynamic_gaits/balance_gait.py -> /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits
+[1.127s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/__init__.py to __init__.cpython-38.pyc
+[1.127s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/gait_selection_node.py to gait_selection_node.cpython-38.pyc
+[1.127s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/gait_selection.py to gait_selection.cpython-38.pyc
+[1.134s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/__init__.py to __init__.cpython-38.pyc
+[1.136s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/gait_state_machine_error.py to gait_state_machine_error.cpython-38.pyc
+[1.139s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/gait_state_machine.py to gait_state_machine.cpython-38.pyc
+[1.139s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/trajectory_scheduler.py to trajectory_scheduler.cpython-38.pyc
+[1.139s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/setpoints_gait.py to setpoints_gait.cpython-38.pyc
+[1.143s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/home_gait.py to home_gait.cpython-38.pyc
+[1.143s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/gait_interface.py to gait_interface.cpython-38.pyc
+[1.144s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/state_machine/state_machine_input.py to state_machine_input.cpython-38.pyc
+[1.144s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits/__init__.py to __init__.cpython-38.pyc
+[1.144s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits/semi_dynamic_setpoints_gait.py to semi_dynamic_setpoints_gait.cpython-38.pyc
+[1.147s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits/transition_subgait.py to transition_subgait.cpython-38.pyc
+[1.150s] byte-compiling /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection/dynamic_gaits/balance_gait.py to balance_gait.cpython-38.pyc
+[1.155s] running install_data
+[1.156s] creating /home/sheila/march/ros2/install/march_gait_selection/share/ament_index
+[1.156s] creating /home/sheila/march/ros2/install/march_gait_selection/share/ament_index/resource_index
+[1.156s] creating /home/sheila/march/ros2/install/march_gait_selection/share/ament_index/resource_index/packages
+[1.156s] copying resource/march_gait_selection -> /home/sheila/march/ros2/install/march_gait_selection/share/ament_index/resource_index/packages
+[1.157s] copying package.xml -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection
+[1.157s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test
+[1.157s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources
+[1.158s] copying test/testing_gait_files/default.yaml -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources
+[1.158s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/launch
+[1.158s] copying launch/gait_selection.launch.py -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/launch
+[1.158s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk
+[1.159s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_close
+[1.159s] copying test/testing_gait_files/walk/right_close/MV_walk_rightclose_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_close
+[1.159s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_swing
+[1.159s] copying test/testing_gait_files/walk/right_swing/MV_walk_rightswing_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_swing
+[1.159s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/left_close
+[1.160s] copying test/testing_gait_files/walk/left_close/MV_walk_leftclose_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/left_close
+[1.160s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/left_swing
+[1.160s] copying test/testing_gait_files/walk/left_swing/MV_walk_leftswing_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/left_swing
+[1.165s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_open
+[1.166s] copying test/testing_gait_files/walk/right_open/MV_walk_rightopen_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk/right_open
+[1.166s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small
+[1.166s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_close
+[1.166s] copying test/testing_gait_files/walk_small/right_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_close
+[1.166s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_swing
+[1.166s] copying test/testing_gait_files/walk_small/right_swing/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_swing
+[1.167s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/left_close
+[1.167s] copying test/testing_gait_files/walk_small/left_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/left_close
+[1.167s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/left_swing
+[1.167s] copying test/testing_gait_files/walk_small/left_swing/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/left_swing
+[1.168s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_open
+[1.168s] copying test/testing_gait_files/walk_small/right_open/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small/right_open
+[1.168s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium
+[1.168s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_close
+[1.169s] copying test/testing_gait_files/walk_medium/right_close/MV_walk_rightclose_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_close
+[1.169s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_swing
+[1.169s] copying test/testing_gait_files/walk_medium/right_swing/MV_walk_rightswing_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_swing
+[1.169s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/left_close
+[1.170s] copying test/testing_gait_files/walk_medium/left_close/MV_walk_leftclose_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/left_close
+[1.170s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/left_swing
+[1.170s] copying test/testing_gait_files/walk_medium/left_swing/MV_walk_leftswing_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/left_swing
+[1.170s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_open
+[1.171s] copying test/testing_gait_files/walk_medium/right_open/MV_walk_rightopen_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium/right_open
+[1.171s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up
+[1.171s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_close
+[1.171s] copying test/testing_gait_files/stairs_up/right_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_close
+[1.171s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_swing
+[1.172s] copying test/testing_gait_files/stairs_up/right_swing/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_swing
+[1.172s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/left_close
+[1.172s] copying test/testing_gait_files/stairs_up/left_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/left_close
+[1.172s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/left_swing
+[1.172s] copying test/testing_gait_files/stairs_up/left_swing/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/left_swing
+[1.172s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_open
+[1.173s] copying test/testing_gait_files/stairs_up/right_open/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up/right_open
+[1.173s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk
+[1.173s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.173s] copying test/testing_gait_files/balance_walk/right_close/MV_walk_rightclose_v3.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.173s] copying test/testing_gait_files/balance_walk/right_close/MV_walk_rightclose_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.173s] copying test/testing_gait_files/balance_walk/right_close/MV_walk_rightclose_v5.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.173s] copying test/testing_gait_files/balance_walk/right_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.174s] copying test/testing_gait_files/balance_walk/right_close/MV_walk_rightclose_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_close
+[1.174s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing_2
+[1.174s] copying test/testing_gait_files/balance_walk/right_swing_2/MV_balancewalk_rightswing2_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing_2
+[1.174s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open_1
+[1.174s] copying test/testing_gait_files/balance_walk/right_open_1/MV_balancewalk_rightopen1_v3.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open_1
+[1.174s] copying test/testing_gait_files/balance_walk/right_open_1/MV_balancewalk_rightopen1_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open_1
+[1.175s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing
+[1.175s] copying test/testing_gait_files/balance_walk/right_swing/MV_balancewalk_rightswing_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing
+[1.175s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing_2
+[1.175s] copying test/testing_gait_files/balance_walk/left_swing_2/MV_balancewalk_leftswing2_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing_2
+[1.182s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.182s] copying test/testing_gait_files/balance_walk/left_close/MV_walk_leftclose_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.182s] copying test/testing_gait_files/balance_walk/left_close/MV_walk_leftclose_v5.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.182s] copying test/testing_gait_files/balance_walk/left_close/MV_walk_leftclose_v3.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.183s] copying test/testing_gait_files/balance_walk/left_close/MIV_final.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.183s] copying test/testing_gait_files/balance_walk/left_close/MV_walk_leftclose_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_close
+[1.183s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open_2
+[1.183s] copying test/testing_gait_files/balance_walk/right_open_2/MV_balancewalk_rightopen2_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open_2
+[1.183s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing
+[1.183s] copying test/testing_gait_files/balance_walk/left_swing/MV_balancewalk_leftswing_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing
+[1.183s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing_1
+[1.184s] copying test/testing_gait_files/balance_walk/right_swing_1/MV_balancewalk_rightswing1_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_swing_1
+[1.184s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open
+[1.184s] copying test/testing_gait_files/balance_walk/right_open/MV_balancewalk_rightopen_v1.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/right_open
+[1.184s] creating /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing_1
+[1.184s] copying test/testing_gait_files/balance_walk/left_swing_1/MV_balancewalk_leftswing1_v2.subgait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk/left_swing_1
+[1.185s] copying test/testing_gait_files/walk/walk.gait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk
+[1.185s] copying test/testing_gait_files/walk_small/walk_small.gait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_small
+[1.185s] copying test/testing_gait_files/walk_medium/walk_medium.gait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/walk_medium
+[1.185s] copying test/testing_gait_files/stairs_up/stairs_up.gait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/stairs_up
+[1.185s] copying test/testing_gait_files/balance_walk/balance_walk.gait -> /home/sheila/march/ros2/install/march_gait_selection/share/march_gait_selection/test/resources/balance_walk
+[1.185s] running install_egg_info
+[1.185s] Copying ../../../build/march_gait_selection/march_gait_selection.egg-info to /home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages/march_gait_selection-0.0.0-py3.8.egg-info
+[1.186s] running install_scripts
+[1.195s] Installing march_gait_selection script to /home/sheila/march/ros2/install/march_gait_selection/lib/march_gait_selection
+[1.200s] writing list of installed files to '/home/sheila/march/ros2/build/march_gait_selection/install.log'
+[1.239s] Invoked command in '/home/sheila/march/ros2/src/gaits/march_gait_selection' returned '0': AMENT_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sheila/march/ros2/install/march_utility:/home/sheila/march/ros2/install/march_description:/home/sheila/march/ros2/install/march_shared_msgs:/home/sheila/march/ros2/install/march_robot_state_publisher LD_LIBRARY_PATH=/home/sheila/march/ros2/install/march_utility/lib:/home/sheila/march/ros2/install/march_shared_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sheila/march/ros2/install/march_gait_selection/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_utility/lib/python3.8/site-packages:/home/sheila/march/ros2/install/march_shared_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/march_gait_selection build --build-base /home/sheila/march/ros2/build/march_gait_selection/build install --prefix /home/sheila/march/ros2/install/march_gait_selection --record /home/sheila/march/ros2/build/march_gait_selection/install.log --single-version-externally-managed

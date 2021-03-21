@@ -1,0 +1,9 @@
+/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig/march_acado_mpc.pc
+/home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/cmake/march_acado_mpcConfig.cmake
+/home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/cmake/march_acado_mpcConfig-version.cmake
+/home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/package.xml
+/home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/joint_trajectory_mpc.hpp
+/home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/model_predictive_controller.hpp
+/home/sheila/march/ros1/install/march_acado_mpc/include/march_acado_mpc/include/mpc_references.h
+/home/sheila/march/ros1/install/march_acado_mpc/lib/libmarch_acado_mpc.so
+/home/sheila/march/ros1/install/march_acado_mpc/share/march_acado_mpc/controller_plugins.xml

@@ -1,0 +1,14 @@
+/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig/march_rqt_gait_generator.pc
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/cmake/march_rqt_gait_generatorConfig.cmake
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/cmake/march_rqt_gait_generatorConfig-version.cmake
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/package.xml
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/plugin.xml
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/config/layout.yaml
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/launch/march_rqt_gait_generator.launch
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/cfg.rviz
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/img/march-walking.png
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/joint_setting.ui
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/empty_gait/empty_subgait/empty_subgait.subgait
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/inverse_kinematics_pop_up.ui
+/home/sheila/march/ros1/install/march_rqt_gait_generator/share/march_rqt_gait_generator/resource/gait_generator.ui
+/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/march_rqt_gait_generator/march_rqt_gait_generator

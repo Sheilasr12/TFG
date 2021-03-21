@@ -1,0 +1,67 @@
+running egg_info
+creating ../../../build/march_robot_information/march_robot_information.egg-info
+writing ../../../build/march_robot_information/march_robot_information.egg-info/PKG-INFO
+writing dependency_links to ../../../build/march_robot_information/march_robot_information.egg-info/dependency_links.txt
+writing entry points to ../../../build/march_robot_information/march_robot_information.egg-info/entry_points.txt
+writing requirements to ../../../build/march_robot_information/march_robot_information.egg-info/requires.txt
+writing top-level names to ../../../build/march_robot_information/march_robot_information.egg-info/top_level.txt
+writing manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+reading manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+writing manifest file '../../../build/march_robot_information/march_robot_information.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sheila/march/ros2/build/march_robot_information/build
+creating /home/sheila/march/ros2/build/march_robot_information/build/lib
+creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test
+copying test/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test
+creating /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+copying march_robot_information/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+copying march_robot_information/robot_information_node.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information
+creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+copying test/unittest/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+copying test/unittest/test_robot_information.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest
+creating /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+copying test/launch_test/robot_information_description_launch_test.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+copying test/launch_test/__init__.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+copying test/launch_test/robot_information_launch_test.py -> /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test
+running install
+running install_lib
+creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test
+creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/unittest/test_robot_information.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest
+creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/robot_information_description_launch_test.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/test/launch_test/robot_information_launch_test.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test
+creating /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+copying /home/sheila/march/ros2/build/march_robot_information/build/lib/march_robot_information/robot_information_node.py -> /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/unittest/test_robot_information.py to test_robot_information.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/robot_information_description_launch_test.py to robot_information_description_launch_test.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/test/launch_test/robot_information_launch_test.py to robot_information_launch_test.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information/robot_information_node.py to robot_information_node.cpython-38.pyc
+running install_data
+creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index
+creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index
+creating /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index/packages
+copying resource/march_robot_information -> /home/sheila/march/ros2/install/march_robot_information/share/ament_index/resource_index/packages
+copying package.xml -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information
+creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/launch
+copying launch/robot_information.launch.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/launch
+creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test
+creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+copying test/unittest/__init__.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+copying test/unittest/test_robot_information.py -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/unittest
+creating /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/resource
+copying test/resource/march4.xacro -> /home/sheila/march/ros2/install/march_robot_information/share/march_robot_information/test/resource
+running install_egg_info
+Copying ../../../build/march_robot_information/march_robot_information.egg-info to /home/sheila/march/ros2/install/march_robot_information/lib/python3.8/site-packages/march_robot_information-0.0.0-py3.8.egg-info
+running install_scripts
+Installing march_robot_information script to /home/sheila/march/ros2/install/march_robot_information/lib/march_robot_information
+writing list of installed files to '/home/sheila/march/ros2/build/march_robot_information/install.log'

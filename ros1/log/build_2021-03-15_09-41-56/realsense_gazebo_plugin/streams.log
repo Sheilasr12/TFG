@@ -1,0 +1,266 @@
+[0.031s] Invoking command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/realsense_gazebo_plugin
+[0.151s] -- The C compiler identification is GNU 9.3.0
+[0.270s] -- The CXX compiler identification is GNU 9.3.0
+[0.283s] -- Check for working C compiler: /usr/bin/cc
+[0.399s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.559s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.568s] -- Check for working CXX compiler: /usr/bin/c++
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.725s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Detecting CXX compile features
+[0.899s] -- Detecting CXX compile features - done
+[0.903s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/realsense_gazebo_plugin/devel
+[0.903s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.904s] -- This workspace overlays: /opt/ros/noetic
+[0.951s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.951s] -- Using Debian Python package layout
+[1.015s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.015s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.273s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.274s] -- Call enable_testing()
+[1.277s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/realsense_gazebo_plugin/test_results
+[1.863s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.863s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.864s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.911s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.915s] -- Found Threads: TRUE  
+[1.929s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.042s] -- catkin 0.8.9
+[2.043s] -- BUILD_SHARED_LIBS is on
+[2.530s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.938s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.942s] -- Checking for module 'bullet>=2.82'
+[2.972s] --   Found bullet, version 2.88
+[3.238s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[3.361s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[3.494s] -- Found assimp: /usr/include (found version "5.0.0") 
+[3.542s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.599s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.644s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.652s] -- Looking for ignition-math6 -- found version 6.7.0
+[3.662s] -- Searching for dependencies of ignition-math6
+[3.666s] -- Looking for OGRE...
+[3.669s] -- OGRE_PREFIX_WATCH changed.
+[3.682s] -- Checking for module 'OGRE'
+[3.719s] --   Found OGRE, version 1.9.0
+[3.804s] -- Found Ogre Ghadamon (1.9.0)
+[3.828s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.855s] -- Looking for OGRE_Paging...
+[3.873s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.873s] -- Looking for OGRE_Terrain...
+[3.889s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.890s] -- Looking for OGRE_Property...
+[3.905s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.905s] -- Looking for OGRE_RTShaderSystem...
+[3.921s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.921s] -- Looking for OGRE_Volume...
+[3.937s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.938s] -- Looking for OGRE_Overlay...
+[3.952s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.272s] -- Looking for ignition-math6 -- found version 6.7.0
+[4.275s] -- Looking for ignition-transport8 -- found version 8.2.0
+[4.276s] -- Searching for dependencies of ignition-transport8
+[4.310s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.330s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.337s] -- Checking for module 'libzmq >= 4'
+[4.368s] --   Found libzmq , version 4.3.2
+[4.454s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.464s] -- Checking for module 'uuid'
+[4.495s] --   Found uuid, version 2.34.0
+[4.574s] -- Found UUID: TRUE  
+[4.577s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[4.578s] -- Searching for dependencies of ignition-msgs5
+[4.611s] -- Looking for ignition-math6 -- found version 6.7.0
+[4.619s] -- Checking for module 'tinyxml2'
+[4.650s] --   Found tinyxml2, version 6.2.0
+[4.733s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[4.736s] -- Looking for ignition-common3 -- found version 3.10.0
+[4.737s] -- Searching for dependencies of ignition-common3
+[4.737s] -- Looking for dlfcn.h - found
+[4.740s] -- Looking for libdl - found
+[4.742s] -- Found DL: TRUE  
+[4.754s] -- Searching for <ignition-common3> component [graphics]
+[4.756s] -- Looking for ignition-common3-graphics -- found version 3.10.0
+[4.757s] -- Searching for dependencies of ignition-common3-graphics
+[4.758s] -- Looking for ignition-math6 -- found version 6.7.0
+[4.762s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[4.763s] -- Searching for dependencies of ignition-fuel_tools4
+[4.908s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[4.922s] -- Checking for module 'jsoncpp'
+[4.953s] --   Found jsoncpp, version 1.7.4
+[5.031s] -- Found JSONCPP: TRUE  
+[5.059s] -- Checking for module 'yaml-0.1'
+[5.091s] --   Found yaml-0.1, version 0.2.2
+[5.170s] -- Found YAML: TRUE  
+[5.176s] -- Checking for module 'libzip'
+[5.197s] --   Found libzip, version 1.5.1
+[5.253s] -- Found ZIP: TRUE  
+[5.253s] -- Looking for ignition-common3 -- found version 3.10.0
+[5.254s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[5.455s] -- Configuring done
+[5.527s] -- Generating done
+[5.536s] -- Build files have been written to: /home/sheila/march/ros1/build/realsense_gazebo_plugin
+[5.555s] Invoked command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/libraries/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/realsense_gazebo_plugin
+[5.556s] Invoking command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/sheila/march/ros1/build/realsense_gazebo_plugin -- -j4 -l4
+[5.624s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[5.641s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[5.657s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[5.674s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[5.690s] [35m[1mScanning dependencies of target gazebo_msgs_generate_messages_py[0m
+[5.707s] [  0%] Built target gazebo_msgs_generate_messages_py
+[5.723s] [35m[1mScanning dependencies of target gazebo_msgs_generate_messages_nodejs[0m
+[5.740s] [  0%] Built target gazebo_msgs_generate_messages_nodejs
+[5.757s] [35m[1mScanning dependencies of target gazebo_msgs_generate_messages_cpp[0m
+[5.773s] [  0%] Built target gazebo_msgs_generate_messages_cpp
+[5.789s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[5.806s] [  0%] Built target dynamic_reconfigure_gencfg
+[5.822s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[5.839s] [  0%] Built target std_srvs_generate_messages_lisp
+[5.857s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[5.873s] [  0%] Built target std_srvs_generate_messages_eus
+[5.890s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[5.906s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.923s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[5.940s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.956s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[5.973s] [  0%] Built target std_msgs_generate_messages_py
+[5.989s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[6.005s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.021s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[6.038s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[6.054s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[6.071s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[6.087s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[6.104s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[6.120s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[6.136s] [  0%] Built target actionlib_generate_messages_cpp
+[6.152s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[6.170s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.186s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[6.202s] [  0%] Built target roscpp_generate_messages_lisp
+[6.219s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[6.235s] [  0%] Built target actionlib_generate_messages_lisp
+[6.252s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.269s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.285s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[6.302s] [  0%] Built target std_srvs_generate_messages_cpp
+[6.318s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[6.334s] [  0%] Built target std_srvs_generate_messages_nodejs
+[6.352s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[6.368s] [  0%] Built target tf_generate_messages_eus
+[6.385s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[6.401s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[6.417s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[6.432s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[6.448s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.463s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.479s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[6.494s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[6.510s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[6.526s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[6.543s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[6.561s] [  0%] Built target roscpp_generate_messages_py
+[6.577s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[6.594s] [  0%] Built target geometry_msgs_generate_messages_py
+[6.611s] [35m[1mScanning dependencies of target gazebo_ros_gencfg[0m
+[6.628s] [  0%] Built target gazebo_ros_gencfg
+[6.644s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[6.661s] [  0%] Built target roscpp_generate_messages_cpp
+[6.677s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[6.693s] [  0%] Built target roscpp_generate_messages_eus
+[6.706s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[6.723s] [  0%] Built target sensor_msgs_generate_messages_py
+[6.740s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[6.757s] [  0%] Built target tf2_msgs_generate_messages_eus
+[6.774s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[6.790s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[6.807s] [35m[1mScanning dependencies of target gazebo_msgs_generate_messages_lisp[0m
+[6.825s] [  0%] Built target gazebo_msgs_generate_messages_lisp
+[6.842s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[6.859s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[6.875s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[6.891s] [  0%] Built target tf2_msgs_generate_messages_py
+[6.907s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[6.923s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[6.939s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[6.955s] [  0%] Built target tf_generate_messages_cpp
+[6.971s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[6.988s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.004s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[7.020s] [  0%] Built target std_srvs_generate_messages_py
+[7.037s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[7.052s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.068s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[7.084s] [  0%] Built target tf_generate_messages_lisp
+[7.099s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[7.116s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[7.132s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[7.149s] [  0%] Built target tf_generate_messages_nodejs
+[7.165s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.182s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.199s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.212s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.224s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.235s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.246s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[7.257s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.267s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[7.278s] [  0%] Built target trajectory_msgs_generate_messages_py
+[7.289s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.300s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.311s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[7.323s] [  0%] Built target actionlib_generate_messages_eus
+[7.335s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[7.346s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.361s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[7.376s] [  0%] Built target actionlib_generate_messages_nodejs
+[7.393s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[7.410s] [  0%] Built target actionlib_generate_messages_py
+[7.427s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[7.448s] [  0%] Built target tf_generate_messages_py
+[7.465s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.482s] [  0%] Built target std_msgs_generate_messages_eus
+[7.497s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[7.515s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.533s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[7.552s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[7.567s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[7.584s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[7.600s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[7.617s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[7.632s] [35m[1mScanning dependencies of target gazebo_msgs_generate_messages_eus[0m
+[7.651s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[7.667s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.683s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.699s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[7.714s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[7.727s] [35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[7.744s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[7.761s] [35m[1mScanning dependencies of target realsense_gazebo_plugin[0m
+[8.002s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o[0m
+[39.488s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o[0m
+[71.857s] [100%] [32m[1mLinking CXX shared library devel/lib/librealsense_gazebo_plugin.so[0m
+[73.198s] [100%] Built target realsense_gazebo_plugin
+[73.212s] Invoked command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/realsense_gazebo_plugin -- -j4 -l4
+[73.295s] Invoking command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/sheila/march/ros1/build/realsense_gazebo_plugin --target tests -- -j4 -l4
+[73.359s] [35m[1mScanning dependencies of target tests[0m
+[73.371s] Built target tests
+[73.384s] Invoked command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/realsense_gazebo_plugin --target tests -- -j4 -l4
+[73.479s] Invoking command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin': /usr/bin/cmake --install /home/sheila/march/ros1/build/realsense_gazebo_plugin
+[73.495s] -- Install configuration: ""
+[73.495s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc
+[73.495s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+[73.496s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+[73.496s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+[73.496s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+[73.501s] -- Set runtime path of "/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""
+[73.501s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include
+[73.501s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin
+[73.501s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h
+[73.501s] -- Installing: /home/sheila/march/ros1/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h
+[73.504s] Invoked command in '/home/sheila/march/ros1/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/realsense_gazebo_plugin

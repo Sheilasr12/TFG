@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarch_fake_sensor_data.a  CMakeFiles/march_fake_sensor_data.dir/src/FakeTemperatureData.cpp.o CMakeFiles/march_fake_sensor_data.dir/src/UniformDistribution.cpp.o
+/usr/bin/ranlib libmarch_fake_sensor_data.a
