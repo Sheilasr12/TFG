@@ -41,7 +41,7 @@
     <arg name="gait_directory" default="minimal" doc="Gait files directory to use"/>
 
 <!-- Pass everything to march.launch -->
-    <include file="$(dirname)/march.launch" pass_all_args="true">
+    <include file="$(dirname)/march_S.launch" pass_all_args="true">
         <arg name="configuration" value="simulation"/>
     </include>
 </launch>

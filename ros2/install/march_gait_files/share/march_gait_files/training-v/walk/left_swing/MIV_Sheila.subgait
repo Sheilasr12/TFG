@@ -1,0 +1,114 @@
+description: The setpoints of this walking gait are the same as the setpoints of the
+  MIV, but less flexion of the hip
+duration: 1200000000
+gait_type: walk_like
+joints:
+  left_ankle:
+  - position: 0.04360007
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.18995263
+    time_from_start: 350800000
+    velocity: 0.0
+  - position: 0.18995263
+    time_from_start: 360800000
+    velocity: 0.0
+  - position: 0.18995263
+    time_from_start: 578900000
+    velocity: 0.0
+  - position: 0.04550073
+    time_from_start: 930600000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 1200000000
+    velocity: -0.0
+  left_hip_aa:
+  - position: 0.0
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 450000000
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 600000000
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 1200000000
+    velocity: -0.0
+  left_hip_fe:
+  - position: -0.1667
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.4887
+    time_from_start: 720000000
+    velocity: 0.1396
+  - position: 0.288
+    time_from_start: 1200000000
+    velocity: -0.3491
+  left_knee:
+  - position: 0.2443461
+    time_from_start: 0
+    velocity: 0.0
+  - position: 1.15305875
+    time_from_start: 504000000
+    velocity: 0.0
+  - position: 1.15305875
+    time_from_start: 646000000
+    velocity: 0.0
+  - position: 0.09690068
+    time_from_start: 1080000000
+    velocity: 0.0
+  - position: 0.13960016
+    time_from_start: 1200000000
+    velocity: 0.0
+  right_ankle:
+  - position: 0.04360007
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 455000000
+    velocity: 0.0
+  - position: -0.03773854
+    time_from_start: 964369940
+    velocity: 0
+  - position: 0.04360007
+    time_from_start: 1200000000
+    velocity: -0.0
+  right_hip_aa:
+  - position: 0.0
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 450000000
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 600000000
+    velocity: 0.0
+  - position: 0.0
+    time_from_start: 1200000000
+    velocity: -0.0
+  right_hip_fe:
+  - position: 0.288
+    time_from_start: 0
+    velocity: -0.3491
+  - position: -0.1667
+    time_from_start: 1200000000
+    velocity: 0.0
+  right_knee:
+  - position: 0.13960016
+    time_from_start: 0
+    velocity: 0.0
+  - position: 0.20939937
+    time_from_start: 240000000
+    velocity: 0.0
+  - position: 0.13960016
+    time_from_start: 816000000
+    velocity: 0.0
+  - position: 0.2443461
+    time_from_start: 1092000000
+    velocity: 0.0
+  - position: 0.2443461
+    time_from_start: 1200000000
+    velocity: 0.0
+name: left_swing
+version: MIV_Sheila

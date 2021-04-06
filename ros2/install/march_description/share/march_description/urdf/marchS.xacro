@@ -398,12 +398,12 @@
         </inertial>
 
         <collision>
-            <origin xyz="0 ${lower_leg_width_y + 0.01} 0" rpy="0 0 0"/>
+            <origin xyz="0 ${-lower_leg_width_y/2 - 0.055} -0.05" rpy="0 0 0"/>
             <geometry>
-                <box size="0.17 0.13 0.12"/>
+                <box size="0.17 0.15 0.10"/>
             </geometry>
         </collision>
-    </link>  
+    </link>
 
     <!-- Ankle plate Left -->
     <link name="ankle_plate_left">
@@ -605,9 +605,9 @@
         </inertial>
 
         <collision>
-            <origin xyz="0 ${-lower_leg_width_y/2 -0.03} 0" rpy="0 0 0"/>
+            <origin xyz="0 ${-lower_leg_width_y/2 - 0.055} -0.05" rpy="0 0 0"/>
             <geometry>
-                <box size="0.17 0.13 0.12"/>
+                <box size="0.17 0.15 0.10"/>
             </geometry>
         </collision>
     </link>
@@ -762,12 +762,12 @@
                            k_position="${k_position_value_kfe}"
                            k_velocity="${k_velocity_value_kfe}" />
     </joint>
-    
+
     <joint name="left_fixing" type="fixed">
         <parent link="lower_leg_left"/>
         <child link="left_support"/>
         <origin xyz="0 ${lower_leg_width_y/2} ${-lower_leg_height/2}" rpy="0 0 0"/>
-    </joint> 
+    </joint>
 
     <joint name="left_ankle" type="revolute">
         <parent link="lower_leg_left"/>
@@ -858,12 +858,12 @@
                            k_position="${k_position_value_kfe}"
                            k_velocity="${k_velocity_value_kfe}" />
     </joint>
-    
+
     <joint name="right_fixing" type="fixed">
         <parent link="lower_leg_right"/>
         <child link="right_support"/>
         <origin xyz="0 ${-lower_leg_width_y/2} ${-lower_leg_height/2}" rpy="0 0 0"/>
-    </joint> 
+    </joint>
 
     <joint name="right_ankle" type="revolute">
         <parent link="lower_leg_right"/>

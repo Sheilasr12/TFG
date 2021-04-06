@@ -51,11 +51,11 @@ gaits:
     left_close: MV_stairsdown_leftclose_v9
     right_close: MV_stairsdown_rightclose_v9
   walk:
-    right_open: MIV_final
-    left_swing: MIV_final
-    right_swing: MIV_final
-    left_close: MIV_final
-    right_close: MIV_final
+    right_open: MIV_Sheila
+    left_swing: MIV_Sheila
+    right_swing: MIV_Sheila
+    left_close: MIV_Sheila
+    right_close: MIV_Sheila
   slalom_walk:
     right_open: MIV_final
     left_swing: MV_slalom_leftswing_v2

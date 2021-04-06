@@ -1,6 +1,6 @@
 description: The right open gait for the MIV walking gait with less hip flexion
 duration: 1500000000
-gait_type: ''
+gait_type: walk_like
 joints:
   left_ankle:
   - position: 0.0436
@@ -40,10 +40,31 @@ joints:
     time_from_start: 1500000000
     velocity: 0.0
   right_ankle:
-  - position: 0.0436
-    time_from_start: 37600000
+  - position: 0.04360007
+    time_from_start: 0
     velocity: 0.0
-  - position: 0.0436
+  - position: 0.04360007
+    time_from_start: 400700000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 666000000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 701400000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 701400000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 701400000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 701400000
+    velocity: 0.0
+  - position: 0.04360007
+    time_from_start: 701400000
+    velocity: 0.0
+  - position: 0.04360007
     time_from_start: 1500000000
     velocity: -0.0
   right_hip_aa:
