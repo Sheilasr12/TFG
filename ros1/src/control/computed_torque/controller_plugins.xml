@@ -1,0 +1,11 @@
+<library path="lib/libcomputed_torque_lib">
+
+  <class name="computed_torque/ComputedTorque" 
+         type="computed_torque_controller::ComputedTorque"           
+         base_class_type="controller_interface::ControllerBase" >
+    <description>
+      The computed controller 
+    </description>
+  </class>
+
+</library>
