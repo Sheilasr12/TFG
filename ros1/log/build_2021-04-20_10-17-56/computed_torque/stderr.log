@@ -1,0 +1,8 @@
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:30:10:[m[K [01;31m[Kfatal error: [m[Kjoint_trajectory_controller/trajectory_interface/quintic_spline_segment.h: No existe el archivo o el directorio
+   30 | #include [01;31m[K<joint_trajectory_controller/trajectory_interface/quintic_spline_segment.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1811: CMakeFiles/computed_torque_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

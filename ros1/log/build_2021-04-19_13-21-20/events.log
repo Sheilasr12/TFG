@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000487] (-) JobUnselected: {'identifier': 'direct_dynamic_controller'}
+[0.000545] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000601] (-) JobUnselected: {'identifier': 'march_acado_mpc'}
+[0.000630] (-) JobUnselected: {'identifier': 'march_bridge_parameters'}
+[0.000666] (-) JobUnselected: {'identifier': 'march_data_collector'}
+[0.001586] (-) JobUnselected: {'identifier': 'march_description'}
+[0.001670] (-) JobUnselected: {'identifier': 'march_gain_scheduling'}
+[0.001714] (-) JobUnselected: {'identifier': 'march_gazebo_plugins'}
+[0.001770] (-) JobUnselected: {'identifier': 'march_hardware'}
+[0.001811] (-) JobUnselected: {'identifier': 'march_hardware_builder'}
+[0.001852] (-) JobUnselected: {'identifier': 'march_hardware_interface'}
+[0.001925] (-) JobUnselected: {'identifier': 'march_imu_manager'}
+[0.002001] (-) JobUnselected: {'identifier': 'march_joint_inertia_controller'}
+[0.002041] (-) JobUnselected: {'identifier': 'march_launch'}
+[0.002066] (-) JobUnselected: {'identifier': 'march_moveit'}
+[0.002099] (-) JobUnselected: {'identifier': 'march_moveit_interface'}
+[0.002131] (-) JobUnselected: {'identifier': 'march_parameter_server'}
+[0.002156] (-) JobUnselected: {'identifier': 'march_pdb_state_controller'}
+[0.002188] (-) JobUnselected: {'identifier': 'march_realsense_reader'}
+[0.002268] (-) JobUnselected: {'identifier': 'march_rqt_gait_generator'}
+[0.002329] (-) JobUnselected: {'identifier': 'march_shared_classes'}
+[0.002369] (-) JobUnselected: {'identifier': 'march_shared_msgs'}
+[0.002422] (-) JobUnselected: {'identifier': 'march_simulation'}
+[0.002481] (-) JobUnselected: {'identifier': 'march_temperature_sensor_controller'}
+[0.002560] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.002609] (computed_torque) JobQueued: {'identifier': 'computed_torque', 'dependencies': OrderedDict()}
+[0.002643] (computed_torque) JobStarted: {'identifier': 'computed_torque'}
+[0.017457] (computed_torque) JobProgress: {'identifier': 'computed_torque', 'progress': 'cmake'}
+[0.018405] (computed_torque) JobProgress: {'identifier': 'computed_torque', 'progress': 'build'}
+[0.019451] (computed_torque) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sheila/march/ros1/build/computed_torque', '--', '-j4', '-l4'], 'cwd': '/home/sheila/march/ros1/build/computed_torque', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1925'), ('ROS_PACKAGE_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/joint_trajectory_controller/share:/home/sheila/march/ros1/install/direct_dynamic_controller/share:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/home/sheila/march/ros1/install/direct_dynamic_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march/ros1/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sheila/march/ros1/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:44128'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/bin:/home/sheila/march/ros1/install/march_parameter_server/bin:/home/sheila/march/ros1/install/march_moveit_interface/bin:/home/sheila/march/ros1/install/march_gain_scheduling/bin:/home/sheila/march/ros1/install/march_data_collector/bin:/opt/ros/noetic/bin:/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/1982,unix/sheila-X555LDB:/tmp/.ICE-unix/1982'), ('INVOCATION_ID', 'd40a2fe7b48d41e5a05b67d9c42ca560'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72b98cec_054a_42c3_bc60_e80448ff5239'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.207'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/computed_torque'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_moveit_interface/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_data_collector/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/joint_trajectory_controller:/home/sheila/march/ros1/install/direct_dynamic_controller:/opt/ros/noetic')]), 'shell': False}
+[0.099047] (-) TimerEvent: {}
+[0.102429] (computed_torque) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_py\n'}
+[0.102896] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_nodejs\n'}
+[0.103166] (computed_torque) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_eus\n'}
+[0.103775] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_nodejs\n'}
+[0.139455] (computed_torque) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_eus\n'}
+[0.142057] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_lisp\n'}
+[0.151097] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_msgs_generate_messages_lisp\n'}
+[0.152381] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_cpp\n'}
+[0.178134] (computed_torque) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_lisp\n'}
+[0.183011] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_msgs_generate_messages_cpp\n'}
+[0.194467] (computed_torque) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_lisp\n'}
+[0.194870] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_generate_messages_nodejs\n'}
+[0.199127] (-) TimerEvent: {}
+[0.216525] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_eus\n'}
+[0.224726] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_py\n'}
+[0.233595] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_msgs_generate_messages_nodejs\n'}
+[0.235071] (computed_torque) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_lisp\n'}
+[0.256112] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_py\n'}
+[0.264995] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_lisp\n'}
+[0.273189] (computed_torque) StdoutLine: {'line': b'[  0%] Built target _catkin_empty_exported_target\n'}
+[0.273669] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_nodejs\n'}
+[0.292768] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_msgs_generate_messages_eus\n'}
+[0.299246] (-) TimerEvent: {}
+[0.305134] (computed_torque) StdoutLine: {'line': b'[  0%] Built target trajectory_msgs_generate_messages_nodejs\n'}
+[0.311873] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_generate_messages_py\n'}
+[0.312307] (computed_torque) StdoutLine: {'line': b'[  0%] Built target trajectory_msgs_generate_messages_cpp\n'}
+[0.331883] (computed_torque) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_py\n'}
+[0.348596] (computed_torque) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_nodejs\n'}
+[0.350626] (computed_torque) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_nodejs\n'}
+[0.357080] (computed_torque) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_eus\n'}
+[0.370057] (computed_torque) StdoutLine: {'line': b'[  0%] Built target std_msgs_generate_messages_cpp\n'}
+[0.388040] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_msgs_generate_messages_py\n'}
+[0.388472] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_cpp\n'}
+[0.397043] (computed_torque) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_nodejs\n'}
+[0.399343] (-) TimerEvent: {}
+[0.407708] (computed_torque) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_eus\n'}
+[0.426902] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_gencfg\n'}
+[0.427250] (computed_torque) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_cpp\n'}
+[0.437871] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_msgs_generate_messages_py\n'}
+[0.446344] (computed_torque) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_cpp\n'}
+[0.465849] (computed_torque) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_py\n'}
+[0.466286] (computed_torque) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_lisp\n'}
+[0.478434] (computed_torque) StdoutLine: {'line': b'[  0%] Built target trajectory_msgs_generate_messages_lisp\n'}
+[0.485173] (computed_torque) StdoutLine: {'line': b'[  0%] Built target rosgraph_msgs_generate_messages_cpp\n'}
+[0.499469] (-) TimerEvent: {}
+[0.504304] (computed_torque) StdoutLine: {'line': b'[  0%] Built target actionlib_generate_messages_eus\n'}
+[0.504966] (computed_torque) StdoutLine: {'line': b'[  0%] Built target trajectory_msgs_generate_messages_py\n'}
+[0.522289] (computed_torque) StdoutLine: {'line': b'[  0%] Built target trajectory_msgs_generate_messages_eus\n'}
+[0.522712] (computed_torque) StdoutLine: {'line': b'[  0%] Built target roscpp_generate_messages_py\n'}
+[0.542049] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_generate_messages_eus\n'}
+[0.542418] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_generate_messages_cpp\n'}
+[0.560942] (computed_torque) StdoutLine: {'line': b'[  0%] Built target control_toolbox_generate_messages_lisp\n'}
+[0.561299] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_cpp\n'}
+[0.579522] (computed_torque) StdoutLine: {'line': b'[  0%] Built target geometry_msgs_generate_messages_nodejs\n'}
+[0.579955] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_eus\n'}
+[0.592657] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_generate_messages_lisp\n'}
+[0.592974] (computed_torque) StdoutLine: {'line': b'[  0%] Built target dynamic_reconfigure_gencfg\n'}
+[0.599581] (-) TimerEvent: {}
+[0.608578] (computed_torque) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target computed_torque_lib\x1b[0m\n'}
+[0.634710] (computed_torque) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o\x1b[0m\n'}
+[0.699706] (-) TimerEvent: {}
+[0.800021] (-) TimerEvent: {}
+[0.900365] (-) TimerEvent: {}
+[1.000713] (-) TimerEvent: {}
+[1.101049] (-) TimerEvent: {}
+[1.201347] (-) TimerEvent: {}
+[1.301650] (-) TimerEvent: {}
+[1.401990] (-) TimerEvent: {}
+[1.502321] (-) TimerEvent: {}
+[1.602671] (-) TimerEvent: {}
+[1.702966] (-) TimerEvent: {}
+[1.803263] (-) TimerEvent: {}
+[1.903561] (-) TimerEvent: {}
+[2.003853] (-) TimerEvent: {}
+[2.104142] (-) TimerEvent: {}
+[2.204439] (-) TimerEvent: {}
+[2.304730] (-) TimerEvent: {}
+[2.405016] (-) TimerEvent: {}
+[2.505320] (-) TimerEvent: {}
+[2.605622] (-) TimerEvent: {}
+[2.705924] (-) TimerEvent: {}
+[2.806221] (-) TimerEvent: {}
+[2.906517] (-) TimerEvent: {}
+[3.006812] (-) TimerEvent: {}
+[3.107112] (-) TimerEvent: {}
+[3.207419] (-) TimerEvent: {}
+[3.307722] (-) TimerEvent: {}
+[3.408023] (-) TimerEvent: {}
+[3.508317] (-) TimerEvent: {}
+[3.608611] (-) TimerEvent: {}
+[3.708909] (-) TimerEvent: {}
+[3.809209] (-) TimerEvent: {}
+[3.882053] (computed_torque) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5\x1b[m\x1b[K:\n'}
+[3.882309] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:64:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KState\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.882444] (computed_torque) StderrLine: {'line': b'   64 | d update(const ros::Time &time, const ros::Duration &period, const \x1b[01;31m\x1b[KState\x1b[m\x1b[K& desired_state, const State& state_error );\n'}
+[3.882552] (computed_torque) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.882647] (computed_torque) StderrLine: {'line': b'\n'}
+[3.883917] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:64:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KState\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.884061] (computed_torque) StderrLine: {'line': b'   64 | me, const ros::Duration &period, const State& desired_state, const \x1b[01;31m\x1b[KState\x1b[m\x1b[K& state_error );\n'}
+[3.884161] (computed_torque) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.884250] (computed_torque) StderrLine: {'line': b'\n'}
+[3.909330] (-) TimerEvent: {}
+[3.915860] (computed_torque) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:119\x1b[m\x1b[K,\n'}
+[3.916104] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5\x1b[m\x1b[K:\n'}
+[3.916226] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:75:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KState\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.916337] (computed_torque) StderrLine: {'line': b'   75 |                                               const \x1b[01;31m\x1b[KState\x1b[m\x1b[K& desired_state, const State& state_error ){\n'}
+[3.916432] (computed_torque) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.917754] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:75:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KState\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.917906] (computed_torque) StderrLine: {'line': b'   75 |                                  const State& desired_state, const \x1b[01;31m\x1b[KState\x1b[m\x1b[K& state_error ){\n'}
+[3.918008] (computed_torque) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.918098] (computed_torque) StderrLine: {'line': b'\n'}
+[3.921375] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid controller_ns::computed_torque_controller_class::update(const ros::Time&, const ros::Duration&, const int&, const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.921566] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:80:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent_vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.921682] (computed_torque) StderrLine: {'line': b'   80 |       \x1b[01;31m\x1b[Kcurrent\x1b[m\x1b[K.q(i) = (*joint_handles_ptr_)[i].getPosition();\n'}
+[3.921783] (computed_torque) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.921874] (computed_torque) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kcurrent_vel\x1b[m\x1b[K\n'}
+[3.924845] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:84:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.925083] (computed_torque) StderrLine: {'line': b'   84 |       \x1b[01;31m\x1b[Kdesired\x1b[m\x1b[K.q(i) = desired_state.position[i];\n'}
+[3.925189] (computed_torque) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.925283] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:84:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kdesired_state\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925382] (computed_torque) StderrLine: {'line': b'   84 |       desired.q(i) = desired_state.\x1b[01;31m\x1b[Kposition\x1b[m\x1b[K[i];\n'}
+[3.925470] (computed_torque) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.925553] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:85:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kvelocity\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kdesired_state\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925651] (computed_torque) StderrLine: {'line': b'   85 |       desired.qdot(i) = desired_state.\x1b[01;31m\x1b[Kvelocity\x1b[m\x1b[K[i];\n'}
+[3.925734] (computed_torque) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.925814] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:86:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kacceleration\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kdesired_state\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.925908] (computed_torque) StderrLine: {'line': b'   86 |       desired.qdotdot(i) = desired_state.\x1b[01;31m\x1b[Kacceleration\x1b[m\x1b[K[i];\n'}
+[3.925988] (computed_torque) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.927569] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:88:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kperror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.927742] (computed_torque) StderrLine: {'line': b'   88 |       \x1b[01;31m\x1b[Kerror\x1b[m\x1b[K.q(i) = state_error.position[i];\n'}
+[3.927853] (computed_torque) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.927955] (computed_torque) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kperror\x1b[m\x1b[K\n'}
+[3.928052] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:88:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kposition\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstate_error\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.928165] (computed_torque) StderrLine: {'line': b'   88 |       error.q(i) = state_error.\x1b[01;31m\x1b[Kposition\x1b[m\x1b[K[i];\n'}
+[3.928250] (computed_torque) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.928332] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:89:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kvelocity\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstate_error\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.928417] (computed_torque) StderrLine: {'line': b'   89 |       error.qdot(i) = state_error.\x1b[01;31m\x1b[Kvelocity\x1b[m\x1b[K[i];\n'}
+[3.928497] (computed_torque) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.930594] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:104:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchain\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.930751] (computed_torque) StderrLine: {'line': b'  104 |     KDL::ChainDynParam dynamics = KDL::ChainDynParam(\x1b[01;31m\x1b[Kchain\x1b[m\x1b[K, KDL::Vector(0.0,0.0,-9.81));\n'}
+[3.930856] (computed_torque) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.934210] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:107:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent_vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.934375] (computed_torque) StderrLine: {'line': b'  107 |     dynamics.JntToGravity(\x1b[01;31m\x1b[Kcurrent\x1b[m\x1b[K.q,G);\n'}
+[3.934481] (computed_torque) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.934574] (computed_torque) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kcurrent_vel\x1b[m\x1b[K\n'}
+[3.938060] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:111:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.938273] (computed_torque) StderrLine: {'line': b'  111 |     tau.data = M.data*(\x1b[01;31m\x1b[Kdesired\x1b[m\x1b[K.qdotdot.data + Kp*error.q.data + Kv*error.qdot.data) + C.data + G.data - F * current.qdot.data;\n'}
+[3.938393] (computed_torque) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.940848] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:111:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerror\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kperror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.941106] (computed_torque) StderrLine: {'line': b'  111 |     tau.data = M.data*(desired.qdotdot.data + Kp*\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K.q.data + Kv*error.qdot.data) + C.data + G.data - F * current.qdot.data;\n'}
+[3.941287] (computed_torque) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.941445] (computed_torque) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[Kperror\x1b[m\x1b[K\n'}
+[3.953434] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:116:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerrror\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kperror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.953691] (computed_torque) StderrLine: {'line': b'  116 |         const double command = -Kp*error.q.data - Kv*\x1b[01;31m\x1b[Kerrror\x1b[m\x1b[K.qdot.data;\n'}
+[3.953858] (computed_torque) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.954014] (computed_torque) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[Kperror\x1b[m\x1b[K\n'}
+[4.009446] (-) TimerEvent: {}
+[4.109805] (-) TimerEvent: {}
+[4.210162] (-) TimerEvent: {}
+[4.310525] (-) TimerEvent: {}
+[4.410897] (-) TimerEvent: {}
+[4.511249] (-) TimerEvent: {}
+[4.611608] (-) TimerEvent: {}
+[4.711967] (-) TimerEvent: {}
+[4.748871] (computed_torque) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/noetic/include/class_loader/class_loader_core.hpp:45\x1b[m\x1b[K,\n'}
+[4.749057] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/noetic/include/class_loader/class_loader.hpp:46\x1b[m\x1b[K,\n'}
+[4.749191] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/noetic/include/pluginlib/./class_list_macros.hpp:40\x1b[m\x1b[K,\n'}
+[4.749280] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/noetic/include/pluginlib/class_list_macros.h:35\x1b[m\x1b[K,\n'}
+[4.749389] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:2\x1b[m\x1b[K:\n'}
+[4.749546] (computed_torque) StderrLine: {'line': b'/opt/ros/noetic/include/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = controller_ns::computed_torque_controller_class; B = controller_interface::ControllerBase]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.749700] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/noetic/include/class_loader/meta_object.hpp:196:7:\x1b[m\x1b[K   required from here\n'}
+[4.749791] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/noetic/include/class_loader/meta_object.hpp:198:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Kcontroller_ns::computed_torque_controller_class\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.749870] (computed_torque) StderrLine: {'line': b'  198 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[4.749946] (computed_torque) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.750032] (computed_torque) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5\x1b[m\x1b[K:\n'}
+[4.750110] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:59:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Kcontroller_ns::computed_torque_controller_class\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.750189] (computed_torque) StderrLine: {'line': b'   59 |     class \x1b[01;36m\x1b[Kcomputed_torque_controller_class\x1b[m\x1b[K : public controller_interface::Controller<hardware_interface::EffortJointInterface> {\n'}
+[4.750268] (computed_torque) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.750344] (computed_torque) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/noetic/include/controller_interface/controller.h:35\x1b[m\x1b[K,\n'}
+[4.750421] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:23\x1b[m\x1b[K,\n'}
+[4.750497] (computed_torque) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5\x1b[m\x1b[K:\n'}
+[4.750573] (computed_torque) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/noetic/include/controller_interface/controller_base.h:73:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\t\xe2\x80\x98\x1b[01m\x1b[Kvirtual void controller_interface::ControllerBase::update(const ros::Time&, const ros::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.750651] (computed_torque) StderrLine: {'line': b'   73 |   virtual void \x1b[01;36m\x1b[Kupdate\x1b[m\x1b[K(const ros::Time& time, const ros::Duration& period) = 0;\n'}
+[4.750727] (computed_torque) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.812090] (-) TimerEvent: {}
+[4.912394] (-) TimerEvent: {}
+[5.012727] (-) TimerEvent: {}
+[5.089550] (computed_torque) StderrLine: {'line': b'make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1\n'}
+[5.089969] (computed_torque) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:1811: CMakeFiles/computed_torque_lib.dir/all] Error 2\n'}
+[5.090128] (computed_torque) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.092201] (computed_torque) CommandEnded: {'returncode': 2}
+[5.112890] (-) TimerEvent: {}
+[5.212712] (computed_torque) JobEnded: {'identifier': 'computed_torque', 'rc': 2}
+[5.213437] (-) TimerEvent: {}
+[5.224967] (-) EventReactorShutdown: {}

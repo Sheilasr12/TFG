@@ -1,0 +1,33 @@
+[0.021s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.068s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/computed_torque/devel
+[0.068s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.069s] -- This workspace overlays: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.101s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.101s] -- Using Debian Python package layout
+[0.101s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.257s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.257s] -- Call enable_testing()
+[0.259s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/computed_torque/test_results
+[0.300s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.300s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.300s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.335s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.351s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.425s] -- catkin 0.8.9
+[0.425s] -- BUILD_SHARED_LIBS is on
+[0.693s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.070s] CMake Error at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:196 (message):
+[1.070s]   catkin_package() the catkin package 'control_msgs' has been
+[1.070s]   find_package()-ed but is not listed as a build dependency in the
+[1.070s]   package.xml
+[1.071s] Call Stack (most recent call first):
+[1.071s]   /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+[1.071s]   CMakeLists.txt:31 (catkin_package)
+[1.071s] 
+[1.071s] 
+[1.072s] -- Configuring incomplete, errors occurred!
+[1.072s] See also "/home/sheila/march/ros1/build/computed_torque/CMakeFiles/CMakeOutput.log".
+[1.072s] See also "/home/sheila/march/ros1/build/computed_torque/CMakeFiles/CMakeError.log".
+[1.077s] make: *** [Makefile:1106: cmake_check_build_system] Error 1
+[1.080s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

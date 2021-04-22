@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.099s] [  0%] Built target roscpp_generate_messages_cpp
+[0.099s] [  0%] Built target roscpp_generate_messages_py
+[0.100s] [  0%] Built target roscpp_generate_messages_eus
+[0.100s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.138s] [  0%] Built target roscpp_generate_messages_lisp
+[0.139s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.143s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.148s] [  0%] Built target std_msgs_generate_messages_eus
+[0.177s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.178s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.181s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.186s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.208s] [  0%] Built target std_msgs_generate_messages_py
+[0.213s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.215s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.243s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[1.084s] In file included from [01m[K/usr/include/kdl/chainjnttojacsolver.hpp:27[m[K,
+[1.084s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:17[m[K,
+[1.084s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[1.084s] [01m[K/usr/include/kdl/jacobian.hpp:26:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No existe el archivo o el directorio
+[1.085s]    26 | #include [01;31m[K<Eigen/Core>[m[K
+[1.085s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[1.085s] compilation terminated.
+[1.092s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[1.092s] make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[1.093s] make: *** [Makefile:141: all] Error 2
+[1.097s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

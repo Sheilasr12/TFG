@@ -1,0 +1,61 @@
+[0.017s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.055s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/computed_torque/devel
+[0.055s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.056s] -- This workspace overlays: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.087s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.088s] -- Using Debian Python package layout
+[0.088s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.236s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.236s] -- Call enable_testing()
+[0.237s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/computed_torque/test_results
+[0.275s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.276s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.276s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.312s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.326s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.394s] -- catkin 0.8.9
+[0.394s] -- BUILD_SHARED_LIBS is on
+[0.985s] -- Configuring done
+[1.010s] -- Generating done
+[1.014s] -- Build files have been written to: /home/sheila/march/ros1/build/computed_torque
+[1.047s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[1.048s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[1.048s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[1.049s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[1.065s] [  0%] Built target roscpp_generate_messages_py
+[1.066s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.066s] [  0%] Built target std_msgs_generate_messages_py
+[1.072s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.085s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[1.085s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[1.086s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[1.092s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[1.105s] [  0%] Built target roscpp_generate_messages_eus
+[1.105s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.106s] [  0%] Built target roscpp_generate_messages_cpp
+[1.113s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.124s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[1.126s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[1.126s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[1.134s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[1.145s] [  0%] Built target roscpp_generate_messages_lisp
+[1.145s] [  0%] Built target std_msgs_generate_messages_eus
+[1.146s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.154s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.161s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[1.164s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[1.164s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[1.178s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.178s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.181s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.195s] [35m[1mScanning dependencies of target computed_torque_lib[0m
+[1.381s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[1.586s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcomputed_torque/computed_torque_controller.h: No existe el archivo o el directorio
+[1.586s]     5 | #include [01;31m[K<computed_torque/computed_torque_controller.h>[m[K
+[1.586s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.586s] compilation terminated.
+[1.592s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[1.592s] make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[1.592s] make: *** [Makefile:141: all] Error 2
+[1.594s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

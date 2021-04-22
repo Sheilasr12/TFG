@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sheila/march/ros1/src/build/direct_dynamic_controller/devel/setup.sh

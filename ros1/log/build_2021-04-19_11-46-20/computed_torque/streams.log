@@ -1,0 +1,49 @@
+[0.017s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.058s] -- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/computed_torque/devel
+[0.058s] -- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.059s] -- This workspace overlays: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/home/sheila/march/ros1/install/direct_dynamic_controller;/opt/ros/noetic
+[0.089s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.090s] -- Using Debian Python package layout
+[0.090s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.238s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.238s] -- Call enable_testing()
+[0.239s] -- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/computed_torque/test_results
+[0.278s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.279s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.279s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.312s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.324s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.403s] -- catkin 0.8.9
+[0.403s] -- BUILD_SHARED_LIBS is on
+[0.975s] -- Configuring done
+[0.998s] -- Generating done
+[1.002s] -- Build files have been written to: /home/sheila/march/ros1/build/computed_torque
+[1.054s] [  0%] Built target roscpp_generate_messages_cpp
+[1.054s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.054s] [  0%] Built target roscpp_generate_messages_eus
+[1.054s] [  0%] Built target roscpp_generate_messages_py
+[1.091s] [  0%] Built target std_msgs_generate_messages_eus
+[1.091s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.091s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.092s] [  0%] Built target roscpp_generate_messages_lisp
+[1.128s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.129s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.129s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.129s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.159s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.162s] [  0%] Built target std_msgs_generate_messages_py
+[1.165s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.180s] [35m[1mScanning dependencies of target computed_torque_lib[0m
+[1.194s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[2.069s] In file included from [01m[K/usr/include/kdl/chainjnttojacsolver.hpp:27[m[K,
+[2.069s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:17[m[K,
+[2.069s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[2.070s] [01m[K/usr/include/kdl/jacobian.hpp:26:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No existe el archivo o el directorio
+[2.070s]    26 | #include [01;31m[K<Eigen/Core>[m[K
+[2.070s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[2.070s] compilation terminated.
+[2.075s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[2.075s] make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[2.076s] make: *** [Makefile:141: all] Error 2
+[2.078s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

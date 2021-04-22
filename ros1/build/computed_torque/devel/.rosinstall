@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sheila/march/ros1/build/computed_torque/devel/setup.sh

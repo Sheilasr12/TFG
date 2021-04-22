@@ -7,7 +7,9 @@ march:
 
   controller:
     trajectory:
-      type: effort_controllers/JointTrajectoryController
+      #type: effort_controllers/JointTrajectoryController
+      #type: "effort_controllers/ComputedTorque"
+      type: "effort_controllers/DirectDynamicController"
       joints:
         - left_ankle
         - left_hip_aa
@@ -33,6 +35,31 @@ march:
       state_publish_rate:  25            # Override default
       action_monitor_rate: 30            # Override default
       stop_trajectory_duration: 0        # Override default
+
+
+
+      Kp:
+       - 50
+       - 50
+       - 50
+       - 50
+       - 50
+       - 50
+       - 50
+       - 50
+      Kv:
+       - 5
+       - 5
+       - 5
+       - 5
+       - 5
+       - 5
+       - 5
+       - 5
+      
+
+
+      # controller_type: "Computed_torque"
 
       constraints:
         goal_time: 0.3

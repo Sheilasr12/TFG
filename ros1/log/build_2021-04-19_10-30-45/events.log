@@ -1,0 +1,418 @@
+[0.000000] (-) TimerEvent: {}
+[0.000789] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001065] (-) JobUnselected: {'identifier': 'march_acado_mpc'}
+[0.001125] (-) JobUnselected: {'identifier': 'march_bridge_parameters'}
+[0.001154] (-) JobUnselected: {'identifier': 'march_data_collector'}
+[0.001190] (-) JobUnselected: {'identifier': 'march_description'}
+[0.001229] (-) JobUnselected: {'identifier': 'march_gain_scheduling'}
+[0.001256] (-) JobUnselected: {'identifier': 'march_gazebo_plugins'}
+[0.001291] (-) JobUnselected: {'identifier': 'march_hardware'}
+[0.001863] (-) JobUnselected: {'identifier': 'march_hardware_builder'}
+[0.002287] (-) JobUnselected: {'identifier': 'march_hardware_interface'}
+[0.002337] (-) JobUnselected: {'identifier': 'march_imu_manager'}
+[0.002368] (-) JobUnselected: {'identifier': 'march_joint_inertia_controller'}
+[0.002406] (-) JobUnselected: {'identifier': 'march_launch'}
+[0.002445] (-) JobUnselected: {'identifier': 'march_moveit'}
+[0.002474] (-) JobUnselected: {'identifier': 'march_moveit_interface'}
+[0.002512] (-) JobUnselected: {'identifier': 'march_parameter_server'}
+[0.002595] (-) JobUnselected: {'identifier': 'march_pdb_state_controller'}
+[0.002667] (-) JobUnselected: {'identifier': 'march_realsense_reader'}
+[0.002697] (-) JobUnselected: {'identifier': 'march_rqt_gait_generator'}
+[0.002737] (-) JobUnselected: {'identifier': 'march_shared_classes'}
+[0.002783] (-) JobUnselected: {'identifier': 'march_shared_msgs'}
+[0.002835] (-) JobUnselected: {'identifier': 'march_simulation'}
+[0.002864] (-) JobUnselected: {'identifier': 'march_temperature_sensor_controller'}
+[0.002894] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.002926] (direct_dynamic_controller) JobQueued: {'identifier': 'direct_dynamic_controller', 'dependencies': OrderedDict()}
+[0.002979] (direct_dynamic_controller) JobStarted: {'identifier': 'direct_dynamic_controller'}
+[0.017177] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'cmake'}
+[0.018868] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'build'}
+[0.020101] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sheila/march/ros1/build/direct_dynamic_controller', '--', '-j4', '-l4'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1925'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:44128'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/1982,unix/sheila-X555LDB:/tmp/.ICE-unix/1982'), ('INVOCATION_ID', 'd40a2fe7b48d41e5a05b67d9c42ca560'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72b98cec_054a_42c3_bc60_e80448ff5239'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.207'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099619] (-) TimerEvent: {}
+[0.190381] (direct_dynamic_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target direct_dynamic_controller\x1b[0m\n'}
+[0.199710] (-) TimerEvent: {}
+[0.225335] (direct_dynamic_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/direct_dynamic_controller.dir/src/direct_dynamic_controller.cpp.o\x1b[0m\n'}
+[0.299838] (-) TimerEvent: {}
+[0.400286] (-) TimerEvent: {}
+[0.500613] (-) TimerEvent: {}
+[0.601024] (-) TimerEvent: {}
+[0.701449] (-) TimerEvent: {}
+[0.801798] (-) TimerEvent: {}
+[0.902150] (-) TimerEvent: {}
+[1.002500] (-) TimerEvent: {}
+[1.102851] (-) TimerEvent: {}
+[1.203148] (-) TimerEvent: {}
+[1.303444] (-) TimerEvent: {}
+[1.403769] (-) TimerEvent: {}
+[1.504128] (-) TimerEvent: {}
+[1.604431] (-) TimerEvent: {}
+[1.704832] (-) TimerEvent: {}
+[1.805163] (-) TimerEvent: {}
+[1.905574] (-) TimerEvent: {}
+[2.005951] (-) TimerEvent: {}
+[2.106314] (-) TimerEvent: {}
+[2.206717] (-) TimerEvent: {}
+[2.307120] (-) TimerEvent: {}
+[2.407526] (-) TimerEvent: {}
+[2.507940] (-) TimerEvent: {}
+[2.608325] (-) TimerEvent: {}
+[2.708725] (-) TimerEvent: {}
+[2.809128] (-) TimerEvent: {}
+[2.909540] (-) TimerEvent: {}
+[3.009934] (-) TimerEvent: {}
+[3.110323] (-) TimerEvent: {}
+[3.210709] (-) TimerEvent: {}
+[3.311105] (-) TimerEvent: {}
+[3.411516] (-) TimerEvent: {}
+[3.511941] (-) TimerEvent: {}
+[3.612328] (-) TimerEvent: {}
+[3.712711] (-) TimerEvent: {}
+[3.813095] (-) TimerEvent: {}
+[3.913419] (-) TimerEvent: {}
+[4.013756] (-) TimerEvent: {}
+[4.114097] (-) TimerEvent: {}
+[4.214423] (-) TimerEvent: {}
+[4.314725] (-) TimerEvent: {}
+[4.415072] (-) TimerEvent: {}
+[4.515422] (-) TimerEvent: {}
+[4.615754] (-) TimerEvent: {}
+[4.716100] (-) TimerEvent: {}
+[4.816440] (-) TimerEvent: {}
+[4.916782] (-) TimerEvent: {}
+[5.017124] (-) TimerEvent: {}
+[5.117469] (-) TimerEvent: {}
+[5.217800] (-) TimerEvent: {}
+[5.318141] (-) TimerEvent: {}
+[5.418473] (-) TimerEvent: {}
+[5.518829] (-) TimerEvent: {}
+[5.619165] (-) TimerEvent: {}
+[5.719512] (-) TimerEvent: {}
+[5.819881] (-) TimerEvent: {}
+[5.920238] (-) TimerEvent: {}
+[6.020593] (-) TimerEvent: {}
+[6.120946] (-) TimerEvent: {}
+[6.221294] (-) TimerEvent: {}
+[6.321630] (-) TimerEvent: {}
+[6.421981] (-) TimerEvent: {}
+[6.522318] (-) TimerEvent: {}
+[6.622653] (-) TimerEvent: {}
+[6.723004] (-) TimerEvent: {}
+[6.823355] (-) TimerEvent: {}
+[6.923685] (-) TimerEvent: {}
+[7.024047] (-) TimerEvent: {}
+[7.124406] (-) TimerEvent: {}
+[7.224762] (-) TimerEvent: {}
+[7.325102] (-) TimerEvent: {}
+[7.425437] (-) TimerEvent: {}
+[7.525805] (-) TimerEvent: {}
+[7.626134] (-) TimerEvent: {}
+[7.726486] (-) TimerEvent: {}
+[7.826924] (-) TimerEvent: {}
+[7.927260] (-) TimerEvent: {}
+[8.027618] (-) TimerEvent: {}
+[8.127931] (-) TimerEvent: {}
+[8.228270] (-) TimerEvent: {}
+[8.328618] (-) TimerEvent: {}
+[8.428980] (-) TimerEvent: {}
+[8.529281] (-) TimerEvent: {}
+[8.629629] (-) TimerEvent: {}
+[8.729977] (-) TimerEvent: {}
+[8.830341] (-) TimerEvent: {}
+[8.930689] (-) TimerEvent: {}
+[9.031019] (-) TimerEvent: {}
+[9.131375] (-) TimerEvent: {}
+[9.231726] (-) TimerEvent: {}
+[9.332038] (-) TimerEvent: {}
+[9.432340] (-) TimerEvent: {}
+[9.532640] (-) TimerEvent: {}
+[9.632939] (-) TimerEvent: {}
+[9.733234] (-) TimerEvent: {}
+[9.833543] (-) TimerEvent: {}
+[9.933848] (-) TimerEvent: {}
+[10.034150] (-) TimerEvent: {}
+[10.134458] (-) TimerEvent: {}
+[10.234772] (-) TimerEvent: {}
+[10.335094] (-) TimerEvent: {}
+[10.435399] (-) TimerEvent: {}
+[10.535743] (-) TimerEvent: {}
+[10.636032] (-) TimerEvent: {}
+[10.736336] (-) TimerEvent: {}
+[10.836680] (-) TimerEvent: {}
+[10.936977] (-) TimerEvent: {}
+[11.037333] (-) TimerEvent: {}
+[11.137691] (-) TimerEvent: {}
+[11.238062] (-) TimerEvent: {}
+[11.338439] (-) TimerEvent: {}
+[11.438833] (-) TimerEvent: {}
+[11.539211] (-) TimerEvent: {}
+[11.639526] (-) TimerEvent: {}
+[11.739862] (-) TimerEvent: {}
+[11.840166] (-) TimerEvent: {}
+[11.940468] (-) TimerEvent: {}
+[12.040779] (-) TimerEvent: {}
+[12.141085] (-) TimerEvent: {}
+[12.241392] (-) TimerEvent: {}
+[12.341708] (-) TimerEvent: {}
+[12.442020] (-) TimerEvent: {}
+[12.542324] (-) TimerEvent: {}
+[12.642619] (-) TimerEvent: {}
+[12.742941] (-) TimerEvent: {}
+[12.843252] (-) TimerEvent: {}
+[12.943580] (-) TimerEvent: {}
+[13.043898] (-) TimerEvent: {}
+[13.144207] (-) TimerEvent: {}
+[13.244511] (-) TimerEvent: {}
+[13.344821] (-) TimerEvent: {}
+[13.445122] (-) TimerEvent: {}
+[13.545416] (-) TimerEvent: {}
+[13.645737] (-) TimerEvent: {}
+[13.746100] (-) TimerEvent: {}
+[13.846415] (-) TimerEvent: {}
+[13.946728] (-) TimerEvent: {}
+[14.047031] (-) TimerEvent: {}
+[14.147341] (-) TimerEvent: {}
+[14.247655] (-) TimerEvent: {}
+[14.347958] (-) TimerEvent: {}
+[14.448269] (-) TimerEvent: {}
+[14.548578] (-) TimerEvent: {}
+[14.648882] (-) TimerEvent: {}
+[14.749154] (-) TimerEvent: {}
+[14.849463] (-) TimerEvent: {}
+[14.949879] (-) TimerEvent: {}
+[15.050290] (-) TimerEvent: {}
+[15.150594] (-) TimerEvent: {}
+[15.250898] (-) TimerEvent: {}
+[15.351208] (-) TimerEvent: {}
+[15.451507] (-) TimerEvent: {}
+[15.551794] (-) TimerEvent: {}
+[15.652119] (-) TimerEvent: {}
+[15.752425] (-) TimerEvent: {}
+[15.852726] (-) TimerEvent: {}
+[15.953074] (-) TimerEvent: {}
+[16.053375] (-) TimerEvent: {}
+[16.153676] (-) TimerEvent: {}
+[16.253972] (-) TimerEvent: {}
+[16.354274] (-) TimerEvent: {}
+[16.454574] (-) TimerEvent: {}
+[16.554875] (-) TimerEvent: {}
+[16.655161] (-) TimerEvent: {}
+[16.755449] (-) TimerEvent: {}
+[16.855733] (-) TimerEvent: {}
+[16.956018] (-) TimerEvent: {}
+[17.056321] (-) TimerEvent: {}
+[17.156608] (-) TimerEvent: {}
+[17.256933] (-) TimerEvent: {}
+[17.357236] (-) TimerEvent: {}
+[17.457592] (-) TimerEvent: {}
+[17.557921] (-) TimerEvent: {}
+[17.658260] (-) TimerEvent: {}
+[17.758589] (-) TimerEvent: {}
+[17.858921] (-) TimerEvent: {}
+[17.959301] (-) TimerEvent: {}
+[18.059675] (-) TimerEvent: {}
+[18.159966] (-) TimerEvent: {}
+[18.260271] (-) TimerEvent: {}
+[18.360552] (-) TimerEvent: {}
+[18.460838] (-) TimerEvent: {}
+[18.561134] (-) TimerEvent: {}
+[18.661444] (-) TimerEvent: {}
+[18.761802] (-) TimerEvent: {}
+[18.862149] (-) TimerEvent: {}
+[18.962526] (-) TimerEvent: {}
+[19.062873] (-) TimerEvent: {}
+[19.163183] (-) TimerEvent: {}
+[19.263511] (-) TimerEvent: {}
+[19.363958] (-) TimerEvent: {}
+[19.464378] (-) TimerEvent: {}
+[19.564760] (-) TimerEvent: {}
+[19.665150] (-) TimerEvent: {}
+[19.765534] (-) TimerEvent: {}
+[19.865832] (-) TimerEvent: {}
+[19.966196] (-) TimerEvent: {}
+[20.066564] (-) TimerEvent: {}
+[20.166921] (-) TimerEvent: {}
+[20.267282] (-) TimerEvent: {}
+[20.367668] (-) TimerEvent: {}
+[20.468025] (-) TimerEvent: {}
+[20.568457] (-) TimerEvent: {}
+[20.668834] (-) TimerEvent: {}
+[20.769195] (-) TimerEvent: {}
+[20.869534] (-) TimerEvent: {}
+[20.969953] (-) TimerEvent: {}
+[21.070379] (-) TimerEvent: {}
+[21.170766] (-) TimerEvent: {}
+[21.271125] (-) TimerEvent: {}
+[21.371486] (-) TimerEvent: {}
+[21.471875] (-) TimerEvent: {}
+[21.572223] (-) TimerEvent: {}
+[21.672569] (-) TimerEvent: {}
+[21.772900] (-) TimerEvent: {}
+[21.873237] (-) TimerEvent: {}
+[21.973560] (-) TimerEvent: {}
+[22.073886] (-) TimerEvent: {}
+[22.174200] (-) TimerEvent: {}
+[22.274528] (-) TimerEvent: {}
+[22.374858] (-) TimerEvent: {}
+[22.475177] (-) TimerEvent: {}
+[22.575499] (-) TimerEvent: {}
+[22.675812] (-) TimerEvent: {}
+[22.776132] (-) TimerEvent: {}
+[22.876453] (-) TimerEvent: {}
+[22.976782] (-) TimerEvent: {}
+[23.077118] (-) TimerEvent: {}
+[23.177445] (-) TimerEvent: {}
+[23.277768] (-) TimerEvent: {}
+[23.378059] (-) TimerEvent: {}
+[23.478381] (-) TimerEvent: {}
+[23.578703] (-) TimerEvent: {}
+[23.679027] (-) TimerEvent: {}
+[23.779352] (-) TimerEvent: {}
+[23.879686] (-) TimerEvent: {}
+[23.979999] (-) TimerEvent: {}
+[24.080338] (-) TimerEvent: {}
+[24.180661] (-) TimerEvent: {}
+[24.280991] (-) TimerEvent: {}
+[24.381322] (-) TimerEvent: {}
+[24.481663] (-) TimerEvent: {}
+[24.581993] (-) TimerEvent: {}
+[24.682312] (-) TimerEvent: {}
+[24.782639] (-) TimerEvent: {}
+[24.882965] (-) TimerEvent: {}
+[24.983288] (-) TimerEvent: {}
+[25.083628] (-) TimerEvent: {}
+[25.183942] (-) TimerEvent: {}
+[25.284279] (-) TimerEvent: {}
+[25.384601] (-) TimerEvent: {}
+[25.484921] (-) TimerEvent: {}
+[25.585240] (-) TimerEvent: {}
+[25.685568] (-) TimerEvent: {}
+[25.785902] (-) TimerEvent: {}
+[25.886237] (-) TimerEvent: {}
+[25.986565] (-) TimerEvent: {}
+[26.086901] (-) TimerEvent: {}
+[26.187245] (-) TimerEvent: {}
+[26.287611] (-) TimerEvent: {}
+[26.387950] (-) TimerEvent: {}
+[26.488284] (-) TimerEvent: {}
+[26.588577] (-) TimerEvent: {}
+[26.688864] (-) TimerEvent: {}
+[26.789169] (-) TimerEvent: {}
+[26.889526] (-) TimerEvent: {}
+[26.989829] (-) TimerEvent: {}
+[27.090122] (-) TimerEvent: {}
+[27.190421] (-) TimerEvent: {}
+[27.290723] (-) TimerEvent: {}
+[27.391045] (-) TimerEvent: {}
+[27.491360] (-) TimerEvent: {}
+[27.591688] (-) TimerEvent: {}
+[27.692005] (-) TimerEvent: {}
+[27.792363] (-) TimerEvent: {}
+[27.892733] (-) TimerEvent: {}
+[27.993100] (-) TimerEvent: {}
+[28.093565] (-) TimerEvent: {}
+[28.193888] (-) TimerEvent: {}
+[28.294210] (-) TimerEvent: {}
+[28.394545] (-) TimerEvent: {}
+[28.494932] (-) TimerEvent: {}
+[28.595321] (-) TimerEvent: {}
+[28.695654] (-) TimerEvent: {}
+[28.795946] (-) TimerEvent: {}
+[28.896358] (-) TimerEvent: {}
+[28.996722] (-) TimerEvent: {}
+[29.097067] (-) TimerEvent: {}
+[29.197409] (-) TimerEvent: {}
+[29.297755] (-) TimerEvent: {}
+[29.398103] (-) TimerEvent: {}
+[29.498451] (-) TimerEvent: {}
+[29.598790] (-) TimerEvent: {}
+[29.699138] (-) TimerEvent: {}
+[29.799513] (-) TimerEvent: {}
+[29.899924] (-) TimerEvent: {}
+[30.000312] (-) TimerEvent: {}
+[30.100684] (-) TimerEvent: {}
+[30.201021] (-) TimerEvent: {}
+[30.301366] (-) TimerEvent: {}
+[30.401707] (-) TimerEvent: {}
+[30.502071] (-) TimerEvent: {}
+[30.602480] (-) TimerEvent: {}
+[30.703115] (-) TimerEvent: {}
+[30.803469] (-) TimerEvent: {}
+[30.903883] (-) TimerEvent: {}
+[31.004230] (-) TimerEvent: {}
+[31.104581] (-) TimerEvent: {}
+[31.204942] (-) TimerEvent: {}
+[31.305302] (-) TimerEvent: {}
+[31.405647] (-) TimerEvent: {}
+[31.505990] (-) TimerEvent: {}
+[31.606325] (-) TimerEvent: {}
+[31.706697] (-) TimerEvent: {}
+[31.807105] (-) TimerEvent: {}
+[31.907559] (-) TimerEvent: {}
+[32.007871] (-) TimerEvent: {}
+[32.108205] (-) TimerEvent: {}
+[32.208577] (-) TimerEvent: {}
+[32.308916] (-) TimerEvent: {}
+[32.409273] (-) TimerEvent: {}
+[32.434090] (direct_dynamic_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library devel/lib/libdirect_dynamic_controller.so\x1b[0m\n'}
+[32.509391] (-) TimerEvent: {}
+[32.609721] (-) TimerEvent: {}
+[32.710125] (-) TimerEvent: {}
+[32.810626] (-) TimerEvent: {}
+[32.911058] (-) TimerEvent: {}
+[33.011521] (-) TimerEvent: {}
+[33.111885] (-) TimerEvent: {}
+[33.212189] (-) TimerEvent: {}
+[33.312487] (-) TimerEvent: {}
+[33.412809] (-) TimerEvent: {}
+[33.513133] (-) TimerEvent: {}
+[33.599070] (direct_dynamic_controller) StdoutLine: {'line': b'[100%] Built target direct_dynamic_controller\n'}
+[33.612662] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[33.613770] (-) TimerEvent: {}
+[33.673382] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': "build target 'tests'"}
+[33.673502] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sheila/march/ros1/build/direct_dynamic_controller', '--target', 'tests', '--', '-j4', '-l4'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1925'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:44128'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/1982,unix/sheila-X555LDB:/tmp/.ICE-unix/1982'), ('INVOCATION_ID', 'd40a2fe7b48d41e5a05b67d9c42ca560'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72b98cec_054a_42c3_bc60_e80448ff5239'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.207'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[33.714005] (-) TimerEvent: {}
+[33.754068] (direct_dynamic_controller) StdoutLine: {'line': b'Built target tests\n'}
+[33.767861] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[33.814090] (-) TimerEvent: {}
+[33.823775] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'install'}
+[33.835306] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sheila/march/ros1/build/direct_dynamic_controller'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1925'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:44128'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/1982,unix/sheila-X555LDB:/tmp/.ICE-unix/1982'), ('INVOCATION_ID', 'd40a2fe7b48d41e5a05b67d9c42ca560'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72b98cec_054a_42c3_bc60_e80448ff5239'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.207'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[33.849737] (direct_dynamic_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.850166] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig/direct_dynamic_controller.pc\n'}
+[33.850912] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig.cmake\n'}
+[33.851155] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig-version.cmake\n'}
+[33.851353] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/package.xml\n'}
+[33.851459] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller\n'}
+[33.851558] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_segment.h\n'}
+[33.851683] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode\n'}
+[33.851907] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode/settings.json\n'}
+[33.852185] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_msg_utils.h\n'}
+[33.852332] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/tolerances.h\n'}
+[33.852482] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller_impl.h\n'}
+[33.852649] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter copy.h\n'}
+[33.852748] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller.h\n'}
+[33.852843] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter.h\n'}
+[33.852947] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/init_joint_trajectory.h\n'}
+[33.853041] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface/\n'}
+[33.853136] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//pos_vel_acc_state.h\n'}
+[33.853230] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//trajectory_interface.h\n'}
+[33.853325] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//quintic_spline_segment.h\n'}
+[33.853771] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so\n'}
+[33.868998] (direct_dynamic_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so" to ""\n'}
+[33.869339] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config\n'}
+[33.869456] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm\n'}
+[33.869633] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params_simulation.yaml\n'}
+[33.869826] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params.yaml\n'}
+[33.869918] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/direct_dynamic_controller.yaml\n'}
+[33.870016] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm\n'}
+[33.870245] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml\n'}
+[33.870328] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml\n'}
+[33.870477] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml\n'}
+[33.870591] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch\n'}
+[33.870673] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch\n'}
+[33.870752] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch\n'}
+[33.870831] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch\n'}
+[33.870910] (direct_dynamic_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/ros_control_plugins.xml\n'}
+[33.872991] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[33.914222] (-) TimerEvent: {}
+[33.995410] (direct_dynamic_controller) JobEnded: {'identifier': 'direct_dynamic_controller', 'rc': 0}
+[33.996779] (-) EventReactorShutdown: {}

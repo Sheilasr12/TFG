@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   ddynamic_reconfigure
   hardware_interface
   kdl_parser
+  march_shared_msgs
   pluginlib
   realtime_tools
   roscpp
@@ -26,6 +27,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(orocos_kdl REQUIRED)
+
 
 
 ## System dependencies are found with CMake's conventions

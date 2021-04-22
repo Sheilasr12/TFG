@@ -1,0 +1,501 @@
+[0.000000] (-) TimerEvent: {}
+[0.000773] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001134] (-) JobUnselected: {'identifier': 'march_acado_mpc'}
+[0.001193] (-) JobUnselected: {'identifier': 'march_bridge_parameters'}
+[0.001229] (-) JobUnselected: {'identifier': 'march_data_collector'}
+[0.001268] (-) JobUnselected: {'identifier': 'march_description'}
+[0.001290] (-) JobUnselected: {'identifier': 'march_gain_scheduling'}
+[0.001311] (-) JobUnselected: {'identifier': 'march_gazebo_plugins'}
+[0.001339] (-) JobUnselected: {'identifier': 'march_hardware'}
+[0.001359] (-) JobUnselected: {'identifier': 'march_hardware_builder'}
+[0.001378] (-) JobUnselected: {'identifier': 'march_hardware_interface'}
+[0.001417] (-) JobUnselected: {'identifier': 'march_imu_manager'}
+[0.001438] (-) JobUnselected: {'identifier': 'march_joint_inertia_controller'}
+[0.002381] (-) JobUnselected: {'identifier': 'march_launch'}
+[0.002430] (-) JobUnselected: {'identifier': 'march_moveit'}
+[0.002478] (-) JobUnselected: {'identifier': 'march_moveit_interface'}
+[0.002521] (-) JobUnselected: {'identifier': 'march_parameter_server'}
+[0.002577] (-) JobUnselected: {'identifier': 'march_pdb_state_controller'}
+[0.002617] (-) JobUnselected: {'identifier': 'march_realsense_reader'}
+[0.002667] (-) JobUnselected: {'identifier': 'march_rqt_gait_generator'}
+[0.002695] (-) JobUnselected: {'identifier': 'march_shared_classes'}
+[0.002725] (-) JobUnselected: {'identifier': 'march_shared_msgs'}
+[0.002745] (-) JobUnselected: {'identifier': 'march_simulation'}
+[0.002764] (-) JobUnselected: {'identifier': 'march_temperature_sensor_controller'}
+[0.002783] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.002829] (direct_dynamic_controller) JobQueued: {'identifier': 'direct_dynamic_controller', 'dependencies': OrderedDict()}
+[0.002885] (direct_dynamic_controller) JobStarted: {'identifier': 'direct_dynamic_controller'}
+[0.024625] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'cmake'}
+[0.025173] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/sheila/march/ros1/src/control/direct_dynamic_controller', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/direct_dynamic_controller'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '2025'), ('ROS_PACKAGE_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/joint_trajectory_controller/share:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sheila/march/ros1/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:43739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/bin:/home/sheila/march/ros1/install/march_parameter_server/bin:/home/sheila/march/ros1/install/march_moveit_interface/bin:/home/sheila/march/ros1/install/march_gain_scheduling/bin:/home/sheila/march/ros1/install/march_data_collector/bin:/opt/ros/noetic/bin:/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/2068,unix/sheila-X555LDB:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', 'bb6dddca620a49a0b354e5103be46e5a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b89c5c90_43fd_465a_89fe_c63040709d0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_moveit_interface/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_data_collector/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/joint_trajectory_controller:/opt/ros/noetic')]), 'shell': False}
+[0.099571] (-) TimerEvent: {}
+[0.200080] (-) TimerEvent: {}
+[0.300575] (-) TimerEvent: {}
+[0.368776] (direct_dynamic_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.400700] (-) TimerEvent: {}
+[0.501064] (-) TimerEvent: {}
+[0.592716] (direct_dynamic_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.601145] (-) TimerEvent: {}
+[0.608710] (direct_dynamic_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.701268] (-) TimerEvent: {}
+[0.706962] (direct_dynamic_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.712394] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801395] (-) TimerEvent: {}
+[0.810452] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.901585] (-) TimerEvent: {}
+[0.928210] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.931646] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.941051] (direct_dynamic_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.001708] (-) TimerEvent: {}
+[1.048989] (direct_dynamic_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.050347] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101830] (-) TimerEvent: {}
+[1.158940] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.179043] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.179946] (direct_dynamic_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.198149] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/sheila/march/ros1/build/direct_dynamic_controller/devel\n'}
+[1.198548] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic\n'}
+[1.200247] (direct_dynamic_controller) StdoutLine: {'line': b'-- This workspace overlays: /home/sheila/march/ros1/install/realsense_gazebo_plugin;/home/sheila/march/ros1/install/march_temperature_sensor_controller;/home/sheila/march/ros1/install/march_launch;/home/sheila/march/ros1/install/march_simulation;/home/sheila/march/ros1/install/march_rqt_gait_generator;/home/sheila/march/ros1/install/march_shared_classes;/home/sheila/march/ros1/install/march_realsense_reader;/home/sheila/march/ros1/install/march_pdb_state_controller;/home/sheila/march/ros1/install/march_parameter_server;/home/sheila/march/ros1/install/march_moveit_interface;/home/sheila/march/ros1/install/march_joint_inertia_controller;/home/sheila/march/ros1/install/march_hardware_interface;/home/sheila/march/ros1/install/march_gazebo_plugins;/home/sheila/march/ros1/install/march_gain_scheduling;/home/sheila/march/ros1/install/march_data_collector;/home/sheila/march/ros1/install/march_acado_mpc;/home/sheila/march/ros1/install/march_shared_msgs;/home/sheila/march/ros1/install/march_moveit;/home/sheila/march/ros1/install/march_imu_manager;/home/sheila/march/ros1/install/march_hardware_builder;/home/sheila/march/ros1/install/march_hardware;/home/sheila/march/ros1/install/march_description;/home/sheila/march/ros1/install/march_bridge_parameters;/home/sheila/march/ros1/install/joint_trajectory_controller;/opt/ros/noetic\n'}
+[1.201917] (-) TimerEvent: {}
+[1.242524] (direct_dynamic_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[1.242808] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.242932] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[1.288562] (direct_dynamic_controller) StdoutLine: {'line': b'-- Found PY_em: /usr/lib/python3/dist-packages/em.py  \n'}
+[1.288806] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using empy: /usr/lib/python3/dist-packages/em.py\n'}
+[1.302045] (-) TimerEvent: {}
+[1.402438] (-) TimerEvent: {}
+[1.447326] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[1.447683] (direct_dynamic_controller) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[1.451590] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/sheila/march/ros1/build/direct_dynamic_controller/test_results\n'}
+[1.502555] (-) TimerEvent: {}
+[1.602878] (-) TimerEvent: {}
+[1.703228] (-) TimerEvent: {}
+[1.803567] (-) TimerEvent: {}
+[1.886540] (direct_dynamic_controller) StdoutLine: {'line': b'-- Forcing gtest/gmock from source, though one was otherwise available.\n'}
+[1.886821] (direct_dynamic_controller) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[1.886931] (direct_dynamic_controller) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[1.903691] (-) TimerEvent: {}
+[1.928026] (direct_dynamic_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.930540] (direct_dynamic_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.944159] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests3\n'}
+[2.003787] (-) TimerEvent: {}
+[2.018721] (direct_dynamic_controller) StdoutLine: {'line': b'-- catkin 0.8.9\n'}
+[2.018998] (direct_dynamic_controller) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[2.103895] (-) TimerEvent: {}
+[2.204215] (-) TimerEvent: {}
+[2.304502] (-) TimerEvent: {}
+[2.307305] (direct_dynamic_controller) StdoutLine: {'line': b'-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy\n'}
+[2.404620] (-) TimerEvent: {}
+[2.504951] (-) TimerEvent: {}
+[2.605265] (-) TimerEvent: {}
+[2.705582] (-) TimerEvent: {}
+[2.805927] (-) TimerEvent: {}
+[2.903244] (direct_dynamic_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.906035] (-) TimerEvent: {}
+[2.993045] (direct_dynamic_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.998937] (direct_dynamic_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/sheila/march/ros1/build/direct_dynamic_controller\n'}
+[3.006124] (-) TimerEvent: {}
+[3.006756] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[3.007694] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'build'}
+[3.008703] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sheila/march/ros1/build/direct_dynamic_controller', '--', '-j4', '-l4'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '2025'), ('ROS_PACKAGE_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/joint_trajectory_controller/share:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sheila/march/ros1/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:43739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/bin:/home/sheila/march/ros1/install/march_parameter_server/bin:/home/sheila/march/ros1/install/march_moveit_interface/bin:/home/sheila/march/ros1/install/march_gain_scheduling/bin:/home/sheila/march/ros1/install/march_data_collector/bin:/opt/ros/noetic/bin:/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/2068,unix/sheila-X555LDB:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', 'bb6dddca620a49a0b354e5103be46e5a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b89c5c90_43fd_465a_89fe_c63040709d0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_moveit_interface/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_data_collector/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/joint_trajectory_controller:/opt/ros/noetic')]), 'shell': False}
+[3.067283] (direct_dynamic_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target direct_dynamic_controller\x1b[0m\n'}
+[3.106268] (-) TimerEvent: {}
+[3.206631] (-) TimerEvent: {}
+[3.306939] (-) TimerEvent: {}
+[3.407345] (-) TimerEvent: {}
+[3.425338] (direct_dynamic_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/direct_dynamic_controller.dir/src/direct_dynamic_controller.cpp.o\x1b[0m\n'}
+[3.507444] (-) TimerEvent: {}
+[3.607795] (-) TimerEvent: {}
+[3.708263] (-) TimerEvent: {}
+[3.808690] (-) TimerEvent: {}
+[3.909030] (-) TimerEvent: {}
+[4.009368] (-) TimerEvent: {}
+[4.109771] (-) TimerEvent: {}
+[4.210119] (-) TimerEvent: {}
+[4.310476] (-) TimerEvent: {}
+[4.410811] (-) TimerEvent: {}
+[4.511152] (-) TimerEvent: {}
+[4.611490] (-) TimerEvent: {}
+[4.711869] (-) TimerEvent: {}
+[4.812229] (-) TimerEvent: {}
+[4.912611] (-) TimerEvent: {}
+[5.012972] (-) TimerEvent: {}
+[5.113286] (-) TimerEvent: {}
+[5.213609] (-) TimerEvent: {}
+[5.313915] (-) TimerEvent: {}
+[5.414212] (-) TimerEvent: {}
+[5.514547] (-) TimerEvent: {}
+[5.614873] (-) TimerEvent: {}
+[5.715174] (-) TimerEvent: {}
+[5.815468] (-) TimerEvent: {}
+[5.915753] (-) TimerEvent: {}
+[6.016055] (-) TimerEvent: {}
+[6.116389] (-) TimerEvent: {}
+[6.216693] (-) TimerEvent: {}
+[6.316997] (-) TimerEvent: {}
+[6.417331] (-) TimerEvent: {}
+[6.517673] (-) TimerEvent: {}
+[6.618005] (-) TimerEvent: {}
+[6.718303] (-) TimerEvent: {}
+[6.818602] (-) TimerEvent: {}
+[6.918915] (-) TimerEvent: {}
+[7.019209] (-) TimerEvent: {}
+[7.119483] (-) TimerEvent: {}
+[7.219766] (-) TimerEvent: {}
+[7.320064] (-) TimerEvent: {}
+[7.420356] (-) TimerEvent: {}
+[7.520648] (-) TimerEvent: {}
+[7.620953] (-) TimerEvent: {}
+[7.721239] (-) TimerEvent: {}
+[7.821592] (-) TimerEvent: {}
+[7.921944] (-) TimerEvent: {}
+[8.022295] (-) TimerEvent: {}
+[8.122683] (-) TimerEvent: {}
+[8.223074] (-) TimerEvent: {}
+[8.323429] (-) TimerEvent: {}
+[8.423756] (-) TimerEvent: {}
+[8.524088] (-) TimerEvent: {}
+[8.624384] (-) TimerEvent: {}
+[8.724682] (-) TimerEvent: {}
+[8.824987] (-) TimerEvent: {}
+[8.925294] (-) TimerEvent: {}
+[9.025644] (-) TimerEvent: {}
+[9.126004] (-) TimerEvent: {}
+[9.226362] (-) TimerEvent: {}
+[9.326665] (-) TimerEvent: {}
+[9.426970] (-) TimerEvent: {}
+[9.527270] (-) TimerEvent: {}
+[9.627560] (-) TimerEvent: {}
+[9.727892] (-) TimerEvent: {}
+[9.828221] (-) TimerEvent: {}
+[9.928528] (-) TimerEvent: {}
+[10.028835] (-) TimerEvent: {}
+[10.129132] (-) TimerEvent: {}
+[10.229426] (-) TimerEvent: {}
+[10.329735] (-) TimerEvent: {}
+[10.430023] (-) TimerEvent: {}
+[10.530315] (-) TimerEvent: {}
+[10.630617] (-) TimerEvent: {}
+[10.730972] (-) TimerEvent: {}
+[10.831278] (-) TimerEvent: {}
+[10.931564] (-) TimerEvent: {}
+[11.031848] (-) TimerEvent: {}
+[11.132141] (-) TimerEvent: {}
+[11.232434] (-) TimerEvent: {}
+[11.332728] (-) TimerEvent: {}
+[11.433070] (-) TimerEvent: {}
+[11.533440] (-) TimerEvent: {}
+[11.633791] (-) TimerEvent: {}
+[11.734156] (-) TimerEvent: {}
+[11.834439] (-) TimerEvent: {}
+[11.934727] (-) TimerEvent: {}
+[12.035082] (-) TimerEvent: {}
+[12.135928] (-) TimerEvent: {}
+[12.236437] (-) TimerEvent: {}
+[12.336911] (-) TimerEvent: {}
+[12.437224] (-) TimerEvent: {}
+[12.537532] (-) TimerEvent: {}
+[12.637843] (-) TimerEvent: {}
+[12.738173] (-) TimerEvent: {}
+[12.838610] (-) TimerEvent: {}
+[12.939128] (-) TimerEvent: {}
+[13.039547] (-) TimerEvent: {}
+[13.139843] (-) TimerEvent: {}
+[13.240291] (-) TimerEvent: {}
+[13.340902] (-) TimerEvent: {}
+[13.441314] (-) TimerEvent: {}
+[13.541609] (-) TimerEvent: {}
+[13.641895] (-) TimerEvent: {}
+[13.742254] (-) TimerEvent: {}
+[13.842555] (-) TimerEvent: {}
+[13.942896] (-) TimerEvent: {}
+[14.043252] (-) TimerEvent: {}
+[14.143599] (-) TimerEvent: {}
+[14.243923] (-) TimerEvent: {}
+[14.344271] (-) TimerEvent: {}
+[14.444628] (-) TimerEvent: {}
+[14.544985] (-) TimerEvent: {}
+[14.645335] (-) TimerEvent: {}
+[14.745646] (-) TimerEvent: {}
+[14.845955] (-) TimerEvent: {}
+[14.946267] (-) TimerEvent: {}
+[15.046565] (-) TimerEvent: {}
+[15.146860] (-) TimerEvent: {}
+[15.247160] (-) TimerEvent: {}
+[15.347481] (-) TimerEvent: {}
+[15.447772] (-) TimerEvent: {}
+[15.548082] (-) TimerEvent: {}
+[15.648373] (-) TimerEvent: {}
+[15.748675] (-) TimerEvent: {}
+[15.848969] (-) TimerEvent: {}
+[15.949336] (-) TimerEvent: {}
+[16.049634] (-) TimerEvent: {}
+[16.149970] (-) TimerEvent: {}
+[16.250306] (-) TimerEvent: {}
+[16.350639] (-) TimerEvent: {}
+[16.450975] (-) TimerEvent: {}
+[16.551310] (-) TimerEvent: {}
+[16.651642] (-) TimerEvent: {}
+[16.751984] (-) TimerEvent: {}
+[16.852316] (-) TimerEvent: {}
+[16.952665] (-) TimerEvent: {}
+[17.052989] (-) TimerEvent: {}
+[17.153345] (-) TimerEvent: {}
+[17.253704] (-) TimerEvent: {}
+[17.354054] (-) TimerEvent: {}
+[17.454361] (-) TimerEvent: {}
+[17.554694] (-) TimerEvent: {}
+[17.655032] (-) TimerEvent: {}
+[17.755373] (-) TimerEvent: {}
+[17.855702] (-) TimerEvent: {}
+[17.956009] (-) TimerEvent: {}
+[18.056346] (-) TimerEvent: {}
+[18.156656] (-) TimerEvent: {}
+[18.256984] (-) TimerEvent: {}
+[18.357362] (-) TimerEvent: {}
+[18.457750] (-) TimerEvent: {}
+[18.558150] (-) TimerEvent: {}
+[18.658643] (-) TimerEvent: {}
+[18.759101] (-) TimerEvent: {}
+[18.859612] (-) TimerEvent: {}
+[18.960010] (-) TimerEvent: {}
+[19.060405] (-) TimerEvent: {}
+[19.160793] (-) TimerEvent: {}
+[19.261179] (-) TimerEvent: {}
+[19.361584] (-) TimerEvent: {}
+[19.462005] (-) TimerEvent: {}
+[19.562306] (-) TimerEvent: {}
+[19.662664] (-) TimerEvent: {}
+[19.763037] (-) TimerEvent: {}
+[19.863447] (-) TimerEvent: {}
+[19.963812] (-) TimerEvent: {}
+[20.064174] (-) TimerEvent: {}
+[20.164572] (-) TimerEvent: {}
+[20.264883] (-) TimerEvent: {}
+[20.365399] (-) TimerEvent: {}
+[20.466564] (-) TimerEvent: {}
+[20.567040] (-) TimerEvent: {}
+[20.667415] (-) TimerEvent: {}
+[20.767915] (-) TimerEvent: {}
+[20.868495] (-) TimerEvent: {}
+[20.969505] (-) TimerEvent: {}
+[21.069887] (-) TimerEvent: {}
+[21.170404] (-) TimerEvent: {}
+[21.271126] (-) TimerEvent: {}
+[21.371801] (-) TimerEvent: {}
+[21.472226] (-) TimerEvent: {}
+[21.572910] (-) TimerEvent: {}
+[21.673411] (-) TimerEvent: {}
+[21.773765] (-) TimerEvent: {}
+[21.874312] (-) TimerEvent: {}
+[21.974643] (-) TimerEvent: {}
+[22.074997] (-) TimerEvent: {}
+[22.175373] (-) TimerEvent: {}
+[22.276261] (-) TimerEvent: {}
+[22.377020] (-) TimerEvent: {}
+[22.477501] (-) TimerEvent: {}
+[22.577915] (-) TimerEvent: {}
+[22.678276] (-) TimerEvent: {}
+[22.778656] (-) TimerEvent: {}
+[22.879045] (-) TimerEvent: {}
+[22.979443] (-) TimerEvent: {}
+[23.080018] (-) TimerEvent: {}
+[23.181155] (-) TimerEvent: {}
+[23.281786] (-) TimerEvent: {}
+[23.382177] (-) TimerEvent: {}
+[23.482699] (-) TimerEvent: {}
+[23.583516] (-) TimerEvent: {}
+[23.684259] (-) TimerEvent: {}
+[23.784638] (-) TimerEvent: {}
+[23.885006] (-) TimerEvent: {}
+[23.985382] (-) TimerEvent: {}
+[24.085807] (-) TimerEvent: {}
+[24.186195] (-) TimerEvent: {}
+[24.286579] (-) TimerEvent: {}
+[24.386966] (-) TimerEvent: {}
+[24.487352] (-) TimerEvent: {}
+[24.587879] (-) TimerEvent: {}
+[24.688796] (-) TimerEvent: {}
+[24.789612] (-) TimerEvent: {}
+[24.889986] (-) TimerEvent: {}
+[24.990331] (-) TimerEvent: {}
+[25.090685] (-) TimerEvent: {}
+[25.191073] (-) TimerEvent: {}
+[25.291479] (-) TimerEvent: {}
+[25.391878] (-) TimerEvent: {}
+[25.492237] (-) TimerEvent: {}
+[25.592756] (-) TimerEvent: {}
+[25.693234] (-) TimerEvent: {}
+[25.793695] (-) TimerEvent: {}
+[25.894135] (-) TimerEvent: {}
+[25.994648] (-) TimerEvent: {}
+[26.095271] (-) TimerEvent: {}
+[26.195807] (-) TimerEvent: {}
+[26.296184] (-) TimerEvent: {}
+[26.396485] (-) TimerEvent: {}
+[26.496857] (-) TimerEvent: {}
+[26.597218] (-) TimerEvent: {}
+[26.697567] (-) TimerEvent: {}
+[26.798022] (-) TimerEvent: {}
+[26.898442] (-) TimerEvent: {}
+[26.998826] (-) TimerEvent: {}
+[27.099198] (-) TimerEvent: {}
+[27.199468] (-) TimerEvent: {}
+[27.299759] (-) TimerEvent: {}
+[27.400082] (-) TimerEvent: {}
+[27.500452] (-) TimerEvent: {}
+[27.600780] (-) TimerEvent: {}
+[27.701094] (-) TimerEvent: {}
+[27.801423] (-) TimerEvent: {}
+[27.901739] (-) TimerEvent: {}
+[28.002066] (-) TimerEvent: {}
+[28.102372] (-) TimerEvent: {}
+[28.202654] (-) TimerEvent: {}
+[28.302959] (-) TimerEvent: {}
+[28.403282] (-) TimerEvent: {}
+[28.503631] (-) TimerEvent: {}
+[28.603956] (-) TimerEvent: {}
+[28.704280] (-) TimerEvent: {}
+[28.804573] (-) TimerEvent: {}
+[28.904872] (-) TimerEvent: {}
+[29.005175] (-) TimerEvent: {}
+[29.105476] (-) TimerEvent: {}
+[29.205798] (-) TimerEvent: {}
+[29.306176] (-) TimerEvent: {}
+[29.406485] (-) TimerEvent: {}
+[29.506856] (-) TimerEvent: {}
+[29.607235] (-) TimerEvent: {}
+[29.707621] (-) TimerEvent: {}
+[29.807982] (-) TimerEvent: {}
+[29.908365] (-) TimerEvent: {}
+[30.008751] (-) TimerEvent: {}
+[30.109108] (-) TimerEvent: {}
+[30.209464] (-) TimerEvent: {}
+[30.309833] (-) TimerEvent: {}
+[30.410186] (-) TimerEvent: {}
+[30.510546] (-) TimerEvent: {}
+[30.610857] (-) TimerEvent: {}
+[30.711173] (-) TimerEvent: {}
+[30.811483] (-) TimerEvent: {}
+[30.911878] (-) TimerEvent: {}
+[31.012287] (-) TimerEvent: {}
+[31.112628] (-) TimerEvent: {}
+[31.212962] (-) TimerEvent: {}
+[31.313321] (-) TimerEvent: {}
+[31.413668] (-) TimerEvent: {}
+[31.514048] (-) TimerEvent: {}
+[31.614438] (-) TimerEvent: {}
+[31.714826] (-) TimerEvent: {}
+[31.815214] (-) TimerEvent: {}
+[31.915609] (-) TimerEvent: {}
+[32.015993] (-) TimerEvent: {}
+[32.116358] (-) TimerEvent: {}
+[32.216761] (-) TimerEvent: {}
+[32.317134] (-) TimerEvent: {}
+[32.417506] (-) TimerEvent: {}
+[32.517882] (-) TimerEvent: {}
+[32.618260] (-) TimerEvent: {}
+[32.718633] (-) TimerEvent: {}
+[32.819020] (-) TimerEvent: {}
+[32.919437] (-) TimerEvent: {}
+[33.019824] (-) TimerEvent: {}
+[33.120203] (-) TimerEvent: {}
+[33.220582] (-) TimerEvent: {}
+[33.320966] (-) TimerEvent: {}
+[33.421339] (-) TimerEvent: {}
+[33.521718] (-) TimerEvent: {}
+[33.622106] (-) TimerEvent: {}
+[33.722447] (-) TimerEvent: {}
+[33.822781] (-) TimerEvent: {}
+[33.923140] (-) TimerEvent: {}
+[34.023496] (-) TimerEvent: {}
+[34.123860] (-) TimerEvent: {}
+[34.224208] (-) TimerEvent: {}
+[34.324584] (-) TimerEvent: {}
+[34.424959] (-) TimerEvent: {}
+[34.525319] (-) TimerEvent: {}
+[34.625639] (-) TimerEvent: {}
+[34.725935] (-) TimerEvent: {}
+[34.826235] (-) TimerEvent: {}
+[34.926539] (-) TimerEvent: {}
+[35.026858] (-) TimerEvent: {}
+[35.127181] (-) TimerEvent: {}
+[35.227469] (-) TimerEvent: {}
+[35.327775] (-) TimerEvent: {}
+[35.428124] (-) TimerEvent: {}
+[35.528415] (-) TimerEvent: {}
+[35.628793] (-) TimerEvent: {}
+[35.729096] (-) TimerEvent: {}
+[35.829406] (-) TimerEvent: {}
+[35.929715] (-) TimerEvent: {}
+[36.030021] (-) TimerEvent: {}
+[36.130332] (-) TimerEvent: {}
+[36.230662] (-) TimerEvent: {}
+[36.331045] (-) TimerEvent: {}
+[36.431436] (-) TimerEvent: {}
+[36.531706] (-) TimerEvent: {}
+[36.632036] (-) TimerEvent: {}
+[36.717924] (direct_dynamic_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library devel/lib/libdirect_dynamic_controller.so\x1b[0m\n'}
+[36.732159] (-) TimerEvent: {}
+[36.832528] (-) TimerEvent: {}
+[36.932869] (-) TimerEvent: {}
+[37.033255] (-) TimerEvent: {}
+[37.133661] (-) TimerEvent: {}
+[37.234119] (-) TimerEvent: {}
+[37.334492] (-) TimerEvent: {}
+[37.434836] (-) TimerEvent: {}
+[37.535147] (-) TimerEvent: {}
+[37.635507] (-) TimerEvent: {}
+[37.735866] (-) TimerEvent: {}
+[37.834053] (direct_dynamic_controller) StdoutLine: {'line': b'[100%] Built target direct_dynamic_controller\n'}
+[37.835950] (-) TimerEvent: {}
+[37.847473] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[37.927015] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': "build target 'tests'"}
+[37.928283] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sheila/march/ros1/build/direct_dynamic_controller', '--target', 'tests', '--', '-j4', '-l4'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '2025'), ('ROS_PACKAGE_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/joint_trajectory_controller/share:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sheila/march/ros1/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:43739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/bin:/home/sheila/march/ros1/install/march_parameter_server/bin:/home/sheila/march/ros1/install/march_moveit_interface/bin:/home/sheila/march/ros1/install/march_gain_scheduling/bin:/home/sheila/march/ros1/install/march_data_collector/bin:/opt/ros/noetic/bin:/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/2068,unix/sheila-X555LDB:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', 'bb6dddca620a49a0b354e5103be46e5a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b89c5c90_43fd_465a_89fe_c63040709d0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_moveit_interface/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_data_collector/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/joint_trajectory_controller:/opt/ros/noetic')]), 'shell': False}
+[37.936069] (-) TimerEvent: {}
+[37.996381] (direct_dynamic_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tests\x1b[0m\n'}
+[38.010767] (direct_dynamic_controller) StdoutLine: {'line': b'Built target tests\n'}
+[38.027447] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[38.036277] (-) TimerEvent: {}
+[38.124147] (direct_dynamic_controller) JobProgress: {'identifier': 'direct_dynamic_controller', 'progress': 'install'}
+[38.138259] (direct_dynamic_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sheila/march/ros1/build/direct_dynamic_controller'], 'cwd': '/home/sheila/march/ros1/build/direct_dynamic_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'sheila'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '2025'), ('ROS_PACKAGE_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/joint_trajectory_controller/share:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'), ('HOME', '/home/sheila'), ('OLDPWD', '/home/sheila/march'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sheila/march/ros1/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'sheila'), ('JOURNAL_STREAM', '8:43739'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sheila'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/bin:/home/sheila/march/ros1/install/march_parameter_server/bin:/home/sheila/march/ros1/install/march_moveit_interface/bin:/home/sheila/march/ros1/install/march_gain_scheduling/bin:/home/sheila/march/ros1/install/march_data_collector/bin:/opt/ros/noetic/bin:/home/sheila/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sheila-X555LDB:@/tmp/.ICE-unix/2068,unix/sheila-X555LDB:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', 'bb6dddca620a49a0b354e5103be46e5a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b89c5c90_43fd_465a_89fe_c63040709d0f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sheila/march/ros1/build/direct_dynamic_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_classes/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_parameter_server/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_moveit_interface/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_gain_scheduling/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_data_collector/lib/python3/dist-packages:/home/sheila/march/ros1/install/march_shared_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/joint_trajectory_controller:/opt/ros/noetic')]), 'shell': False}
+[38.140403] (-) TimerEvent: {}
+[38.150438] (direct_dynamic_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.152582] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig/direct_dynamic_controller.pc\n'}
+[38.153003] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig.cmake\n'}
+[38.153317] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig-version.cmake\n'}
+[38.153601] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/package.xml\n'}
+[38.153839] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller\n'}
+[38.154045] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_segment.h\n'}
+[38.154194] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode\n'}
+[38.154374] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode/settings.json\n'}
+[38.154627] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_msg_utils.h\n'}
+[38.154869] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/tolerances.h\n'}
+[38.155117] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller_impl.h\n'}
+[38.155299] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter copy.h\n'}
+[38.155854] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller.h\n'}
+[38.156155] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter.h\n'}
+[38.156382] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/init_joint_trajectory.h\n'}
+[38.156576] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface/\n'}
+[38.156768] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//pos_vel_acc_state.h\n'}
+[38.156955] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//trajectory_interface.h\n'}
+[38.157135] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//quintic_spline_segment.h\n'}
+[38.157336] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so\n'}
+[38.173376] (direct_dynamic_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so" to ""\n'}
+[38.173702] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config\n'}
+[38.173902] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm\n'}
+[38.174150] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params_simulation.yaml\n'}
+[38.174436] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params.yaml\n'}
+[38.174706] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/direct_dynamic_controller.yaml\n'}
+[38.174954] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm\n'}
+[38.175214] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml\n'}
+[38.175655] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml\n'}
+[38.175921] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml\n'}
+[38.176261] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch\n'}
+[38.176564] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch\n'}
+[38.176872] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch\n'}
+[38.177159] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch\n'}
+[38.177516] (direct_dynamic_controller) StdoutLine: {'line': b'-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/ros_control_plugins.xml\n'}
+[38.179990] (direct_dynamic_controller) CommandEnded: {'returncode': 0}
+[38.240551] (-) TimerEvent: {}
+[38.305991] (direct_dynamic_controller) JobEnded: {'identifier': 'direct_dynamic_controller', 'rc': 0}
+[38.306923] (-) EventReactorShutdown: {}

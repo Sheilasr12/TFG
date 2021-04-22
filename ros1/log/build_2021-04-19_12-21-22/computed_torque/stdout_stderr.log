@@ -1,0 +1,26 @@
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+In file included from [01m[K/usr/include/kdl/chainjnttojacsolver.hpp:27[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:17[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/usr/include/kdl/jacobian.hpp:26:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No existe el archivo o el directorio
+   26 | #include [01;31m[K<Eigen/Core>[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/computed_torque_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

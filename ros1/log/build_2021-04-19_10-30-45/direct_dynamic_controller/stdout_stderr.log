@@ -1,0 +1,41 @@
+[35m[1mScanning dependencies of target direct_dynamic_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/direct_dynamic_controller.dir/src/direct_dynamic_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libdirect_dynamic_controller.so[0m
+[100%] Built target direct_dynamic_controller
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig/direct_dynamic_controller.pc
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig.cmake
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig-version.cmake
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/package.xml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_segment.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode/settings.json
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_msg_utils.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/tolerances.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller_impl.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter copy.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/init_joint_trajectory.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface/
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//pos_vel_acc_state.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//trajectory_interface.h
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//quintic_spline_segment.h
+-- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so
+-- Set runtime path of "/home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so" to ""
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params_simulation.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/direct_dynamic_controller.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch
+-- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/ros_control_plugins.xml

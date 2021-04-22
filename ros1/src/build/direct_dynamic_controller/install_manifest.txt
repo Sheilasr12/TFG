@@ -1,0 +1,27 @@
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/lib/pkgconfig/direct_dynamic_controller.pc
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig.cmake
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig-version.cmake
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/package.xml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_segment.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode/settings.json
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_msg_utils.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/tolerances.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller_impl.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter copy.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/direct_dynamic_controller/init_joint_trajectory.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/trajectory_interface//pos_vel_acc_state.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/trajectory_interface//trajectory_interface.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/include/trajectory_interface//quintic_spline_segment.h
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params_simulation.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/direct_dynamic_controller.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch
+/home/sheila/march/ros1/src/install/direct_dynamic_controller/share/direct_dynamic_controller/ros_control_plugins.xml

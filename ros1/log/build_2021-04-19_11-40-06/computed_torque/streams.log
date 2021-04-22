@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.096s] [  0%] Built target std_msgs_generate_messages_py
+[0.097s] [  0%] Built target roscpp_generate_messages_py
+[0.098s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.103s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.136s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.141s] [  0%] Built target roscpp_generate_messages_eus
+[0.144s] [  0%] Built target roscpp_generate_messages_cpp
+[0.155s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.174s] [  0%] Built target roscpp_generate_messages_lisp
+[0.178s] [  0%] Built target std_msgs_generate_messages_eus
+[0.183s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.194s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.210s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.212s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.219s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.249s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[0.457s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcomputed_torque/computed_torque_controller.h: No existe el archivo o el directorio
+[0.457s]     5 | #include [01;31m[K<computed_torque/computed_torque_controller.h>[m[K
+[0.457s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.457s] compilation terminated.
+[0.462s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[0.462s] make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[0.462s] make: *** [Makefile:141: all] Error 2
+[0.464s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

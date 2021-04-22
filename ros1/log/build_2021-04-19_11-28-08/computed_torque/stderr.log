@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:134 (add_library):
+  add_library cannot create target "computed_torque_lib" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/sheila/march/ros1/src/control/computed_torque".  See documentation
+  for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:135 (add_library):
+  add_library cannot create target "computed_torque_lib" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/sheila/march/ros1/src/control/computed_torque".  See documentation
+  for policy CMP0002 for more details.
+
+
+make: *** [Makefile:574: cmake_check_build_system] Error 1

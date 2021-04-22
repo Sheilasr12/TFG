@@ -6,6 +6,7 @@
 #include <ros/node_handle.h>
 #include <ros/time.h>
 #include "std_msgs/Float64MultiArray.h"
+#include "std_msgs/Float64.h"
 #include <ddynamic_reconfigure/ddynamic_reconfigure.h>
 
 // C++ 
@@ -26,7 +27,15 @@
 #include <hardware_interface/posvel_command_interface.h>
 #include <hardware_interface/posvelacc_command_interface.h>
 #include <joint_trajectory_controller/joint_trajectory_controller.h>
+#include <trajectory_interface/quintic_spline_segment.h>
+#include <trajectory_interface/pos_vel_acc_state.h>
+#include <trajectory_interface/joint_trajectory_segment.h>
 
+// ROS messages
+#include <control_msgs/FollowJointTrajectoryAction.h>
+#include <control_msgs/JointTrajectoryControllerState.h>
+#include <control_msgs/QueryTrajectoryState.h>
+//#include <trajectory_msgs/JointTrajectory.h>
 
 // KDL 
 #include <kdl/chain.hpp>
@@ -35,6 +44,7 @@
 #include <kdl/chainjnttojacsolver.hpp>
 #include <kdl/chainfksolverpos_recursive.hpp>
 #include <kdl/frames.hpp>
+#include <kdl/framevel.hpp>
 //#include <kdl/jacobian.hpp>
 #include <kdl/jntarray.hpp>
 #include <kdl/jntspaceinertiamatrix.hpp>
@@ -55,7 +65,7 @@
 #include <std_msgs/Bool.h>
 
 // PROJECT
-//#include <astronaut_controllers/target_frame.h>
+
 
 namespace controller_ns{
 
@@ -65,8 +75,8 @@ namespace controller_ns{
 
             bool init(std::vector<hardware_interface::JointHandle>& joint_handles, ros::NodeHandle& nh);
             void update(const ros::Time &time, const ros::Duration &period, 
-                        const joint_trajectory_controller::State& desired_state, 
-                        const joint_trajectory_controller::State& state_error );
+                        const State& desired_state, 
+                        const State& state_error );
             void starting(const ros::Time &time);
             void stopping(const ros::Time &time);
 

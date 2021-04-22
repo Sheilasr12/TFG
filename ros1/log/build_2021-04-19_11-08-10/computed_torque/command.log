@@ -1,0 +1,4 @@
+Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake /home/sheila/march/ros1/src/control/computed_torque -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/computed_torque
+Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '0': /usr/bin/cmake /home/sheila/march/ros1/src/control/computed_torque -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sheila/march/ros1/install/computed_torque
+Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

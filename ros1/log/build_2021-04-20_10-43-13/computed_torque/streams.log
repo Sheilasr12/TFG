@@ -1,0 +1,66 @@
+[0.018s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.097s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.097s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.098s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.098s] [  0%] Built target std_msgs_generate_messages_eus
+[0.134s] [  0%] Built target control_msgs_generate_messages_lisp
+[0.135s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.138s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.150s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.168s] [  0%] Built target control_msgs_generate_messages_cpp
+[0.173s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.184s] [  0%] Built target roscpp_generate_messages_lisp
+[0.187s] [  0%] Built target control_toolbox_generate_messages_nodejs
+[0.206s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.210s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.222s] [  0%] Built target control_msgs_generate_messages_nodejs
+[0.226s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.242s] [  0%] Built target actionlib_generate_messages_py
+[0.250s] [  0%] Built target actionlib_generate_messages_lisp
+[0.260s] [  0%] Built target _catkin_empty_exported_target
+[0.272s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.279s] [  0%] Built target control_msgs_generate_messages_eus
+[0.289s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[0.297s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[0.310s] [  0%] Built target control_toolbox_generate_messages_py
+[0.316s] [  0%] Built target std_msgs_generate_messages_py
+[0.329s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.335s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.349s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.351s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.368s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.381s] [  0%] Built target actionlib_generate_messages_cpp
+[0.386s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.386s] [  0%] Built target roscpp_generate_messages_eus
+[0.405s] [  0%] Built target roscpp_generate_messages_cpp
+[0.420s] [  0%] Built target control_toolbox_gencfg
+[0.424s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.424s] [  0%] Built target control_msgs_generate_messages_py
+[0.444s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.458s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.461s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[0.462s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.480s] [  0%] Built target actionlib_generate_messages_eus
+[0.496s] [  0%] Built target trajectory_msgs_generate_messages_py
+[0.497s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[0.498s] [  0%] Built target roscpp_generate_messages_py
+[0.516s] [  0%] Built target control_toolbox_generate_messages_cpp
+[0.534s] [  0%] Built target control_toolbox_generate_messages_lisp
+[0.535s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.535s] [  0%] Built target control_toolbox_generate_messages_eus
+[0.553s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.567s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.570s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.571s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.585s] [35m[1mScanning dependencies of target computed_torque_lib[0m
+[0.747s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[1.592s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:32[m[K,
+[1.593s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[1.593s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/joint_trajectory_segment.h:23:10:[m[K [01;31m[Kfatal error: [m[Kdirect_dynamic_controller/joint_trajectory_msg_utils.h: No existe el archivo o el directorio
+[1.593s]    23 | #include [01;31m[K<direct_dynamic_controller/joint_trajectory_msg_utils.h>[m[K
+[1.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.593s] compilation terminated.
+[1.602s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[1.602s] make[1]: *** [CMakeFiles/Makefile2:1811: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[1.602s] make: *** [Makefile:141: all] Error 2
+[1.607s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

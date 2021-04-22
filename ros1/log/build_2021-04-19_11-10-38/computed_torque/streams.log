@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.076s] [35m[1mScanning dependencies of target computed_torque[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque.dir/src/computed_torque_controller.cpp.o[0m
+[0.303s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kinclude/computed_torque/computed_torque_controller.h: No existe el archivo o el directorio
+[0.303s]     5 | #include [01;31m[K<include/computed_torque/computed_torque_controller.h>[m[K
+[0.303s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.303s] compilation terminated.
+[0.307s] make[2]: *** [CMakeFiles/computed_torque.dir/build.make:63: CMakeFiles/computed_torque.dir/src/computed_torque_controller.cpp.o] Error 1
+[0.307s] make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/computed_torque.dir/all] Error 2
+[0.307s] make: *** [Makefile:141: all] Error 2
+[0.310s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

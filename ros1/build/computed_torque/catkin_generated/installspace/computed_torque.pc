@@ -1,0 +1,8 @@
+prefix=/home/sheila/march/ros1/install/computed_torque
+
+Name: computed_torque
+Description: Description of computed_torque
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

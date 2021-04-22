@@ -11,6 +11,7 @@
 // URDF
 #include <urdf/model.h>
 
+
 namespace controller_ns{
 
 bool computed_torque_controller_class::init(std::vector<hardware_interface::JointHandle>& joint_handles, ros::NodeHandle& nh){
@@ -30,7 +31,7 @@ bool computed_torque_controller_class::init(std::vector<hardware_interface::Join
     ros::param::get("/march/joint_names", joint_names);
 
     // Obtain proportional and derivative gains stated  at the YAML config file
-    std::vector<double> kp_default, kv_default = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    std::vector<double> kp_default, kv_default = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
     if (!nh_ptr_->getParam("Kp", kp_default)){
       ROS_ERROR("Could not load proportional gain. Default value Kp=500");
@@ -72,18 +73,18 @@ bool computed_torque_controller_class::init(std::vector<hardware_interface::Join
 }
 
 void computed_torque_controller_class::update(const ros::Time &time, const ros::Duration &period, 
-                                              const joint_trajectory_controller::State& desired_state, 
-                                              const joint_trajectory_controller::State& state_error ){
+                                              const State& desired_state, 
+                                              const State& state_error ){
 
     
     //Obtain current position and velocities, desired state and state errors and store it at KDL::JntArray variables
     for(unsigned int i=0;i<num_joints_;i++){
       current.q(i) = (*joint_handles_ptr_)[i].getPosition();
       current.qdot(i) = (*joint_handles_ptr_)[i].getVelocity();
-      current_torque[i] = (*joint_handles_ptr_)[i].getEffort();
+      //current_torque[i] = (*joint_handles_ptr_)[i].getEffort();
 
-      desired.q(i) = desired_state.position[i];
-      desired.qdot(i) = desired_state.velocity[i];
+      //desired.q(i) = desired_state.position[i];
+      //desired.qdot(i) = desired_state.velocity[i];
       desired.qdotdot(i) = desired_state.acceleration[i];   
 
       error.q(i) = state_error.position[i];
@@ -109,7 +110,7 @@ void computed_torque_controller_class::update(const ros::Time &time, const ros::
     dynamics.JntToCoriolis(current.q,current.qdot,C);
     dynamics.JntToMass(current.q,M);
 
-    tau.data = M.data*(desired.qdotdot.data + Kp*error.q.data + Kv*error.qdot.data) + C.data + G.data - F * current.qdot.data;
+    tau.data = M.data*(desired.qdotdot.data + Kp * error.q.data + Kv * error.qdot.data) + C.data + G.data - F * current.qdot.data;
     for (unsigned int i = 0; i < num_joints_; ++i)
     {
         // Effort command sending
