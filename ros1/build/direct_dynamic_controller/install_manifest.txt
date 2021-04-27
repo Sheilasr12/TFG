@@ -21,6 +21,7 @@
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml
+/home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/direct_controller/direct_controller.yaml
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch
 /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch

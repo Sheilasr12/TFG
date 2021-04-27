@@ -9,6 +9,7 @@ project(computed_torque)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   actionlib
+  actionlib_msgs
   angles
   cmake_modules
   control_msgs

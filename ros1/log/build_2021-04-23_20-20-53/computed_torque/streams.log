@@ -1,0 +1,147 @@
+[0.018s] Invoking command in '/home/sheila/march/ros1/build/computed_torque': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[0.105s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.105s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.105s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.117s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.146s] [  0%] Built target march_shared_msgs_generate_messages_nodejs
+[0.149s] [  0%] Built target march_shared_msgs_generate_messages_eus
+[0.149s] [  0%] Built target march_shared_msgs_generate_messages_py
+[0.160s] [  0%] Built target roscpp_generate_messages_eus
+[0.187s] [  0%] Built target roscpp_generate_messages_cpp
+[0.190s] [  0%] Built target control_toolbox_gencfg
+[0.192s] [  0%] Built target std_msgs_generate_messages_py
+[0.198s] [  0%] Built target march_shared_msgs_generate_messages_cpp
+[0.231s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.231s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.233s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.241s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.270s] [  0%] Built target actionlib_generate_messages_cpp
+[0.270s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.270s] [  0%] Built target march_shared_msgs_generate_messages_lisp
+[0.285s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.308s] [  0%] Built target actionlib_generate_messages_lisp
+[0.308s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.308s] [  0%] Built target actionlib_generate_messages_py
+[0.331s] [  0%] Built target _catkin_empty_exported_target
+[0.346s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[0.347s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.347s] [  0%] Built target control_msgs_generate_messages_eus
+[0.372s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[0.384s] [  0%] Built target std_msgs_generate_messages_eus
+[0.384s] [  0%] Built target control_toolbox_generate_messages_py
+[0.385s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.412s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.422s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.423s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.427s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.455s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.467s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.467s] [  0%] Built target control_msgs_generate_messages_lisp
+[0.468s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.495s] [  0%] Built target control_msgs_generate_messages_cpp
+[0.505s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.506s] [  0%] Built target control_toolbox_generate_messages_nodejs
+[0.507s] [  0%] Built target roscpp_generate_messages_lisp
+[0.537s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.544s] [  0%] Built target control_msgs_generate_messages_py
+[0.546s] [  0%] Built target control_msgs_generate_messages_nodejs
+[0.546s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.578s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.584s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[0.584s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.586s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.618s] [  0%] Built target actionlib_generate_messages_eus
+[0.623s] [  0%] Built target trajectory_msgs_generate_messages_py
+[0.625s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[0.630s] [  0%] Built target roscpp_generate_messages_py
+[0.661s] [  0%] Built target control_toolbox_generate_messages_cpp
+[0.663s] [  0%] Built target control_toolbox_generate_messages_lisp
+[0.663s] [  0%] Built target control_toolbox_generate_messages_eus
+[0.671s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.700s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.700s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.701s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.707s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.724s] [35m[1mScanning dependencies of target computed_torque_lib[0m
+[0.750s] [ 50%] [32mBuilding CXX object CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o[0m
+[3.674s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:32[m[K,
+[3.674s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[3.675s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/joint_trajectory_segment.h:70:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass joint_trajectory_controller::JointTrajectorySegment<Segment>[m[K’
+[3.675s]    70 | class [01;31m[KJointTrajectorySegment[m[K : public Segment
+[3.675s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.675s] In file included from [01m[K/opt/ros/noetic/include/joint_trajectory_controller/joint_trajectory_controller.h:73[m[K,
+[3.675s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:29[m[K,
+[3.675s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[3.675s] [01m[K/opt/ros/noetic/include/joint_trajectory_controller/joint_trajectory_segment.h:70:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass joint_trajectory_controller::JointTrajectorySegment<Segment>[m[K’
+[3.675s]    70 | class [01;36m[KJointTrajectorySegment[m[K : public Segment
+[3.675s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.675s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:32[m[K,
+[3.675s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[3.675s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/joint_trajectory_segment.h:221:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktemplate<class Scalar> Scalar joint_trajectory_controller::wraparoundJointOffset(const Scalar&, const Scalar&, const bool&)[m[K’
+[3.676s]   221 | Scalar [01;31m[KwraparoundJointOffset[m[K(const Scalar& prev_position,
+[3.676s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.676s] In file included from [01m[K/opt/ros/noetic/include/joint_trajectory_controller/joint_trajectory_controller.h:73[m[K,
+[3.676s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:29[m[K,
+[3.676s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[3.676s] [01m[K/opt/ros/noetic/include/joint_trajectory_controller/joint_trajectory_segment.h:221:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class Scalar> Scalar joint_trajectory_controller::wraparoundJointOffset(const Scalar&, const Scalar&, const bool&)[m[K’ previously declared here
+[3.676s]   221 | Scalar [01;36m[KwraparoundJointOffset[m[K(const Scalar& prev_position,
+[3.676s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.160s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[4.160s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:79:31:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ does not name a type
+[4.160s]    79 |                         const [01;31m[KState[m[K& desired_state,
+[4.160s]       |                               [01;31m[K^~~~~[m[K
+[4.162s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:80:31:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ does not name a type
+[4.162s]    80 |                         const [01;31m[KState[m[K& state_error );
+[4.162s]       |                               [01;31m[K^~~~~[m[K
+[4.163s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:113:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+[4.163s]   113 |             typename [01;31m[KSegment[m[K::State state_error_;           ///< Preallocated workspace variable.
+[4.163s]       |                      [01;31m[K^~~~~~~[m[K
+[4.163s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:114:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+[4.163s]   114 |             typename [01;31m[KSegment[m[K::State desired_joint_state_;   ///< Preallocated workspace variable.
+[4.163s]       |                      [01;31m[K^~~~~~~[m[K
+[4.197s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:157[m[K,
+[4.197s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[4.197s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:76:53:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ does not name a type
+[4.197s]    76 |                                               const [01;31m[KState[m[K& desired_state,
+[4.198s]       |                                                     [01;31m[K^~~~~[m[K
+[4.199s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:77:53:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ does not name a type
+[4.199s]    77 |                                               const [01;31m[KState[m[K& state_error ){
+[4.199s]       |                                                     [01;31m[K^~~~~[m[K
+[4.199s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:[m[K In member function ‘[01m[Kvoid controller_ns::computed_torque_controller_class::update(const ros::Time&, const ros::Duration&, const int&, const int&)[m[K’:
+[4.199s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:88:42:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kacceleration[m[K’ in ‘[01m[Kdesired_state[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[4.200s]    88 |       desired.qdotdot(i) = desired_state.[01;31m[Kacceleration[m[K[i];
+[4.200s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[4.200s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:90:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposition[m[K’ in ‘[01m[Kstate_error[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[4.200s]    90 |       error.q(i) = state_error.[01;31m[Kposition[m[K[i];
+[4.200s]       |                                [01;31m[K^~~~~~~~[m[K
+[4.200s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:91:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kvelocity[m[K’ in ‘[01m[Kstate_error[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[4.200s]    91 |       error.qdot(i) = state_error.[01;31m[Kvelocity[m[K[i];
+[4.200s]       |                                   [01;31m[K^~~~~~~~[m[K
+[4.302s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:118:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kerrror[m[K’ was not declared in this scope; did you mean ‘[01m[Kerror[m[K’?
+[4.303s]   118 |         const double command = -Kp*error.q.data - Kv*[01;31m[Kerrror[m[K.qdot.data;
+[4.303s]       |                                                      [01;31m[K^~~~~~[m[K
+[4.303s]       |                                                      [32m[Kerror[m[K
+[5.233s] In file included from [01m[K/opt/ros/noetic/include/class_loader/class_loader_core.hpp:45[m[K,
+[5.233s]                  from [01m[K/opt/ros/noetic/include/class_loader/class_loader.hpp:46[m[K,
+[5.234s]                  from [01m[K/opt/ros/noetic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+[5.234s]                  from [01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.h:35[m[K,
+[5.234s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:2[m[K:
+[5.234s] /opt/ros/noetic/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = controller_ns::computed_torque_controller_class; B = controller_interface::ControllerBase][m[K’:
+[5.234s] [01m[K/opt/ros/noetic/include/class_loader/meta_object.hpp:196:7:[m[K   required from here
+[5.234s] [01m[K/opt/ros/noetic/include/class_loader/meta_object.hpp:198:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kcontroller_ns::computed_torque_controller_class[m[K’
+[5.234s]   198 |     return [01;31m[Knew C[m[K;
+[5.235s]       |            [01;31m[K^~~~~[m[K
+[5.235s] In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[5.235s] [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:73:11:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kcontroller_ns::computed_torque_controller_class[m[K’:
+[5.235s]    73 |     class [01;36m[Kcomputed_torque_controller_class[m[K : public controller_interface::Controller<hardware_interface::EffortJointInterface> {
+[5.235s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.235s] In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+[5.236s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:24[m[K,
+[5.236s]                  from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[5.236s] [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:73:16:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void controller_interface::ControllerBase::update(const ros::Time&, const ros::Duration&)[m[K’
+[5.236s]    73 |   virtual void [01;36m[Kupdate[m[K(const ros::Time& time, const ros::Duration& period) = 0;
+[5.236s]       |                [01;36m[K^~~~~~[m[K
+[5.595s] make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+[5.596s] make[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/computed_torque_lib.dir/all] Error 2
+[5.596s] make: *** [Makefile:141: all] Error 2
+[5.598s] Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4

@@ -1,18 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <launch>
-  <rosparam command="load" file="$(find march_simulation)/config/effort_control/marchS.yaml" />
-   
-  <!-- Set up controller -->
-  <arg name="controller_list"
-       value="left_arm_dynamic_controller"/>
-
-  <arg name="simulation" default="false"/>
-
-  <!-- Load the motor parameters -->
-  <group if="$(arg simulation)">
-  	<rosparam command="load" file="$(find direct_dynamic_controller)/config/left_arm/motor_params_simulation.yaml" />
-  </group>
-  <group unless="$(arg simulation)">
-  	<rosparam command="load" file="$(find direct_dynamic_controller)/config/left_arm/motor_params.yaml" />
-  </group> 
-          
+  <rosparam file="$(find direct_dynamic_controller)/config/direct_controller/direct_controller.yaml" command="load"/>
+  <node name="direct_dynamic_controller_spawner" pkg="controller_manager" type="spawner" output="screen" args="dynamic_controller"/>
 </launch>
+
+

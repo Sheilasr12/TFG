@@ -114,8 +114,7 @@ void computed_torque_controller_class::update(const ros::Time &time, const ros::
     for (unsigned int i = 0; i < num_joints_; ++i)
     {
         // Effort command sending
-        //const double command = tau(i)/(motor_torque_constant[i] * reduction_ratio[i]);
-        const double command = -Kp*error.q.data - Kv*errror.qdot.data;
+        const double command = tau(i)//(motor_torque_constant[i] * reduction_ratio[i]);
         if(!std::isnan(command))
             (*joint_handles_ptr_)[i].setCommand(command);
     }

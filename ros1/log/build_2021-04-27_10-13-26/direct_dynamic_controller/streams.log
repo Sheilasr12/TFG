@@ -1,0 +1,45 @@
+[0.082s] Invoking command in '/home/sheila/march/ros1/build/direct_dynamic_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/direct_dynamic_controller -- -j4 -l4
+[0.413s] [100%] Built target direct_dynamic_controller
+[0.472s] Invoked command in '/home/sheila/march/ros1/build/direct_dynamic_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/direct_dynamic_controller -- -j4 -l4
+[0.882s] Invoking command in '/home/sheila/march/ros1/build/direct_dynamic_controller': /usr/bin/cmake --build /home/sheila/march/ros1/build/direct_dynamic_controller --target tests -- -j4 -l4
+[1.183s] Built target tests
+[1.248s] Invoked command in '/home/sheila/march/ros1/build/direct_dynamic_controller' returned '0': /usr/bin/cmake --build /home/sheila/march/ros1/build/direct_dynamic_controller --target tests -- -j4 -l4
+[1.669s] Invoking command in '/home/sheila/march/ros1/build/direct_dynamic_controller': /usr/bin/cmake --install /home/sheila/march/ros1/build/direct_dynamic_controller
+[1.727s] -- Install configuration: ""
+[1.728s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig/direct_dynamic_controller.pc
+[1.729s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig.cmake
+[1.730s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/cmake/direct_dynamic_controllerConfig-version.cmake
+[1.730s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/package.xml
+[1.731s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller
+[1.731s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_segment.h
+[1.731s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode
+[1.732s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/.vscode/settings.json
+[1.734s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/joint_trajectory_msg_utils.h
+[1.735s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/tolerances.h
+[1.736s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller_impl.h
+[1.736s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter copy.h
+[1.737s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/direct_dynamic_controller.h
+[1.738s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/hardware_interface_adapter.h
+[1.738s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/direct_dynamic_controller/init_joint_trajectory.h
+[1.739s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface/
+[1.742s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//pos_vel_acc_state.h
+[1.743s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//trajectory_interface.h
+[1.745s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/include/trajectory_interface//quintic_spline_segment.h
+[1.747s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/lib/libdirect_dynamic_controller.so
+[1.748s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config
+[1.756s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm
+[1.757s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params_simulation.yaml
+[1.758s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/motor_params.yaml
+[1.759s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/right_arm/direct_dynamic_controller.yaml
+[1.760s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm
+[1.762s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params_simulation.yaml
+[1.762s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/motor_params.yaml
+[1.763s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/left_arm/direct_dynamic_controller.yaml
+[1.764s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/direct_controller
+[1.765s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/config/direct_controller/direct_controller.yaml
+[1.766s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch
+[1.766s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/right_arm_direct_dynamic_controller.launch
+[1.767s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/left_arm_direct_dynamic_controller.launch
+[1.767s] -- Installing: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/launch/direct_dynamic_controller.launch
+[1.768s] -- Up-to-date: /home/sheila/march/ros1/install/direct_dynamic_controller/share/direct_dynamic_controller/ros_control_plugins.xml
+[1.769s] Invoked command in '/home/sheila/march/ros1/build/direct_dynamic_controller' returned '0': /usr/bin/cmake --install /home/sheila/march/ros1/build/direct_dynamic_controller

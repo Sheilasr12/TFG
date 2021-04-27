@@ -27,15 +27,18 @@
 #include <hardware_interface/posvel_command_interface.h>
 #include <hardware_interface/posvelacc_command_interface.h>
 #include <joint_trajectory_controller/joint_trajectory_controller.h>
-#include <trajectory_interface/quintic_spline_segment.h>
+//#include <trajectory_interface/quintic_spline_segment.h>
 #include <trajectory_interface/pos_vel_acc_state.h>
-#include <trajectory_interface/joint_trajectory_segment.h>
+//#include <trajectory_interface/joint_trajectory_segment.h>
 
 // ROS messages
 #include <control_msgs/FollowJointTrajectoryAction.h>
 #include <control_msgs/JointTrajectoryControllerState.h>
 #include <control_msgs/QueryTrajectoryState.h>
 //#include <trajectory_msgs/JointTrajectory.h>
+
+#include <joint_trajectory_controller/joint_trajectory_segment.h>
+
 
 // KDL 
 #include <kdl/chain.hpp>
@@ -104,6 +107,14 @@ namespace controller_ns{
             double F_vec[8] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
             Eigen::MatrixXd F = Eigen::MatrixXd::Zero(8, 8);
 
+
+            //typedef actionlib::ActionServer<control_msgs::FollowJointTrajectoryAction>                  ActionServer;
+            //typedef JointTrajectorySegment<SegmentImpl> Segment;
+
+            //typedef HardwareInterfaceAdapter<HardwareInterface, typename Segment::State> HwIfaceAdapter;         
+            // typename State state_error_;           ///< Preallocated workspace variable.
+            // typename State desired_joint_state_;   ///< Preallocated workspace variable.
+           
 
             // Motor torque y reduction - tau - command
             double motor_torque_constant[8] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};

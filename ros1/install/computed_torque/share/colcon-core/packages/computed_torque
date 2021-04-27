@@ -1,1 +1,1 @@
-controller_interface:hardware_interface:kdl_parser:orocos_kdl:pluginlib:roscpp:std_msgs
+controller_interface:hardware_interface:joint_trajectory_controller:kdl_parser:orocos_kdl:pluginlib:roscpp:std_msgs

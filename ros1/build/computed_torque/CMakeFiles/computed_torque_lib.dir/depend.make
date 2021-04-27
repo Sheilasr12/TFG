@@ -3,12 +3,6 @@
 
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/joint_trajectory_msg_utils.h
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/joint_trajectory_segment.h
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/pos_vel_acc_state.h
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/quintic_spline_segment.h
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/tolerances.h
-CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/include/trajectory_interface/trajectory_interface.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/actionlib/action_definition.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/actionlib/decl.h
@@ -170,6 +164,8 @@ CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ro
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/std_msgs/Header.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/std_msgs/MultiArrayDimension.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/std_msgs/MultiArrayLayout.h
+CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/trajectory_interface/pos_vel_acc_state.h
+CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/trajectory_interface/trajectory_interface.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/trajectory_msgs/JointTrajectory.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/trajectory_msgs/JointTrajectoryPoint.h
 CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o: /opt/ros/noetic/include/urdf/model.h

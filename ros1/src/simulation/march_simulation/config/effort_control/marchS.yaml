@@ -8,8 +8,8 @@ march:
   controller:
     trajectory:
       #type: effort_controllers/JointTrajectoryController
-      #type: "effort_controllers/ComputedTorque"
-      type: "effort_controllers/DirectDynamicTorque"
+      #type: effort_controllers/ComputedTorque
+      type: effort_controllers/DirectDynamicController
       joints:
         - left_ankle
         - left_hip_aa
