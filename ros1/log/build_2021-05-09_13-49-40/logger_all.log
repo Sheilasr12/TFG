@@ -1,0 +1,1099 @@
+[0.361s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'computed_torque']
+[0.361s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa5510777c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['computed_torque'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa5510777c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa551077d30>)
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.368s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sheila/march/ros1'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/balance/march_moveit' with type 'ros.catkin' and name 'march_moveit'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/balance/march_moveit_interface) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/balance/march_moveit_interface' with type 'ros.catkin' and name 'march_moveit_interface'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_bridge_parameters) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bridge/march_bridge_parameters' with type 'ros.catkin' and name 'march_bridge_parameters'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge/march_parameter_server) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bridge/march_parameter_server' with type 'ros.catkin' and name 'march_parameter_server'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/computed_torque) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control/computed_torque' with type 'ros.catkin' and name 'computed_torque'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/direct_dynamic_controller) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control/direct_dynamic_controller' with type 'ros.catkin' and name 'direct_dynamic_controller'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_acado_mpc) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control/march_acado_mpc' with type 'ros.catkin' and name 'march_acado_mpc'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_gain_scheduling) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control/march_gain_scheduling' with type 'ros.catkin' and name 'march_gain_scheduling'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/control/march_joint_inertia_controller) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control/march_joint_inertia_controller' with type 'ros.catkin' and name 'march_joint_inertia_controller'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_data_collector) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data/march_data_collector' with type 'ros.catkin' and name 'march_data_collector'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/march_realsense_reader) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data/march_realsense_reader' with type 'ros.catkin' and name 'march_realsense_reader'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits) by extension 'python_setup_py'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_close) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_1) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/left_swing_2) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_close) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_1) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_open_2) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_1) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/balance_walk/right_swing_2) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_close) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/left_swing) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_close) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_open) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/stairs_up/right_swing) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_close) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/left_swing) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_close) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_open) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk/right_swing) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_close) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/left_swing) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'ros'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['cmake', 'python']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'cmake'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'python'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_close) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_open) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_medium/right_swing) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_close) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/left_swing) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_close) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_open) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_gait_selection/test/testing_gait_files/walk_small/right_swing) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/gaits/march_rqt_gait_generator) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gaits/march_rqt_gait_generator' with type 'ros.catkin' and name 'march_rqt_gait_generator'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_imu_manager) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/drivers/march_imu_manager' with type 'ros.catkin' and name 'march_imu_manager'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_pdb_state_controller) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/drivers/march_pdb_state_controller' with type 'ros.catkin' and name 'march_pdb_state_controller'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/drivers/march_temperature_sensor_controller) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/drivers/march_temperature_sensor_controller' with type 'ros.catkin' and name 'march_temperature_sensor_controller'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/interface/march_hardware' with type 'ros.catkin' and name 'march_hardware'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_builder) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/interface/march_hardware_builder' with type 'ros.catkin' and name 'march_hardware_builder'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/hardware/interface/march_hardware_interface) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hardware/interface/march_hardware_interface' with type 'ros.catkin' and name 'march_hardware_interface'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/joint_trajectory_controller) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libraries/joint_trajectory_controller' with type 'ros.catkin' and name 'joint_trajectory_controller'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/libraries/realsense_gazebo_plugin) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libraries/realsense_gazebo_plugin' with type 'ros.catkin' and name 'realsense_gazebo_plugin'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/march_launch) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/march_launch' with type 'ros.catkin' and name 'march_launch'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_description) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shared/march_description' with type 'ros.catkin' and name 'march_description'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_classes) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shared/march_shared_classes' with type 'ros.catkin' and name 'march_shared_classes'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/shared/march_shared_msgs) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shared/march_shared_msgs' with type 'ros.catkin' and name 'march_shared_msgs'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_gazebo_plugins) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/march_gazebo_plugins' with type 'ros.catkin' and name 'march_gazebo_plugins'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/march_simulation) by extension 'ros'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/march_simulation' with type 'ros.catkin' and name 'march_simulation'
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.494s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'direct_dynamic_controller' in 'src/control/direct_dynamic_controller'
+[0.494s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joint_trajectory_controller' in 'src/libraries/joint_trajectory_controller'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_bridge_parameters' in 'src/bridge/march_bridge_parameters'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_description' in 'src/shared/march_description'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_hardware' in 'src/hardware/interface/march_hardware'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_imu_manager' in 'src/hardware/drivers/march_imu_manager'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_shared_msgs' in 'src/shared/march_shared_msgs'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense_gazebo_plugin' in 'src/libraries/realsense_gazebo_plugin'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_acado_mpc' in 'src/control/march_acado_mpc'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_data_collector' in 'src/data/march_data_collector'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_gain_scheduling' in 'src/control/march_gain_scheduling'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_gazebo_plugins' in 'src/simulation/march_gazebo_plugins'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_hardware_builder' in 'src/hardware/interface/march_hardware_builder'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_joint_inertia_controller' in 'src/control/march_joint_inertia_controller'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_moveit' in 'src/balance/march_moveit'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_moveit_interface' in 'src/balance/march_moveit_interface'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_parameter_server' in 'src/bridge/march_parameter_server'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_realsense_reader' in 'src/data/march_realsense_reader'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_shared_classes' in 'src/shared/march_shared_classes'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_hardware_interface' in 'src/hardware/interface/march_hardware_interface'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_rqt_gait_generator' in 'src/gaits/march_rqt_gait_generator'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_simulation' in 'src/simulation/march_simulation'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_launch' in 'src/march_launch'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_pdb_state_controller' in 'src/hardware/drivers/march_pdb_state_controller'
+[0.495s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'march_temperature_sensor_controller' in 'src/hardware/drivers/march_temperature_sensor_controller'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'computed_torque' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'computed_torque' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sheila/march/ros1/build/computed_torque', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sheila/march/ros1/install/computed_torque', 'merge_install': False, 'path': '/home/sheila/march/ros1/src/control/computed_torque', 'symlink_install': False, 'test_result_base': None}
+[0.499s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.502s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/sheila/march/ros1/src/control/computed_torque' with build type 'catkin'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sheila/march/ros1/src/control/computed_torque'
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.512s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sheila/march/ros1/build/computed_torque': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller:/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/direct_dynamic_controller:/opt/ros/noetic LD_LIBRARY_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/direct_dynamic_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PKG_CONFIG_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/computed_torque/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/computed_torque/lib/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/share:/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/computed_torque/share:/home/sheila/march/ros1/install/direct_dynamic_controller/share:/opt/ros/noetic/share /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[6.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sheila/march/ros1/build/computed_torque' returned '2': CMAKE_PREFIX_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller:/home/sheila/march/ros1/install/realsense_gazebo_plugin:/home/sheila/march/ros1/install/march_temperature_sensor_controller:/home/sheila/march/ros1/install/march_launch:/home/sheila/march/ros1/install/march_simulation:/home/sheila/march/ros1/install/march_rqt_gait_generator:/home/sheila/march/ros1/install/march_shared_classes:/home/sheila/march/ros1/install/march_realsense_reader:/home/sheila/march/ros1/install/march_pdb_state_controller:/home/sheila/march/ros1/install/march_parameter_server:/home/sheila/march/ros1/install/march_moveit_interface:/home/sheila/march/ros1/install/march_joint_inertia_controller:/home/sheila/march/ros1/install/march_hardware_interface:/home/sheila/march/ros1/install/march_gazebo_plugins:/home/sheila/march/ros1/install/march_gain_scheduling:/home/sheila/march/ros1/install/march_data_collector:/home/sheila/march/ros1/install/march_acado_mpc:/home/sheila/march/ros1/install/march_shared_msgs:/home/sheila/march/ros1/install/march_moveit:/home/sheila/march/ros1/install/march_imu_manager:/home/sheila/march/ros1/install/march_hardware_builder:/home/sheila/march/ros1/install/march_hardware:/home/sheila/march/ros1/install/march_description:/home/sheila/march/ros1/install/march_bridge_parameters:/home/sheila/march/ros1/install/direct_dynamic_controller:/opt/ros/noetic LD_LIBRARY_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/lib:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib:/home/sheila/march/ros1/install/march_realsense_reader/lib:/home/sheila/march/ros1/install/march_pdb_state_controller/lib:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib:/home/sheila/march/ros1/install/march_gazebo_plugins/lib:/home/sheila/march/ros1/install/march_acado_mpc/lib:/home/sheila/march/ros1/install/march_imu_manager/lib:/home/sheila/march/ros1/install/march_hardware_builder/lib:/home/sheila/march/ros1/install/march_hardware/lib:/home/sheila/march/ros1/install/direct_dynamic_controller/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PKG_CONFIG_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/joint_trajectory_controller/lib/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/realsense_gazebo_plugin/lib/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_temperature_sensor_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_launch/lib/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_simulation/lib/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_rqt_gait_generator/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_classes/lib/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_realsense_reader/lib/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_pdb_state_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_parameter_server/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_joint_inertia_controller/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_interface/lib/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gazebo_plugins/lib/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_gain_scheduling/lib/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_data_collector/lib/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_acado_mpc/lib/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_shared_msgs/lib/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_moveit/lib/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_imu_manager/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware_builder/lib/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_hardware/lib/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_description/lib/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/march_bridge_parameters/lib/pkgconfig:/home/sheila/march/ros1/install/computed_torque/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/computed_torque/lib/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/x86_64-linux-gnu/pkgconfig:/home/sheila/march/ros1/install/direct_dynamic_controller/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig ROS_PACKAGE_PATH=/home/sheila/march/ros1/install/joint_trajectory_controller/share:/home/sheila/march/ros1/install/realsense_gazebo_plugin/share:/home/sheila/march/ros1/install/march_temperature_sensor_controller/share:/home/sheila/march/ros1/install/march_launch/share:/home/sheila/march/ros1/install/march_simulation/share:/home/sheila/march/ros1/install/march_rqt_gait_generator/share:/home/sheila/march/ros1/install/march_shared_classes/share:/home/sheila/march/ros1/install/march_realsense_reader/share:/home/sheila/march/ros1/install/march_pdb_state_controller/share:/home/sheila/march/ros1/install/march_parameter_server/share:/home/sheila/march/ros1/install/march_moveit_interface/share:/home/sheila/march/ros1/install/march_joint_inertia_controller/share:/home/sheila/march/ros1/install/march_hardware_interface/share:/home/sheila/march/ros1/install/march_gazebo_plugins/share:/home/sheila/march/ros1/install/march_gain_scheduling/share:/home/sheila/march/ros1/install/march_data_collector/share:/home/sheila/march/ros1/install/march_acado_mpc/share:/home/sheila/march/ros1/install/march_shared_msgs/share:/home/sheila/march/ros1/install/march_moveit/share:/home/sheila/march/ros1/install/march_imu_manager/share:/home/sheila/march/ros1/install/march_hardware_builder/share:/home/sheila/march/ros1/install/march_hardware/share:/home/sheila/march/ros1/install/march_description/share:/home/sheila/march/ros1/install/march_bridge_parameters/share:/home/sheila/march/ros1/install/computed_torque/share:/home/sheila/march/ros1/install/direct_dynamic_controller/share:/opt/ros/noetic/share /usr/bin/cmake --build /home/sheila/march/ros1/build/computed_torque -- -j4 -l4
+[6.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('computed_torque', 'ros_package_path')
+[6.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/ros_package_path.ps1'
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/ros_package_path.dsv'
+[6.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/ros_package_path.sh'
+[6.348s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/sheila/march/ros1/install/computed_torque/lib/python3/dist-packages'
+[6.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('computed_torque', 'pkg_config_path')
+[6.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path.ps1'
+[6.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path.dsv'
+[6.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path.sh'
+[6.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('computed_torque', 'pkg_config_path_multiarch')
+[6.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path_multiarch.ps1'
+[6.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path_multiarch.dsv'
+[6.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/hook/pkg_config_path_multiarch.sh'
+[6.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(computed_torque)
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/sheila/march/ros1/install/computed_torque' for CMake module files
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/sheila/march/ros1/install/computed_torque' for CMake config files
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/sheila/march/ros1/install/computed_torque/bin'
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/sheila/march/ros1/install/computed_torque/lib/pkgconfig/computed_torque.pc'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/sheila/march/ros1/install/computed_torque/lib/python3.8/site-packages'
+[6.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/package.ps1'
+[6.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/package.dsv'
+[6.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/package.sh'
+[6.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/package.bash'
+[6.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/sheila/march/ros1/install/computed_torque/share/computed_torque/package.zsh'
+[6.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sheila/march/ros1/install/computed_torque/share/colcon-core/packages/computed_torque)
+[6.377s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.378s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.378s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[6.379s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.392s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.411s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheila/march/ros1/install/local_setup.ps1'
+[6.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sheila/march/ros1/install/_local_setup_util_ps1.py'
+[6.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheila/march/ros1/install/setup.ps1'
+[6.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheila/march/ros1/install/local_setup.sh'
+[6.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sheila/march/ros1/install/_local_setup_util_sh.py'
+[6.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheila/march/ros1/install/setup.sh'
+[6.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheila/march/ros1/install/local_setup.bash'
+[6.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheila/march/ros1/install/setup.bash'
+[6.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sheila/march/ros1/install/local_setup.zsh'
+[6.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sheila/march/ros1/install/setup.zsh'

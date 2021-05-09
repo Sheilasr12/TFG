@@ -27,15 +27,15 @@
 #include <hardware_interface/posvel_command_interface.h>
 #include <hardware_interface/posvelacc_command_interface.h>
 #include <joint_trajectory_controller/joint_trajectory_controller.h>
-//#include <trajectory_interface/quintic_spline_segment.h>
+#include <trajectory_interface/quintic_spline_segment.h>
 #include <trajectory_interface/pos_vel_acc_state.h>
-//#include <trajectory_interface/joint_trajectory_segment.h>
+#include <trajectory_interface/joint_trajectory_segment.h>
 
 // ROS messages
 #include <control_msgs/FollowJointTrajectoryAction.h>
 #include <control_msgs/JointTrajectoryControllerState.h>
 #include <control_msgs/QueryTrajectoryState.h>
-//#include <trajectory_msgs/JointTrajectory.h>
+#include <trajectory_msgs/JointTrajectory.h>
 
 #include <joint_trajectory_controller/joint_trajectory_segment.h>
 
@@ -69,6 +69,13 @@
 
 // PROJECT
 
+namespace joint_trajectory_controller
+{
+typedef trajectory_interface::QuinticSplineSegment<double> SegmentImpl;
+typedef JointTrajectorySegment<SegmentImpl> Segment;
+typedef typename Segment::State State;
+} 
+
 
 namespace controller_ns{
 
@@ -78,8 +85,8 @@ namespace controller_ns{
 
             bool init(std::vector<hardware_interface::JointHandle>& joint_handles, ros::NodeHandle& nh);
             void update(const ros::Time &time, const ros::Duration &period, 
-                        const State& desired_state, 
-                        const State& state_error );
+                        const joint_trajectory_controller::State& desired_state, 
+                        const joint_trajectory_controller::State& state_error );
             void starting(const ros::Time &time);
             void stopping(const ros::Time &time);
 
@@ -110,10 +117,13 @@ namespace controller_ns{
 
             //typedef actionlib::ActionServer<control_msgs::FollowJointTrajectoryAction>                  ActionServer;
             //typedef JointTrajectorySegment<SegmentImpl> Segment;
+            //typedef typename Segment::Scalar Scalar;
 
-            //typedef HardwareInterfaceAdapter<HardwareInterface, typename Segment::State> HwIfaceAdapter;         
-            // typename State state_error_;           ///< Preallocated workspace variable.
-            // typename State desired_joint_state_;   ///< Preallocated workspace variable.
+            //typedef HardwareInterfaceAdapter<HardwareInterface, typename Segment::State> HwIfaceAdapter;     
+            typename joint_trajectory_controller::State current_state_;         ///< Preallocated workspace variable.
+            typename joint_trajectory_controller::State desired_state_;    
+            // desired_state = typename Segment::State(8);
+            // state_error = typename Segment::State(8);
            
 
             // Motor torque y reduction - tau - command

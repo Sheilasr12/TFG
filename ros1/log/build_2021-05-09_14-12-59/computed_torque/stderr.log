@@ -1,0 +1,65 @@
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:88:40:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+   88 |                         const typename [01;31m[KSegment[m[K::State& desired_state,
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:89:40:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[KState[m[K’
+   89 |                         const typename [01;31m[KState[m[K& state_error );
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:89:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   89 |                         const typename State[01;31m[K&[m[K state_error );
+      |                                             [01;31m[K^[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:123:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+  123 |             typename [01;31m[KSegment[m[K::State current_state_;         ///< Preallocated workspace variable.
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:124:22:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+  124 |             typename [01;31m[KSegment[m[K::State desired_state_;
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:125:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_state[m[K’ does not name a type
+  125 |             [01;31m[Kdesired_state[m[K = typename Segment::State(8);
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_error[m[K’ does not name a type; did you mean ‘[01m[Kstrerror[m[K’?
+  126 |             [01;31m[Kstate_error[m[K = typename Segment::State(8);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Kstrerror[m[K
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:169[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:76:62:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+   76 |                                               const typename [01;31m[KSegment[m[K::State& desired_state,
+      |                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:77:62:[m[K [01;31m[Kerror: [m[K‘[01m[KSegment[m[K’ has not been declared
+   77 |                                               const typename [01;31m[KSegment[m[K::State& state_error ){
+      |                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.hpp:75:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid controller_ns::computed_torque_controller_class::update(const ros::Time&, const ros::Duration&, const int&, const int&)[m[K’
+   75 | void [01;31m[Kcomputed_torque_controller_class[m[K::update(const ros::Time &time, const ros::Duration &period,
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:87:18:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid controller_ns::computed_torque_controller_class::update(const ros::Time&, const ros::Duration&, const int&, int)[m[K’
+   87 |             void [01;36m[Kupdate[m[K(const ros::Time &time, const ros::Duration &period,
+      |                  [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:82:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass controller_ns::computed_torque_controller_class[m[K’ defined here
+   82 |     class [01;36m[Kcomputed_torque_controller_class[m[K : public controller_interface::Controller<hardware_interface::EffortJointInterface> {
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/class_loader/class_loader_core.hpp:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/class_loader/class_loader.hpp:46[m[K,
+                 from [01m[K/opt/ros/noetic/include/pluginlib/./class_list_macros.hpp:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.h:35[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:2[m[K:
+/opt/ros/noetic/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = controller_ns::computed_torque_controller_class; B = controller_interface::ControllerBase][m[K’:
+[01m[K/opt/ros/noetic/include/class_loader/meta_object.hpp:196:7:[m[K   required from here
+[01m[K/opt/ros/noetic/include/class_loader/meta_object.hpp:198:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kcontroller_ns::computed_torque_controller_class[m[K’
+  198 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:82:11:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kcontroller_ns::computed_torque_controller_class[m[K’:
+   82 |     class [01;36m[Kcomputed_torque_controller_class[m[K : public controller_interface::Controller<hardware_interface::EffortJointInterface> {
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/include/computed_torque/computed_torque_controller.h:24[m[K,
+                 from [01m[K/home/sheila/march/ros1/src/control/computed_torque/src/computed_torque_controller.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:73:16:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void controller_interface::ControllerBase::update(const ros::Time&, const ros::Duration&)[m[K’
+   73 |   virtual void [01;36m[Kupdate[m[K(const ros::Time& time, const ros::Duration& period) = 0;
+      |                [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/computed_torque_lib.dir/build.make:63: CMakeFiles/computed_torque_lib.dir/src/computed_torque_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/computed_torque_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

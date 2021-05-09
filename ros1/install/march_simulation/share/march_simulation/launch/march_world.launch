@@ -68,7 +68,7 @@
 
     <!-- Upload the controller configuration -->
     <rosparam file="$(find march_simulation)/config/$(arg controller_type)/$(arg controller_name).yaml" command="load"/>
-
+    
     <group ns="march">
         <node name="controller_spawner" pkg="controller_manager" type="controller_manager"
               respawn="false" output="screen"
@@ -77,7 +77,13 @@
         <node name="upload_joint_names" pkg="march_simulation" type="upload_joint_names"/>
         <node name="set_obstacle_node" pkg="march_simulation" type="set_obstacle_dimensions"/>
 
-    </group>
+    </group>    
+    <!-- 
+    <rosparam file="$(find march_simulation)/config/$(arg controller_type)/direct_controller.yaml" command="load"/>
+
+    <node name="direct_dynamic_controller_spawner" pkg="controller_manager" type="spawner" output="screen" args="dynamic_controller"/>
+    -->
+    
 
     <group>
         <!-- We resume the logic in empty_world.launch_sm, changing only the name of the world to be launched -->

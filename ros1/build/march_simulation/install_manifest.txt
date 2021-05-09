@@ -9,6 +9,8 @@
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/march4.yaml
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/march3.yaml
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/test_joint_rotational.yaml
+/home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/direct_controller.yaml
+/home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/marchS.yaml
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/effort_control/march4_with_koen_lengths.yaml
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/inertia_control/march4.yaml
 /home/sheila/march/ros1/install/march_simulation/share/march_simulation/config/inertia_control/march4_with_koen_lengths.yaml

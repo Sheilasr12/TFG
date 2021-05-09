@@ -73,8 +73,8 @@ bool computed_torque_controller_class::init(std::vector<hardware_interface::Join
 }
 
 void computed_torque_controller_class::update(const ros::Time &time, const ros::Duration &period, 
-                                              const State& desired_state, 
-                                              const State& state_error ){
+                                              const joint_trajectory_controller::State& desired_state, 
+                                              const joint_trajectory_controller::State& state_error ){
 
     
     //Obtain current position and velocities, desired state and state errors and store it at KDL::JntArray variables
@@ -114,7 +114,7 @@ void computed_torque_controller_class::update(const ros::Time &time, const ros::
     for (unsigned int i = 0; i < num_joints_; ++i)
     {
         // Effort command sending
-        const double command = tau(i)//(motor_torque_constant[i] * reduction_ratio[i]);
+        const double command = tau(i);//(motor_torque_constant[i] * reduction_ratio[i]);
         if(!std::isnan(command))
             (*joint_handles_ptr_)[i].setCommand(command);
     }
